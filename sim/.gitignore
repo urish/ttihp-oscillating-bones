@@ -1,0 +1,4 @@
+pdk_lib.spice
+*.ext
+*.nodes
+*.sim

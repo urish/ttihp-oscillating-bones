@@ -1,0 +1,33 @@
+* Oscillating Bones Teshbench
+
+.include "pdk_lib.spice"
+
+* Power supply
+V1 VGND 0 0
+V2 VPWR VGND 1.8
+V3 clk 0 0
+V4 ena VGND 1.8
+V5 rst_n VGND 1.8
+
+.include "tt_um_oscillating_bones.spice"
+
+x1 clk ena rst_n
++ VGND VGND VGND VGND VGND VGND VGND VGND
++ VGND VGND VGND VGND VGND VGND VGND VGND
++ uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
++ uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
++ uo_out[2] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VGND uo_out[0] uo_out[1] uo_out[3] VPWR
++ tt_um_oscillating_bones
+
+.tran 50p 80n
+
+.control
+run
+plot "uo_out[0]" "uo_out[1]"+2 "uo_out[2]"+4 "uo_out[3]"+6
+meas tran tdiff TRIG "uo_out[0]" VAL=1.7 RISE=2 TARG "uo_out[0]" VAL=1.7 RISE=3
+let freq_mhz = (1 / (tdiff) / 1e6)
+print freq_mhz
+.endc
+.end
+
+.end
