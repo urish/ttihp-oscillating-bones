@@ -374,14 +374,14 @@ MACRO tt_um_oscillating_bones
         RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
-  PIN VPWR
+  PIN VDPWR
     DIRECTION INOUT ;
     USE POWER ;
     PORT
       LAYER met4 ;
         RECT 4.000 5.000 5.500 220.760 ;
     END
-  END VPWR
+  END VDPWR
   PIN VGND
     DIRECTION INOUT ;
     USE GROUND ;

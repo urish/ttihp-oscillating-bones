@@ -310,7 +310,7 @@ flabel metal4 s 15518 44952 15578 45152 0 FreeSans 240 90 0 0 uo_out[6]
 port 41 nsew signal output
 flabel metal4 s 14966 44952 15026 45152 0 FreeSans 240 90 0 0 uo_out[7]
 port 42 nsew signal output
-flabel metal4 800 1000 1100 44152 1 FreeSans 2 0 0 0 VPWR
+flabel metal4 800 1000 1100 44152 1 FreeSans 2 0 0 0 VDPWR
 port 43 nsew power bidirectional
 flabel metal4 200 1000 500 44152 1 FreeSans 2 0 0 0 VGND
 port 44 nsew ground bidirectional
