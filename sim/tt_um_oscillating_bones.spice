@@ -6,139 +6,139 @@
 + uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4]
 + uio_out[5] uio_out[6] uio_out[7] uo_out[2] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
 + VGND uo_out[0] uo_out[1] uo_out[3] VPWR
-X0 a_13289_43697# uo_out[2].t2 VPWR.t15 VPWR.t14 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
-X1 a_16868_43697# a_17160_43997# a_17111_44089# VPWR.t69 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
-X2 a_16596_43697# a_16868_43697# VGND.t16 VGND.t15 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
-X3 VPWR.t23 a_12637_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N VPWR.t22 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
-X4 VGND.t68 uo_out[0].t2 ring_0/skullfet_inverter_6.A VGND.t67 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X5 a_17360_43697# a_17160_43997# a_17509_43723# VGND.t53 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
-X6 VGND.t49 a_14569_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
-X7 VGND.t39 ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_13.A VGND.t38 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X0 a_13289_43697# uo_out[2].t2 VPWR.t69 VPWR.t68 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
+X1 a_16868_43697# a_17160_43997# a_17111_44089# VPWR.t77 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
+X2 a_16596_43697# a_16868_43697# VGND.t59 VGND.t13 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X3 VPWR.t73 a_12637_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N VPWR.t72 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
+X4 VGND.t9 uo_out[0].t2 ring_0/skullfet_inverter_6.A VGND.t8 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X5 a_17360_43697# a_17160_43997# a_17509_43723# VGND.t58 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
+X6 VGND.t76 a_14569_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
+X7 VGND.t31 ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_13.A VGND.t30 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
 X8 a_15221_43697# uo_out[1].t2 VPWR.t9 VPWR.t8 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
-X9 VPWR.t73 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N a_13843_43723# VPWR.t72 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
-X10 a_15179_44089# a_14664_43697# VPWR.t67 VPWR.t66 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
-X11 VGND.t80 ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_20.A VGND.t79 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X12 ring_0/skullfet_inverter_6.A uo_out[0].t3 VPWR.t103 VPWR.t102 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X13 a_15577_43723# a_15357_43723# VGND.t78 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
-X14 VGND.t52 a_14664_43697# uo_out[2].t0 VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
-X15 VPWR.t87 a_13289_43697# a_13296_43997# VPWR.t86 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
-X16 VGND.t22 a_15221_43697# a_15228_43997# VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
-X17 VGND.t36 ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_3.A VGND.t35 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X18 a_13843_43723# a_13296_43997# a_13496_43697# VPWR.t113 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
-X19 ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_12.A VPWR.t47 VPWR.t46 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X20 VGND.t41 ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_8.A VGND.t40 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X21 a_16501_43697# a_16596_43697# VGND.t60 VGND.t57 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
-X22 a_12637_43697# a_12732_43697# VPWR.t57 VPWR.t56 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
-X23 ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_15.A VGND.t32 VGND.t31 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
-X24 VGND.t1 ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_12.A VGND.t0 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X25 a_17289_43723# a_17153_43697# a_16868_43697# VPWR.t95 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
-X26 a_13224_43723# a_12732_43697# VGND.t46 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
-X27 VPWR.t65 a_14664_43697# uo_out[2].t1 VPWR.t64 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
-X28 ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_14.A VGND.t24 VGND.t23 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
+X9 VPWR.t71 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N a_13843_43723# VPWR.t70 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
+X10 a_15179_44089# a_14664_43697# VPWR.t23 VPWR.t22 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
+X11 VGND.t37 ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_20.A VGND.t36 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X12 ring_0/skullfet_inverter_6.A uo_out[0].t3 VPWR.t95 VPWR.t94 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X13 a_15577_43723# a_15357_43723# VGND.t40 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
+X14 VGND.t19 a_14664_43697# uo_out[2].t1 VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X15 VPWR.t67 a_13289_43697# a_13296_43997# VPWR.t66 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
+X16 VGND.t80 a_15221_43697# a_15228_43997# VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
+X17 VGND.t51 ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_3.A VGND.t50 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X18 a_13843_43723# a_13296_43997# a_13496_43697# VPWR.t103 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
+X19 ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_12.A VPWR.t37 VPWR.t36 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X20 VGND.t79 ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_8.A VGND.t78 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X21 a_16501_43697# a_16596_43697# VGND.t15 VGND.t0 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
+X22 a_12637_43697# a_12732_43697# VPWR.t59 VPWR.t58 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
+X23 ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_15.A VGND.t35 VGND.t34 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
+X24 VGND.t25 ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_12.A VGND.t24 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X25 a_17289_43723# a_17153_43697# a_16868_43697# VPWR.t93 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
+X26 a_13224_43723# a_12732_43697# VGND.t48 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
+X27 VPWR.t21 a_14664_43697# uo_out[2].t0 VPWR.t20 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X28 ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_14.A VGND.t27 VGND.t26 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
 X29 VPWR.t99 ring_0/skullfet_inverter_17.A ring_0/skullfet_inverter_18.A VPWR.t98 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X30 VGND.t73 ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_2.A VGND.t72 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X30 VGND.t63 ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_2.A VGND.t62 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
 X31 a_17707_43723# a_17153_43697# a_17360_43697# VGND.t71 sky130_fd_pr__nfet_01v8 ad=0.0813 pd=0.83 as=0.0621 ps=0.705 w=0.36 l=0.15
-X32 VGND.t13 ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_1.A VGND.t12 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X33 a_15156_43723# a_14664_43697# VGND.t51 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
-X34 a_14936_43697# a_15228_43997# a_15179_44089# VPWR.t101 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
-X35 a_13289_43697# uo_out[2].t3 VGND.t14 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
-X36 ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_7.A VPWR.t49 VPWR.t48 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X37 ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_11.A VPWR.t1 VPWR.t0 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X38 ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_1.A VPWR.t97 VPWR.t96 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X39 ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_8.A VPWR.t41 VPWR.t40 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X40 VGND.t11 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N a_17707_43723# VGND.t10 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
-X41 a_14664_43697# a_14936_43697# VGND.t3 VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
-X42 a_15428_43697# a_15228_43997# a_15577_43723# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
-X43 VGND.t20 a_12637_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
-X44 VGND.t42 a_13496_43697# a_13425_43723# VGND.t29 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
-X45 a_13247_44089# a_12732_43697# VPWR.t55 VPWR.t54 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
-X46 a_15221_43697# uo_out[1].t3 VGND.t9 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
-X47 a_16868_43697# a_17153_43697# a_17088_43723# VGND.t53 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
-X48 a_13645_43723# a_13425_43723# VGND.t28 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
-X49 VPWR.t71 ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_17.A VPWR.t70 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X50 VPWR.t111 ring_0/skullfet_inverter_18.A ring_0/skullfet_inverter_19.A VPWR.t110 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X51 VGND.t30 a_15428_43697# a_15357_43723# VGND.t29 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
-X52 VGND.t45 a_12732_43697# uo_out[3].t0 VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
-X53 VGND.t19 ring_0/skullfet_inverter_6.A ring_0/skullfet_inverter_7.A VGND.t18 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X54 VPWR.t81 a_17360_43697# a_17289_43723# VPWR.t80 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
-X55 a_14664_43697# a_14936_43697# VPWR.t3 VPWR.t2 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
-X56 VGND.t65 a_13289_43697# a_13296_43997# VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
-X57 ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_20.Y VPWR.t13 VPWR.t12 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X58 VPWR.t39 ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_16.A VPWR.t38 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X59 ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_19.A VPWR.t109 VPWR.t108 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X60 a_14569_43697# a_14664_43697# VGND.t50 VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
-X61 a_15604_44089# a_15357_43723# VPWR.t107 VPWR.t106 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
-X62 a_15357_43723# a_15221_43697# a_14936_43697# VPWR.t27 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
-X63 a_15428_43697# a_15221_43697# a_15604_44089# VPWR.t26 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
-X64 a_12732_43697# a_13004_43697# VGND.t27 VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
-X65 VGND.t5 ring_0/skullfet_inverter_4.A uo_out[0].t0 VGND.t4 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X66 a_17289_43723# a_17160_43997# a_16868_43697# VGND.t53 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
-X67 VPWR.t11 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N a_17707_43723# VPWR.t10 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
-X68 VPWR.t53 a_12732_43697# uo_out[3].t1 VPWR.t52 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
-X69 VGND.t26 ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_11.A VGND.t25 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X70 ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_9.A VPWR.t7 VPWR.t6 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X71 VPWR.t83 ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_14.A VPWR.t82 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X72 ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_6.A VPWR.t21 VPWR.t20 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X73 a_17153_43697# uo_out[0].t4 VPWR.t89 VPWR.t88 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
-X74 a_17536_44089# a_17289_43723# VPWR.t91 VPWR.t90 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
-X75 a_15775_43723# a_15221_43697# a_15428_43697# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0813 pd=0.83 as=0.0621 ps=0.705 w=0.36 l=0.15
-X76 a_17360_43697# a_17153_43697# a_17536_44089# VPWR.t94 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
-X77 a_17111_44089# a_16596_43697# VPWR.t79 VPWR.t78 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
-X78 a_13004_43697# a_13296_43997# a_13247_44089# VPWR.t112 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
-X79 VPWR.t45 a_16501_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N VPWR.t44 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
-X80 a_12732_43697# a_13004_43697# VPWR.t33 VPWR.t32 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
-X81 VGND.t48 ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_4.A VGND.t47 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X82 VGND.t17 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N a_15775_43723# VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
-X83 a_13496_43697# a_13296_43997# a_13645_43723# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
-X84 uo_out[0].t1 ring_0/skullfet_inverter_4.A VPWR.t5 VPWR.t4 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X85 ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_10.A VPWR.t31 VPWR.t30 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X86 a_16501_43697# a_16596_43697# VPWR.t77 VPWR.t76 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
-X87 a_14936_43697# a_15221_43697# a_15156_43723# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
-X88 VPWR.t93 a_17153_43697# a_17160_43997# VPWR.t92 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
-X89 VPWR.t37 a_15428_43697# a_15357_43723# VPWR.t36 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
-X90 VGND.t7 ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_10.A VGND.t6 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X91 ring_0/skullfet_inverter_4.A ring_0/skullfet_inverter_3.A VPWR.t59 VPWR.t58 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X92 ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_13.A VGND.t64 VGND.t63 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
-X93 a_13425_43723# a_13296_43997# a_13004_43697# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
-X94 ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_20.A VPWR.t105 VPWR.t104 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X95 a_12637_43697# a_12732_43697# VGND.t44 VGND.t43 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
-X96 a_13672_44089# a_13425_43723# VPWR.t35 VPWR.t34 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
+X32 VGND.t61 ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_1.A VGND.t60 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X33 a_15156_43723# a_14664_43697# VGND.t17 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
+X34 a_14936_43697# a_15228_43997# a_15179_44089# VPWR.t25 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
+X35 a_13289_43697# uo_out[2].t3 VGND.t53 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
+X36 ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_7.A VPWR.t107 VPWR.t106 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X37 ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_11.A VPWR.t31 VPWR.t30 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X38 ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_1.A VPWR.t83 VPWR.t82 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X39 ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_8.A VPWR.t53 VPWR.t52 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X40 VGND.t5 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N a_17707_43723# VGND.t4 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
+X41 a_14664_43697# a_14936_43697# VGND.t23 VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X42 a_15428_43697# a_15228_43997# a_15577_43723# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
+X43 VGND.t55 a_12637_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
+X44 VGND.t77 a_13496_43697# a_13425_43723# VGND.t68 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
+X45 a_13247_44089# a_12732_43697# VPWR.t57 VPWR.t56 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
+X46 a_15221_43697# uo_out[1].t3 VGND.t7 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
+X47 a_16868_43697# a_17153_43697# a_17088_43723# VGND.t58 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
+X48 a_13645_43723# a_13425_43723# VGND.t32 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
+X49 VPWR.t3 ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_17.A VPWR.t2 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
+X50 VPWR.t35 ring_0/skullfet_inverter_18.A ring_0/skullfet_inverter_19.A VPWR.t34 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
+X51 VGND.t69 a_15428_43697# a_15357_43723# VGND.t68 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
+X52 VGND.t47 a_12732_43697# uo_out[3].t1 VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X53 VGND.t11 ring_0/skullfet_inverter_6.A ring_0/skullfet_inverter_7.A VGND.t10 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X54 VPWR.t75 a_17360_43697# a_17289_43723# VPWR.t74 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
+X55 a_14664_43697# a_14936_43697# VPWR.t29 VPWR.t28 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
+X56 VGND.t52 a_13289_43697# a_13296_43997# VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
+X57 ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_20.Y VPWR.t81 VPWR.t80 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X58 VPWR.t43 ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_16.A VPWR.t42 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
+X59 ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_19.A VPWR.t45 VPWR.t44 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X60 a_14569_43697# a_14664_43697# VGND.t16 VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
+X61 a_15604_44089# a_15357_43723# VPWR.t49 VPWR.t48 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
+X62 a_15357_43723# a_15221_43697# a_14936_43697# VPWR.t111 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
+X63 a_15428_43697# a_15221_43697# a_15604_44089# VPWR.t110 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
+X64 a_12732_43697# a_13004_43697# VGND.t21 VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.169 pd=1.82 as=0.08775 ps=0.92 w=0.65 l=0.15
+X65 VGND.t73 ring_0/skullfet_inverter_4.A uo_out[0].t1 VGND.t72 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X66 a_17289_43723# a_17160_43997# a_16868_43697# VGND.t58 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
+X67 VPWR.t5 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N a_17707_43723# VPWR.t4 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
+X68 VPWR.t55 a_12732_43697# uo_out[3].t0 VPWR.t54 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X69 VGND.t67 ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_11.A VGND.t66 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X70 ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_9.A VPWR.t85 VPWR.t84 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X71 VPWR.t113 ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_14.A VPWR.t112 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
+X72 ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_6.A VPWR.t11 VPWR.t10 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X73 a_17153_43697# uo_out[0].t4 VPWR.t7 VPWR.t6 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.0864 ps=0.91 w=0.64 l=0.15
+X74 a_17536_44089# a_17289_43723# VPWR.t1 VPWR.t0 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
+X75 a_15775_43723# a_15221_43697# a_15428_43697# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0813 pd=0.83 as=0.0621 ps=0.705 w=0.36 l=0.15
+X76 a_17360_43697# a_17153_43697# a_17536_44089# VPWR.t92 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
+X77 a_17111_44089# a_16596_43697# VPWR.t17 VPWR.t16 sky130_fd_pr__pfet_01v8_hvt ad=0.0882 pd=0.84 as=0.1113 ps=1.37 w=0.42 l=0.15
+X78 a_13004_43697# a_13296_43997# a_13247_44089# VPWR.t102 sky130_fd_pr__pfet_01v8_hvt ad=0.0567 pd=0.69 as=0.0882 ps=0.84 w=0.42 l=0.15
+X79 VPWR.t61 a_16501_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N VPWR.t60 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
+X80 a_12732_43697# a_13004_43697# VPWR.t27 VPWR.t26 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
+X81 VGND.t42 ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_4.A VGND.t41 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X82 VGND.t33 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N a_15775_43723# VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
+X83 a_13496_43697# a_13296_43997# a_13645_43723# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0621 pd=0.705 as=0.0696 ps=0.765 w=0.36 l=0.15
+X84 uo_out[0].t0 ring_0/skullfet_inverter_4.A VPWR.t97 VPWR.t96 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X85 ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_10.A VPWR.t87 VPWR.t86 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X86 a_16501_43697# a_16596_43697# VPWR.t15 VPWR.t14 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
+X87 a_14936_43697# a_15221_43697# a_15156_43723# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
+X88 VPWR.t91 a_17153_43697# a_17160_43997# VPWR.t90 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
+X89 VPWR.t89 a_15428_43697# a_15357_43723# VPWR.t88 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
+X90 VGND.t65 ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_10.A VGND.t64 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X91 ring_0/skullfet_inverter_4.A ring_0/skullfet_inverter_3.A VPWR.t51 VPWR.t50 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X92 ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_13.A VGND.t82 VGND.t81 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
+X93 a_13425_43723# a_13296_43997# a_13004_43697# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
+X94 ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_20.A VPWR.t47 VPWR.t46 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X95 a_12637_43697# a_12732_43697# VGND.t46 VGND.t45 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.097 ps=0.975 w=0.42 l=0.15
+X96 a_13672_44089# a_13425_43723# VPWR.t39 VPWR.t38 sky130_fd_pr__pfet_01v8_hvt ad=0.07665 pd=0.785 as=0.178875 ps=1.26 w=0.42 l=0.15
 X97 ring_0/skullfet_inverter_18.A ring_0/skullfet_inverter_17.A VGND.t75 VGND.t74 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
-X98 a_13425_43723# a_13289_43697# a_13004_43697# VPWR.t85 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
-X99 a_13496_43697# a_13289_43697# a_13672_44089# VPWR.t84 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
-X100 VPWR.t61 a_14569_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N VPWR.t60 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
-X101 a_15357_43723# a_15228_43997# a_14936_43697# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
-X102 VPWR.t19 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N a_15775_43723# VPWR.t18 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
-X103 VPWR.t29 ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_15.A VPWR.t28 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
-X104 a_17153_43697# uo_out[0].t5 VGND.t66 VGND.t10 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
-X105 a_13843_43723# a_13289_43697# a_13496_43697# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0813 pd=0.83 as=0.0621 ps=0.705 w=0.36 l=0.15
-X106 a_17509_43723# a_17289_43723# VGND.t69 VGND.t57 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
-X107 VGND.t59 a_16596_43697# uo_out[1].t0 VGND.t15 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
-X108 a_13004_43697# a_13289_43697# a_13224_43723# VGND.t21 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
-X109 VGND.t62 a_17360_43697# a_17289_43723# VGND.t61 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
-X110 VGND.t37 a_16501_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N VGND.t2 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
-X111 VPWR.t25 a_15221_43697# a_15228_43997# VPWR.t24 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
-X112 VGND.t56 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N a_13843_43723# VGND.t8 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
-X113 a_15775_43723# a_15228_43997# a_15428_43697# VPWR.t100 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
-X114 ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_18.A VGND.t82 VGND.t81 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
-X115 a_16596_43697# a_16868_43697# VPWR.t17 VPWR.t16 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
-X116 a_14569_43697# a_14664_43697# VPWR.t63 VPWR.t62 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
-X117 VGND.t77 ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_20.Y VGND.t76 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X118 ring_0/skullfet_inverter_17.A ring_0/skullfet_inverter_16.A VGND.t55 VGND.t54 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
-X119 a_17707_43723# a_17160_43997# a_17360_43697# VPWR.t68 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
-X120 VPWR.t75 a_16596_43697# uo_out[1].t1 VPWR.t74 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
-X121 VGND.t34 ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_9.A VGND.t33 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
-X122 VPWR.t51 a_13496_43697# a_13425_43723# VPWR.t50 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
-X123 ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_2.A VPWR.t43 VPWR.t42 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
-X124 VGND.t70 a_17153_43697# a_17160_43997# VGND.t10 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
-X125 a_17088_43723# a_16596_43697# VGND.t58 VGND.t57 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
-R0 uo_out[2].n2 uo_out[2].t1 313.104
+X98 a_13425_43723# a_13289_43697# a_13004_43697# VPWR.t65 sky130_fd_pr__pfet_01v8_hvt ad=0.1095 pd=1.075 as=0.0567 ps=0.69 w=0.42 l=0.15
+X99 a_13496_43697# a_13289_43697# a_13672_44089# VPWR.t64 sky130_fd_pr__pfet_01v8_hvt ad=0.06825 pd=0.745 as=0.07665 ps=0.785 w=0.42 l=0.15
+X100 VPWR.t101 a_14569_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N VPWR.t100 sky130_fd_pr__pfet_01v8_hvt ad=0.154 pd=1.335 as=0.26 ps=2.52 w=1 l=0.15
+X101 a_15357_43723# a_15228_43997# a_14936_43697# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0989 pd=0.995 as=0.0684 ps=0.74 w=0.36 l=0.15
+X102 VPWR.t41 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_2.Q_N a_15775_43723# VPWR.t40 sky130_fd_pr__pfet_01v8_hvt ad=0.1092 pd=1.36 as=0.05775 ps=0.695 w=0.42 l=0.15
+X103 VPWR.t33 ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_15.A VPWR.t32 sky130_fd_pr__pfet_01v8 ad=4.4307 pd=10.9 as=6.2694 ps=26.64 w=4.05 l=0.4
+X104 a_17153_43697# uo_out[0].t5 VGND.t22 VGND.t4 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0567 ps=0.69 w=0.42 l=0.15
+X105 a_13843_43723# a_13289_43697# a_13496_43697# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0813 pd=0.83 as=0.0621 ps=0.705 w=0.36 l=0.15
+X106 a_17509_43723# a_17289_43723# VGND.t1 VGND.t0 sky130_fd_pr__nfet_01v8 ad=0.0696 pd=0.765 as=0.12095 ps=1.085 w=0.42 l=0.15
+X107 VGND.t14 a_16596_43697# uo_out[1].t1 VGND.t13 sky130_fd_pr__nfet_01v8 ad=0.08775 pd=0.92 as=0.169 ps=1.82 w=0.65 l=0.15
+X108 a_13004_43697# a_13289_43697# a_13224_43723# VGND.t20 sky130_fd_pr__nfet_01v8 ad=0.0684 pd=0.74 as=0.066 ps=0.745 w=0.36 l=0.15
+X109 VGND.t57 a_17360_43697# a_17289_43723# VGND.t56 sky130_fd_pr__nfet_01v8 ad=0.12095 pd=1.085 as=0.0989 ps=0.995 w=0.64 l=0.15
+X110 VGND.t49 a_16501_43697# freq_divider_0.sky130_fd_sc_hd__dfxbp_1_1.Q_N VGND.t18 sky130_fd_pr__nfet_01v8 ad=0.097 pd=0.975 as=0.169 ps=1.82 w=0.65 l=0.15
+X111 VPWR.t109 a_15221_43697# a_15228_43997# VPWR.t108 sky130_fd_pr__pfet_01v8_hvt ad=0.0864 pd=0.91 as=0.1664 ps=1.8 w=0.64 l=0.15
+X112 VGND.t54 freq_divider_0.sky130_fd_sc_hd__dfxbp_1_3.Q_N a_13843_43723# VGND.t6 sky130_fd_pr__nfet_01v8 ad=0.1092 pd=1.36 as=0.0813 ps=0.83 w=0.42 l=0.15
+X113 a_15775_43723# a_15228_43997# a_15428_43697# VPWR.t24 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
+X114 ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_18.A VGND.t29 VGND.t28 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
+X115 a_16596_43697# a_16868_43697# VPWR.t79 VPWR.t78 sky130_fd_pr__pfet_01v8_hvt ad=0.27 pd=2.54 as=0.135 ps=1.27 w=1 l=0.15
+X116 a_14569_43697# a_14664_43697# VPWR.t19 VPWR.t18 sky130_fd_pr__pfet_01v8_hvt ad=0.1664 pd=1.8 as=0.154 ps=1.335 w=0.64 l=0.15
+X117 VGND.t39 ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_20.Y VGND.t38 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X118 ring_0/skullfet_inverter_17.A ring_0/skullfet_inverter_16.A VGND.t3 VGND.t2 sky130_fd_pr__nfet_01v8 ad=6.4314 pd=26.72 as=4.2687 ps=10.82 w=4.05 l=0.4
+X119 a_17707_43723# a_17160_43997# a_17360_43697# VPWR.t76 sky130_fd_pr__pfet_01v8_hvt ad=0.05775 pd=0.695 as=0.06825 ps=0.745 w=0.42 l=0.15
+X120 VPWR.t13 a_16596_43697# uo_out[1].t0 VPWR.t12 sky130_fd_pr__pfet_01v8_hvt ad=0.135 pd=1.27 as=0.26 ps=2.52 w=1 l=0.15
+X121 VGND.t44 ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_9.A VGND.t43 sky130_fd_pr__nfet_01v8 ad=4.2687 pd=10.82 as=6.4314 ps=26.72 w=4.05 l=0.4
+X122 VPWR.t105 a_13496_43697# a_13425_43723# VPWR.t104 sky130_fd_pr__pfet_01v8_hvt ad=0.178875 pd=1.26 as=0.1095 ps=1.075 w=0.75 l=0.15
+X123 ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_2.A VPWR.t63 VPWR.t62 sky130_fd_pr__pfet_01v8 ad=6.2694 pd=26.64 as=4.4307 ps=10.9 w=4.05 l=0.4
+X124 VGND.t70 a_17153_43697# a_17160_43997# VGND.t4 sky130_fd_pr__nfet_01v8 ad=0.0567 pd=0.69 as=0.1092 ps=1.36 w=0.42 l=0.15
+X125 a_17088_43723# a_16596_43697# VGND.t12 VGND.t0 sky130_fd_pr__nfet_01v8 ad=0.066 pd=0.745 as=0.1092 ps=1.36 w=0.42 l=0.15
+R0 uo_out[2].n2 uo_out[2].t0 313.104
 R1 uo_out[2].n0 uo_out[2].t2 294.557
-R2 uo_out[2].t0 uo_out[2].n2 265.769
-R3 uo_out[2] uo_out[2].t0 262.318
+R2 uo_out[2].t1 uo_out[2].n2 265.769
+R3 uo_out[2] uo_out[2].t1 262.318
 R4 uo_out[2].n0 uo_out[2].t3 211.01
 R5 uo_out[2].n1 uo_out[2].n0 152
-R6 uo_out[2].n5 uo_out[2] 12.1482
+R6 uo_out[2].n5 uo_out[2] 16.2155
 R7 uo_out[2].n4 uo_out[2].n1 11.6311
 R8 uo_out[2].n4 uo_out[2].n3 9.3005
 R9 uo_out[2].n3 uo_out[2] 7.17626
@@ -146,108 +146,108 @@ R10 uo_out[2].n3 uo_out[2].n2 4.84898
 R11 uo_out[2].n5 uo_out[2].n4 4.51042
 R12 uo_out[2].n1 uo_out[2] 1.37896
 R13 uo_out[2] uo_out[2].n5 0.0730806
-R14 VPWR.n112 VPWR.t105 739.681
-R15 VPWR.n114 VPWR.t111 739.681
-R16 VPWR.n116 VPWR.t109 739.681
-R17 VPWR.n150 VPWR.t47 739.681
-R18 VPWR.n148 VPWR.t83 739.681
-R19 VPWR.n84 VPWR.t31 739.681
-R20 VPWR.n5 VPWR.t97 739.681
-R21 VPWR.n85 VPWR.t29 739.681
-R22 VPWR.n109 VPWR.t39 739.681
-R23 VPWR.n122 VPWR.t71 739.681
+R14 VPWR.n112 VPWR.t47 739.681
+R15 VPWR.n114 VPWR.t35 739.681
+R16 VPWR.n116 VPWR.t45 739.681
+R17 VPWR.n150 VPWR.t37 739.681
+R18 VPWR.n148 VPWR.t113 739.681
+R19 VPWR.n84 VPWR.t87 739.681
+R20 VPWR.n5 VPWR.t83 739.681
+R21 VPWR.n85 VPWR.t33 739.681
+R22 VPWR.n109 VPWR.t43 739.681
+R23 VPWR.n122 VPWR.t3 739.681
 R24 VPWR.n119 VPWR.t99 739.681
-R25 VPWR.n153 VPWR.t1 739.681
-R26 VPWR.n82 VPWR.t7 739.681
-R27 VPWR.n80 VPWR.t41 739.681
-R28 VPWR.n53 VPWR.t103 739.681
-R29 VPWR.n30 VPWR.t5 739.681
-R30 VPWR.n9 VPWR.t59 739.681
-R31 VPWR.n6 VPWR.t43 739.681
-R32 VPWR.n3 VPWR.t13 739.681
-R33 VPWR.n56 VPWR.t21 739.681
-R34 VPWR.n159 VPWR.t49 739.681
-R35 VPWR.n112 VPWR.t104 707.852
-R36 VPWR.n114 VPWR.t110 707.852
-R37 VPWR.n116 VPWR.t108 707.852
-R38 VPWR.n150 VPWR.t46 707.852
-R39 VPWR.n148 VPWR.t82 707.852
-R40 VPWR.n153 VPWR.t0 707.852
-R41 VPWR.n84 VPWR.t30 707.852
-R42 VPWR.n82 VPWR.t6 707.852
-R43 VPWR.n80 VPWR.t40 707.852
-R44 VPWR.n53 VPWR.t102 707.852
-R45 VPWR.n30 VPWR.t4 707.852
-R46 VPWR.n9 VPWR.t58 707.852
-R47 VPWR.n6 VPWR.t42 707.852
-R48 VPWR.n5 VPWR.t96 707.852
-R49 VPWR.n3 VPWR.t12 707.852
-R50 VPWR.n56 VPWR.t20 707.852
-R51 VPWR.n159 VPWR.t48 707.852
-R52 VPWR.n85 VPWR.t28 707.852
-R53 VPWR.n109 VPWR.t38 707.852
-R54 VPWR.n122 VPWR.t70 707.852
+R25 VPWR.n153 VPWR.t31 739.681
+R26 VPWR.n82 VPWR.t85 739.681
+R27 VPWR.n80 VPWR.t53 739.681
+R28 VPWR.n53 VPWR.t95 739.681
+R29 VPWR.n30 VPWR.t97 739.681
+R30 VPWR.n9 VPWR.t51 739.681
+R31 VPWR.n6 VPWR.t63 739.681
+R32 VPWR.n3 VPWR.t81 739.681
+R33 VPWR.n56 VPWR.t11 739.681
+R34 VPWR.n159 VPWR.t107 739.681
+R35 VPWR.n112 VPWR.t46 707.852
+R36 VPWR.n114 VPWR.t34 707.852
+R37 VPWR.n116 VPWR.t44 707.852
+R38 VPWR.n150 VPWR.t36 707.852
+R39 VPWR.n148 VPWR.t112 707.852
+R40 VPWR.n153 VPWR.t30 707.852
+R41 VPWR.n84 VPWR.t86 707.852
+R42 VPWR.n82 VPWR.t84 707.852
+R43 VPWR.n80 VPWR.t52 707.852
+R44 VPWR.n53 VPWR.t94 707.852
+R45 VPWR.n30 VPWR.t96 707.852
+R46 VPWR.n9 VPWR.t50 707.852
+R47 VPWR.n6 VPWR.t62 707.852
+R48 VPWR.n5 VPWR.t82 707.852
+R49 VPWR.n3 VPWR.t80 707.852
+R50 VPWR.n56 VPWR.t10 707.852
+R51 VPWR.n159 VPWR.t106 707.852
+R52 VPWR.n85 VPWR.t32 707.852
+R53 VPWR.n109 VPWR.t42 707.852
+R54 VPWR.n122 VPWR.t2 707.852
 R55 VPWR.n119 VPWR.t98 707.852
-R56 VPWR.n318 VPWR.t55 667.734
-R57 VPWR.n286 VPWR.t67 667.734
-R58 VPWR.n358 VPWR.t79 667.734
-R59 VPWR.n333 VPWR.t73 666.677
-R60 VPWR.n272 VPWR.t19 666.677
-R61 VPWR.n238 VPWR.t11 666.677
-R62 VPWR.t16 VPWR.t78 624.456
-R63 VPWR.t66 VPWR.t2 624.456
-R64 VPWR.t54 VPWR.t32 624.456
+R56 VPWR.n318 VPWR.t57 667.734
+R57 VPWR.n286 VPWR.t23 667.734
+R58 VPWR.n358 VPWR.t17 667.734
+R59 VPWR.n333 VPWR.t71 666.677
+R60 VPWR.n272 VPWR.t41 666.677
+R61 VPWR.n238 VPWR.t5 666.677
+R62 VPWR.t78 VPWR.t16 624.456
+R63 VPWR.t22 VPWR.t28 624.456
+R64 VPWR.t56 VPWR.t26 624.456
 R65 VPWR.n336 VPWR.n335 604.394
 R66 VPWR.n267 VPWR.n266 604.394
 R67 VPWR.n376 VPWR.n375 604.394
-R68 VPWR.t10 VPWR.t92 556.386
-R69 VPWR.t76 VPWR.t74 556.386
-R70 VPWR.t24 VPWR.t18 556.386
-R71 VPWR.t64 VPWR.t62 556.386
-R72 VPWR.t86 VPWR.t72 556.386
-R73 VPWR.t52 VPWR.t56 556.386
-R74 VPWR.n251 VPWR.t44 414.33
-R75 VPWR.t60 VPWR.n342 414.33
-R76 VPWR.t80 VPWR.t90 390.654
-R77 VPWR.t106 VPWR.t36 390.654
-R78 VPWR.t34 VPWR.t50 390.654
-R79 VPWR.t78 VPWR.t69 337.384
-R80 VPWR.t101 VPWR.t66 337.384
-R81 VPWR.t112 VPWR.t54 337.384
+R68 VPWR.t4 VPWR.t90 556.386
+R69 VPWR.t14 VPWR.t12 556.386
+R70 VPWR.t108 VPWR.t40 556.386
+R71 VPWR.t20 VPWR.t18 556.386
+R72 VPWR.t66 VPWR.t70 556.386
+R73 VPWR.t54 VPWR.t58 556.386
+R74 VPWR.n251 VPWR.t60 414.33
+R75 VPWR.t100 VPWR.n342 414.33
+R76 VPWR.t74 VPWR.t0 390.654
+R77 VPWR.t48 VPWR.t88 390.654
+R78 VPWR.t38 VPWR.t104 390.654
+R79 VPWR.t16 VPWR.t77 337.384
+R80 VPWR.t25 VPWR.t22 337.384
+R81 VPWR.t102 VPWR.t56 337.384
 R82 VPWR.n316 VPWR.n306 333.348
 R83 VPWR.n288 VPWR.n258 333.348
 R84 VPWR.n356 VPWR.n246 333.348
 R85 VPWR.n302 VPWR.n301 320.976
 R86 VPWR.n279 VPWR.n262 320.976
 R87 VPWR.n243 VPWR.n242 320.976
-R88 VPWR.t90 VPWR.t94 304.829
-R89 VPWR.t26 VPWR.t106 304.829
-R90 VPWR.t84 VPWR.t34 304.829
-R91 VPWR.t44 VPWR.t76 287.072
-R92 VPWR.t62 VPWR.t60 287.072
-R93 VPWR.t56 VPWR.t22 287.072
-R94 VPWR.t94 VPWR.t68 281.154
-R95 VPWR.t95 VPWR.t80 281.154
-R96 VPWR.t100 VPWR.t26 281.154
-R97 VPWR.t36 VPWR.t27 281.154
-R98 VPWR.t113 VPWR.t84 281.154
-R99 VPWR.t50 VPWR.t85 281.154
+R88 VPWR.t0 VPWR.t92 304.829
+R89 VPWR.t110 VPWR.t48 304.829
+R90 VPWR.t64 VPWR.t38 304.829
+R91 VPWR.t60 VPWR.t14 287.072
+R92 VPWR.t18 VPWR.t100 287.072
+R93 VPWR.t58 VPWR.t72 287.072
+R94 VPWR.t92 VPWR.t76 281.154
+R95 VPWR.t93 VPWR.t74 281.154
+R96 VPWR.t24 VPWR.t110 281.154
+R97 VPWR.t88 VPWR.t111 281.154
+R98 VPWR.t103 VPWR.t64 281.154
+R99 VPWR.t104 VPWR.t65 281.154
 R100 VPWR.n343 VPWR.n251 272.274
 R101 VPWR.n343 VPWR 272.274
 R102 VPWR.n342 VPWR.n341 272.274
 R103 VPWR.n341 VPWR 272.274
-R104 VPWR.t68 VPWR.t10 251.559
-R105 VPWR.t18 VPWR.t100 251.559
-R106 VPWR.t72 VPWR.t113 251.559
-R107 VPWR.t92 VPWR.t88 248.599
-R108 VPWR.t69 VPWR.t95 248.599
-R109 VPWR.t74 VPWR.t16 248.599
-R110 VPWR.t8 VPWR.t24 248.599
-R111 VPWR.t27 VPWR.t101 248.599
-R112 VPWR.t2 VPWR.t64 248.599
-R113 VPWR.t14 VPWR.t86 248.599
-R114 VPWR.t85 VPWR.t112 248.599
-R115 VPWR.t32 VPWR.t52 248.599
+R104 VPWR.t76 VPWR.t4 251.559
+R105 VPWR.t40 VPWR.t24 251.559
+R106 VPWR.t70 VPWR.t103 251.559
+R107 VPWR.t90 VPWR.t6 248.599
+R108 VPWR.t77 VPWR.t93 248.599
+R109 VPWR.t12 VPWR.t78 248.599
+R110 VPWR.t8 VPWR.t108 248.599
+R111 VPWR.t111 VPWR.t25 248.599
+R112 VPWR.t28 VPWR.t20 248.599
+R113 VPWR.t68 VPWR.t66 248.599
+R114 VPWR.t65 VPWR.t102 248.599
+R115 VPWR.t26 VPWR.t54 248.599
 R116 VPWR.n310 VPWR.n309 240.522
 R117 VPWR.n294 VPWR.n255 240.522
 R118 VPWR.n350 VPWR.n349 240.522
@@ -255,24 +255,24 @@ R119 VPWR.n341 VPWR.n340 213.119
 R120 VPWR.n342 VPWR.n252 213.119
 R121 VPWR.n344 VPWR.n343 213.119
 R122 VPWR.n251 VPWR.n249 213.119
-R123 VPWR.n301 VPWR.t35 113.98
-R124 VPWR.n262 VPWR.t107 113.98
-R125 VPWR.n242 VPWR.t91 113.98
-R126 VPWR.t88 VPWR 91.745
+R123 VPWR.n301 VPWR.t39 113.98
+R124 VPWR.n262 VPWR.t49 113.98
+R125 VPWR.n242 VPWR.t1 113.98
+R126 VPWR.t6 VPWR 91.745
 R127 VPWR VPWR.t8 91.745
-R128 VPWR VPWR.t14 91.745
-R129 VPWR.n309 VPWR.t57 61.9872
-R130 VPWR.n255 VPWR.t63 61.9872
-R131 VPWR.n349 VPWR.t77 61.9872
-R132 VPWR.n335 VPWR.t15 41.5552
-R133 VPWR.n335 VPWR.t87 41.5552
+R128 VPWR VPWR.t68 91.745
+R129 VPWR.n309 VPWR.t59 61.9872
+R130 VPWR.n255 VPWR.t19 61.9872
+R131 VPWR.n349 VPWR.t15 61.9872
+R132 VPWR.n335 VPWR.t69 41.5552
+R133 VPWR.n335 VPWR.t67 41.5552
 R134 VPWR.n266 VPWR.t9 41.5552
-R135 VPWR.n266 VPWR.t25 41.5552
-R136 VPWR.n375 VPWR.t89 41.5552
-R137 VPWR.n375 VPWR.t93 41.5552
-R138 VPWR.n301 VPWR.t51 35.4605
-R139 VPWR.n262 VPWR.t37 35.4605
-R140 VPWR.n242 VPWR.t81 35.4605
+R135 VPWR.n266 VPWR.t109 41.5552
+R136 VPWR.n375 VPWR.t7 41.5552
+R137 VPWR.n375 VPWR.t91 41.5552
+R138 VPWR.n301 VPWR.t105 35.4605
+R139 VPWR.n262 VPWR.t89 35.4605
+R140 VPWR.n242 VPWR.t75 35.4605
 R141 VPWR.n315 VPWR.n307 34.6358
 R142 VPWR.n311 VPWR.n307 34.6358
 R143 VPWR.n329 VPWR.n299 34.6358
@@ -304,20 +304,20 @@ R168 VPWR.n377 VPWR.n376 30.7593
 R169 VPWR.n318 VPWR.n317 30.4946
 R170 VPWR.n287 VPWR.n286 30.4946
 R171 VPWR.n358 VPWR.n357 30.4946
-R172 VPWR.n309 VPWR.t23 30.1692
-R173 VPWR.n255 VPWR.t61 30.1692
-R174 VPWR.n349 VPWR.t45 30.1692
+R172 VPWR.n309 VPWR.t73 30.1692
+R173 VPWR.n255 VPWR.t101 30.1692
+R174 VPWR.n349 VPWR.t61 30.1692
 R175 VPWR.n333 VPWR.n299 27.4829
 R176 VPWR.n295 VPWR.n294 27.4829
 R177 VPWR.n273 VPWR.n272 27.4829
 R178 VPWR.n350 VPWR.n348 27.4829
 R179 VPWR.n370 VPWR.n238 27.4829
-R180 VPWR.n306 VPWR.t33 26.5955
-R181 VPWR.n306 VPWR.t53 26.5955
-R182 VPWR.n258 VPWR.t3 26.5955
-R183 VPWR.n258 VPWR.t65 26.5955
-R184 VPWR.n246 VPWR.t17 26.5955
-R185 VPWR.n246 VPWR.t75 26.5955
+R180 VPWR.n306 VPWR.t27 26.5955
+R181 VPWR.n306 VPWR.t55 26.5955
+R182 VPWR.n258 VPWR.t29 26.5955
+R183 VPWR.n258 VPWR.t21 26.5955
+R184 VPWR.n246 VPWR.t79 26.5955
+R185 VPWR.n246 VPWR.t13 26.5955
 R186 VPWR.n311 VPWR.n310 25.6005
 R187 VPWR.n294 VPWR.n293 25.6005
 R188 VPWR.n351 VPWR.n350 25.6005
@@ -826,7 +826,7 @@ R690 VPWR.n52 VPWR.n51 0.00785294
 R691 VPWR.n229 VPWR.n228 0.00590163
 R692 VGND.n441 VGND.n62 171881
 R693 VGND.n459 VGND.n458 156689
-R694 VGND.n65 VGND.t0 151322
+R694 VGND.n65 VGND.t24 151322
 R695 VGND.n438 VGND.n75 130569
 R696 VGND.n485 VGND.n484 130542
 R697 VGND.n118 VGND.n72 49690.4
@@ -835,11 +835,11 @@ R699 VGND.n444 VGND.n75 45450.3
 R700 VGND.n486 VGND.n485 44132.5
 R701 VGND.n438 VGND.n437 44106
 R702 VGND.n439 VGND.n77 43377.2
-R703 VGND.n437 VGND.t18 31560.8
+R703 VGND.n437 VGND.t10 31560.8
 R704 VGND.n487 VGND.n486 30151.8
 R705 VGND.n437 VGND.n77 29891.4
 R706 VGND.n486 VGND.n1 29891.4
-R707 VGND.n306 VGND.t53 18687.3
+R707 VGND.n306 VGND.t58 18687.3
 R708 VGND.n444 VGND.n62 16600.2
 R709 VGND.n136 VGND.n131 16072.7
 R710 VGND.n76 VGND.n61 14081.5
@@ -855,9 +855,9 @@ R719 VGND.n123 VGND.n121 6135.59
 R720 VGND.n440 VGND.n439 6127.89
 R721 VGND.n306 VGND 5326.64
 R722 VGND.n309 VGND.n119 4245.54
-R723 VGND.t12 VGND.n135 4169.04
+R723 VGND.t60 VGND.n135 4169.04
 R724 VGND.n436 VGND.n74 4044.64
-R725 VGND.t43 VGND.n74 3942.35
+R725 VGND.t45 VGND.n74 3942.35
 R726 VGND.n444 VGND.n73 3472.59
 R727 VGND.n458 VGND.n457 3462.51
 R728 VGND.n135 VGND.n134 3164.24
@@ -868,15 +868,15 @@ R732 VGND.n126 VGND.n123 3022.83
 R733 VGND.n135 VGND.n131 2949.38
 R734 VGND.n120 VGND.n76 2758.39
 R735 VGND.n444 VGND.n443 2554.5
-R736 VGND.n457 VGND.t25 2387.95
+R736 VGND.n457 VGND.t66 2387.95
 R737 VGND.n306 VGND 2380.9
 R738 VGND.n145 VGND.n76 2252.33
 R739 VGND.n444 VGND.n440 2096.68
 R740 VGND.n309 VGND.n308 1953.47
 R741 VGND.n459 VGND.n62 1821.62
-R742 VGND.n125 VGND.t81 1524.56
+R742 VGND.n125 VGND.t28 1524.56
 R743 VGND.n315 VGND.n77 1397.72
-R744 VGND.n305 VGND.t67 1303.08
+R744 VGND.n305 VGND.t8 1303.08
 R745 VGND.n127 VGND.n126 1261.32
 R746 VGND.n436 VGND.n435 1170
 R747 VGND.n305 VGND.n304 1170
@@ -896,57 +896,57 @@ R760 VGND.n483 VGND.n482 1170
 R761 VGND.n24 VGND.n2 1170
 R762 VGND.n128 VGND.n127 1170
 R763 VGND.n489 VGND.n488 1170
-R764 VGND.n483 VGND.t31 1134.17
+R764 VGND.n483 VGND.t34 1134.17
 R765 VGND.n309 VGND.n145 1052.01
-R766 VGND.t63 VGND.n459 876.702
-R767 VGND.n75 VGND.t40 844.357
+R766 VGND.t81 VGND.n459 876.702
+R767 VGND.n75 VGND.t78 844.357
 R768 VGND.n61 VGND.n4 843.24
-R769 VGND.t54 VGND.n487 753.322
+R769 VGND.t2 VGND.n487 753.322
 R770 VGND.n119 VGND.n77 747.253
-R771 VGND.t0 VGND.n63 713.466
+R771 VGND.t24 VGND.n63 713.466
 R772 VGND.t74 VGND.n1 696.106
 R773 VGND.n457 VGND.n64 634.212
-R774 VGND.t4 VGND.n77 629.832
+R774 VGND.t72 VGND.n77 629.832
 R775 VGND.n302 VGND.n146 595.942
 R776 VGND.n302 VGND.n301 595.942
 R777 VGND.n487 VGND.n2 585.742
 R778 VGND.n488 VGND.n1 546.058
-R779 VGND.t25 VGND.n456 508.485
+R779 VGND.t66 VGND.n456 508.485
 R780 VGND.n444 VGND.n74 493.118
-R781 VGND.n119 VGND.t47 467.337
-R782 VGND.t18 VGND.n436 380.034
+R781 VGND.n119 VGND.t41 467.337
+R782 VGND.t10 VGND.n436 380.034
 R783 VGND.n446 VGND.n445 333.548
-R784 VGND.n131 VGND.t35 302.156
-R785 VGND.n489 VGND.t55 282.339
-R786 VGND.n24 VGND.t32 282.339
-R787 VGND.n482 VGND.t24 282.339
-R788 VGND.n461 VGND.t64 282.339
-R789 VGND.n442 VGND.t39 282.339
-R790 VGND.n132 VGND.t73 282.339
-R791 VGND.n142 VGND.t80 282.339
-R792 VGND.n124 VGND.t82 282.339
+R784 VGND.n131 VGND.t50 302.156
+R785 VGND.n489 VGND.t3 282.339
+R786 VGND.n24 VGND.t35 282.339
+R787 VGND.n482 VGND.t27 282.339
+R788 VGND.n461 VGND.t82 282.339
+R789 VGND.n442 VGND.t31 282.339
+R790 VGND.n132 VGND.t63 282.339
+R791 VGND.n142 VGND.t37 282.339
+R792 VGND.n124 VGND.t29 282.339
 R793 VGND.n128 VGND.t75 282.339
-R794 VGND.n134 VGND.t77 282.339
-R795 VGND.n455 VGND.t26 282.339
-R796 VGND.n435 VGND.t19 282.339
-R797 VGND.n307 VGND.t5 282.339
-R798 VGND.n311 VGND.t36 282.339
-R799 VGND.n137 VGND.t13 282.339
-R800 VGND.n315 VGND.t48 282.339
-R801 VGND.n304 VGND.t68 282.339
-R802 VGND.n379 VGND.t41 282.339
-R803 VGND.n447 VGND.t34 282.339
-R804 VGND.n451 VGND.t7 282.339
-R805 VGND.n66 VGND.t1 282.339
-R806 VGND.t40 VGND.n73 266.457
-R807 VGND.n190 VGND.t58 251
-R808 VGND.n224 VGND.t51 251
-R809 VGND.n281 VGND.t46 251
-R810 VGND.t38 VGND.n441 248.936
-R811 VGND.n177 VGND.t11 243.028
-R812 VGND.n157 VGND.t17 243.028
-R813 VGND.n294 VGND.t56 243.028
-R814 VGND.n135 VGND.t76 236.923
+R794 VGND.n134 VGND.t39 282.339
+R795 VGND.n455 VGND.t67 282.339
+R796 VGND.n435 VGND.t11 282.339
+R797 VGND.n307 VGND.t73 282.339
+R798 VGND.n311 VGND.t51 282.339
+R799 VGND.n137 VGND.t61 282.339
+R800 VGND.n315 VGND.t42 282.339
+R801 VGND.n304 VGND.t9 282.339
+R802 VGND.n379 VGND.t79 282.339
+R803 VGND.n447 VGND.t44 282.339
+R804 VGND.n451 VGND.t65 282.339
+R805 VGND.n66 VGND.t25 282.339
+R806 VGND.t78 VGND.n73 266.457
+R807 VGND.n190 VGND.t12 251
+R808 VGND.n224 VGND.t17 251
+R809 VGND.n281 VGND.t48 251
+R810 VGND.t30 VGND.n441 248.936
+R811 VGND.n177 VGND.t5 243.028
+R812 VGND.n157 VGND.t33 243.028
+R813 VGND.n294 VGND.t54 243.028
+R814 VGND.n135 VGND.t38 236.923
 R815 VGND.n309 VGND.n306 219.505
 R816 VGND.n164 VGND.n163 218.506
 R817 VGND.n226 VGND.n151 218.506
@@ -963,49 +963,49 @@ R827 VGND.n183 VGND.n168 199.53
 R828 VGND.n155 VGND.n154 199.53
 R829 VGND.n288 VGND.n243 199.53
 R830 VGND.n456 VGND.n65 190.542
-R831 VGND.n443 VGND.t38 187.446
-R832 VGND.n144 VGND.t79 183.096
-R833 VGND.n488 VGND.t54 170.459
-R834 VGND.n308 VGND.t4 169.868
-R835 VGND.t31 VGND.n2 166.094
+R831 VGND.n443 VGND.t30 187.446
+R832 VGND.n144 VGND.t36 183.096
+R833 VGND.n488 VGND.t2 170.459
+R834 VGND.n308 VGND.t72 169.868
+R835 VGND.t34 VGND.n2 166.094
 R836 VGND.n306 VGND.n74 165.339
-R837 VGND.n444 VGND.t33 159.488
+R837 VGND.n444 VGND.t43 159.488
 R838 VGND.n127 VGND.t74 158.115
 R839 VGND.n458 VGND.n63 144.5
-R840 VGND.t79 VGND.n143 140.434
-R841 VGND.n445 VGND.t6 132.02
-R842 VGND.t2 VGND.n72 128.904
-R843 VGND.n460 VGND.t63 124.144
-R844 VGND.n446 VGND.t33 122.326
-R845 VGND.t72 VGND.n131 120.314
-R846 VGND.n310 VGND.t35 111.326
+R840 VGND.t36 VGND.n143 140.434
+R841 VGND.n445 VGND.t64 132.02
+R842 VGND.t18 VGND.n72 128.904
+R843 VGND.n460 VGND.t81 124.144
+R844 VGND.n446 VGND.t43 122.326
+R845 VGND.t62 VGND.n131 120.314
+R846 VGND.n310 VGND.t50 111.326
 R847 VGND.n145 VGND.n144 104.849
-R848 VGND VGND.t21 102.412
-R849 VGND.t6 VGND.n64 101.258
+R848 VGND VGND.t20 102.412
+R849 VGND.t64 VGND.n64 101.258
 R850 VGND.n484 VGND.n4 100.996
-R851 VGND.t10 VGND.n118 94.8614
-R852 VGND.t57 VGND.t61 93.0774
-R853 VGND.n133 VGND.t72 92.2804
-R854 VGND.n168 VGND.t62 74.8666
-R855 VGND.n154 VGND.t30 74.8666
-R856 VGND.n243 VGND.t42 74.8666
-R857 VGND.n136 VGND.t12 55.9751
-R858 VGND.n160 VGND.t60 54.2862
-R859 VGND.n232 VGND.t50 54.2862
-R860 VGND.n250 VGND.t44 54.2862
+R851 VGND.t4 VGND.n118 94.8614
+R852 VGND.t0 VGND.t56 93.0774
+R853 VGND.n133 VGND.t62 92.2804
+R854 VGND.n168 VGND.t57 74.8666
+R855 VGND.n154 VGND.t69 74.8666
+R856 VGND.n243 VGND.t77 74.8666
+R857 VGND.n136 VGND.t60 55.9751
+R858 VGND.n160 VGND.t15 54.2862
+R859 VGND.n232 VGND.t16 54.2862
+R860 VGND.n250 VGND.t46 54.2862
 R861 VGND.n484 VGND.n483 46.6396
 R862 VGND VGND.t71 45.7764
 R863 VGND.n120 VGND.n3 45.2738
 R864 VGND.n460 VGND.n61 40.8576
-R865 VGND.n168 VGND.t69 40.0005
-R866 VGND.n154 VGND.t78 40.0005
-R867 VGND.n243 VGND.t28 40.0005
-R868 VGND.n172 VGND.t66 38.5719
+R865 VGND.n168 VGND.t1 40.0005
+R866 VGND.n154 VGND.t40 40.0005
+R867 VGND.n243 VGND.t32 40.0005
+R868 VGND.n172 VGND.t22 38.5719
 R869 VGND.n172 VGND.t70 38.5719
-R870 VGND.n206 VGND.t9 38.5719
-R871 VGND.n206 VGND.t22 38.5719
-R872 VGND.n238 VGND.t14 38.5719
-R873 VGND.n238 VGND.t65 38.5719
+R870 VGND.n206 VGND.t7 38.5719
+R871 VGND.n206 VGND.t80 38.5719
+R872 VGND.n238 VGND.t53 38.5719
+R873 VGND.n238 VGND.t52 38.5719
 R874 VGND.n310 VGND.n309 36.639
 R875 VGND.n195 VGND.n194 34.6358
 R876 VGND.n196 VGND.n195 34.6358
@@ -1040,17 +1040,17 @@ R904 VGND.n289 VGND.n288 30.8711
 R905 VGND.n178 VGND.n177 27.4829
 R906 VGND.n212 VGND.n157 27.4829
 R907 VGND.n294 VGND.n293 27.4829
-R908 VGND.t8 VGND.t29 27.1458
-R909 VGND.n160 VGND.t37 25.9346
-R910 VGND.n232 VGND.t49 25.9346
-R911 VGND.n250 VGND.t20 25.9346
-R912 VGND.t53 VGND.t57 25.3851
-R913 VGND.n163 VGND.t16 24.9236
-R914 VGND.n163 VGND.t59 24.9236
-R915 VGND.n151 VGND.t3 24.9236
-R916 VGND.n151 VGND.t52 24.9236
-R917 VGND.n247 VGND.t27 24.9236
-R918 VGND.n247 VGND.t45 24.9236
+R908 VGND.t6 VGND.t68 27.1458
+R909 VGND.n160 VGND.t49 25.9346
+R910 VGND.n232 VGND.t76 25.9346
+R911 VGND.n250 VGND.t55 25.9346
+R912 VGND.t58 VGND.t0 25.3851
+R913 VGND.n163 VGND.t59 24.9236
+R914 VGND.n163 VGND.t14 24.9236
+R915 VGND.n151 VGND.t23 24.9236
+R916 VGND.n151 VGND.t19 24.9236
+R917 VGND.n247 VGND.t21 24.9236
+R918 VGND.n247 VGND.t47 24.9236
 R919 VGND.n201 VGND.n200 23.7181
 R920 VGND.n196 VGND.n161 23.7181
 R921 VGND.n205 VGND.n159 23.7181
@@ -1073,8 +1073,8 @@ R937 VGND.n234 VGND.n233 21.4593
 R938 VGND.n299 VGND.n239 21.4593
 R939 VGND.n141 VGND.n130 20.9265
 R940 VGND.n131 VGND.n122 20.0607
-R941 VGND.t2 VGND.t43 19.8983
-R942 VGND.t2 VGND.n302 19.7425
+R941 VGND.t18 VGND.t45 19.8983
+R942 VGND.t18 VGND.n302 19.7425
 R943 VGND VGND.n272 17.3883
 R944 VGND.n463 VGND.n60 17.0502
 R945 VGND.n440 VGND.n76 14.7835
@@ -1169,7 +1169,7 @@ R1033 VGND.n462 VGND 8.50779
 R1034 VGND.n314 VGND.n313 8.47796
 R1035 VGND.n68 VGND.n67 7.73586
 R1036 VGND.n140 VGND 7.66873
-R1037 VGND.t21 VGND.t8 7.40375
+R1037 VGND.t20 VGND.t6 7.40375
 R1038 VGND VGND.n481 7.24133
 R1039 VGND.n317 VGND.n316 7.18609
 R1040 VGND.n174 VGND.n173 7.12576
@@ -1189,68 +1189,68 @@ R1053 VGND.n413 VGND.n380 6.21471
 R1054 VGND.n129 VGND 6.20286
 R1055 VGND.n303 VGND.n78 6.13644
 R1056 VGND.n434 VGND.n433 5.99894
-R1057 VGND.t61 VGND.t15 4.23127
-R1058 VGND.n313 VGND.n117 3.52873
-R1059 VGND.n271 VGND 3.40017
-R1060 VGND.t71 VGND.t10 3.3096
-R1061 VGND.n272 VGND.n271 3.28674
-R1062 VGND.n130 VGND.n129 2.92676
-R1063 VGND.n454 VGND.n453 2.38171
-R1064 VGND.n441 VGND.n65 2.10058
-R1065 VGND.n4 VGND.t23 1.91332
-R1066 VGND.n194 VGND.n164 1.88285
-R1067 VGND.n227 VGND.n226 1.88285
-R1068 VGND.n277 VGND.n248 1.88285
-R1069 VGND.n141 VGND.n140 1.59945
-R1070 VGND.n129 VGND.n0 1.28972
-R1071 VGND.t29 VGND.t2 1.23438
-R1072 VGND.n271 VGND.n69 1.1273
-R1073 VGND.n140 VGND.n139 1.05629
-R1074 VGND.n454 VGND.n69 0.953601
-R1075 VGND.n139 VGND.n117 0.951859
-R1076 VGND.n252 uo_out[4] 0.844933
+R1057 VGND.n272 VGND.n270 4.82646
+R1058 VGND.t56 VGND.t13 4.23127
+R1059 VGND.n313 VGND.n117 3.52873
+R1060 VGND.n271 VGND 3.40017
+R1061 VGND.t71 VGND.t4 3.3096
+R1062 VGND.n272 VGND.n271 3.28674
+R1063 VGND.n130 VGND.n129 2.92676
+R1064 VGND.n454 VGND.n453 2.38171
+R1065 VGND.n441 VGND.n65 2.10058
+R1066 VGND.n4 VGND.t26 1.91332
+R1067 VGND.n194 VGND.n164 1.88285
+R1068 VGND.n227 VGND.n226 1.88285
+R1069 VGND.n277 VGND.n248 1.88285
+R1070 VGND.n141 VGND.n140 1.59945
+R1071 VGND.n129 VGND.n0 1.28972
+R1072 VGND.t68 VGND.t18 1.23438
+R1073 VGND.n271 VGND.n69 1.1273
+R1074 VGND.n140 VGND.n139 1.05629
+R1075 VGND.n454 VGND.n69 0.953601
+R1076 VGND.n139 VGND.n117 0.951859
 R1077 VGND.n68 VGND.n60 0.753637
-R1078 VGND.n26 VGND.n0 0.663554
-R1079 VGND.n272 VGND.n270 0.646593
-R1080 VGND.n255 VGND.n254 0.5786
-R1081 VGND.n253 VGND.n252 0.577033
-R1082 VGND.n254 VGND.n253 0.577033
-R1083 VGND.n257 VGND.n256 0.577033
-R1084 VGND.n258 VGND.n257 0.577033
-R1085 VGND.n259 VGND.n258 0.577033
-R1086 VGND.n260 VGND.n259 0.577033
-R1087 VGND.n261 VGND.n260 0.577033
-R1088 VGND.n262 VGND.n261 0.577033
-R1089 VGND.n263 VGND.n262 0.577033
-R1090 VGND.n264 VGND.n263 0.577033
-R1091 VGND.n265 VGND.n264 0.577033
-R1092 VGND.n266 VGND.n265 0.577033
-R1093 VGND.n267 VGND.n266 0.577033
-R1094 VGND.n268 VGND.n267 0.577033
-R1095 VGND.n269 VGND.n268 0.577033
-R1096 VGND.n270 VGND.n269 0.577033
-R1097 VGND.n256 VGND.n255 0.575467
-R1098 VGND.n359 VGND.n358 0.457033
+R1078 VGND.n252 uo_out[4] 0.7008
+R1079 VGND.n26 VGND.n0 0.663554
+R1080 VGND.n359 VGND.n358 0.457033
+R1081 VGND.n253 VGND.n252 0.4329
+R1082 VGND.n254 VGND.n253 0.4329
+R1083 VGND.n255 VGND.n254 0.4329
+R1084 VGND.n256 VGND.n255 0.4329
+R1085 VGND.n257 VGND.n256 0.4329
+R1086 VGND.n258 VGND.n257 0.4329
+R1087 VGND.n259 VGND.n258 0.4329
+R1088 VGND.n260 VGND.n259 0.4329
+R1089 VGND.n261 VGND.n260 0.4329
+R1090 VGND.n262 VGND.n261 0.4329
+R1091 VGND.n263 VGND.n262 0.4329
+R1092 VGND.n264 VGND.n263 0.4329
+R1093 VGND.n265 VGND.n264 0.4329
+R1094 VGND.n266 VGND.n265 0.4329
+R1095 VGND.n267 VGND.n266 0.4329
+R1096 VGND.n268 VGND.n267 0.4329
+R1097 VGND.n269 VGND.n268 0.4329
+R1098 VGND.n270 VGND.n269 0.4329
 R1099 VGND.n356 VGND.n78 0.297375
-R1100 VGND.n270 uio_oe[7] 0.2684
-R1101 VGND.n252 uo_out[5] 0.2684
-R1102 VGND.n253 uo_out[6] 0.2684
-R1103 VGND.n254 uo_out[7] 0.2684
-R1104 VGND.n255 uio_out[0] 0.2684
-R1105 VGND.n256 uio_out[1] 0.2684
-R1106 VGND.n257 uio_out[2] 0.2684
-R1107 VGND.n258 uio_out[3] 0.2684
-R1108 VGND.n259 uio_out[4] 0.2684
-R1109 VGND.n260 uio_out[5] 0.2684
-R1110 VGND.n261 uio_out[6] 0.2684
-R1111 VGND.n262 uio_out[7] 0.2684
-R1112 VGND.n263 uio_oe[0] 0.2684
-R1113 VGND.n264 uio_oe[1] 0.2684
-R1114 VGND.n265 uio_oe[2] 0.2684
-R1115 VGND.n266 uio_oe[3] 0.2684
-R1116 VGND.n267 uio_oe[4] 0.2684
-R1117 VGND.n268 uio_oe[5] 0.2684
-R1118 VGND.n269 uio_oe[6] 0.2684
+R1100 VGND.n252 uo_out[5] 0.2684
+R1101 VGND.n253 uo_out[6] 0.2684
+R1102 VGND.n254 uo_out[7] 0.2684
+R1103 VGND.n255 uio_out[0] 0.2684
+R1104 VGND.n256 uio_out[1] 0.2684
+R1105 VGND.n257 uio_out[2] 0.2684
+R1106 VGND.n258 uio_out[3] 0.2684
+R1107 VGND.n259 uio_out[4] 0.2684
+R1108 VGND.n260 uio_out[5] 0.2684
+R1109 VGND.n261 uio_out[6] 0.2684
+R1110 VGND.n262 uio_out[7] 0.2684
+R1111 VGND.n263 uio_oe[0] 0.2684
+R1112 VGND.n264 uio_oe[1] 0.2684
+R1113 VGND.n265 uio_oe[2] 0.2684
+R1114 VGND.n266 uio_oe[3] 0.2684
+R1115 VGND.n267 uio_oe[4] 0.2684
+R1116 VGND.n268 uio_oe[5] 0.2684
+R1117 VGND.n269 uio_oe[6] 0.2684
+R1118 VGND.n270 uio_oe[7] 0.2684
 R1119 VGND.n356 VGND.n355 0.240747
 R1120 VGND.n43 VGND.n7 0.232444
 R1121 VGND.n355 VGND.n354 0.201889
@@ -1670,10 +1670,10 @@ R1534 VGND.n80 VGND.n79 0.00874176
 R1535 VGND.n358 VGND.n357 0.00816087
 R1536 VGND.n357 VGND.n79 0.00744444
 R1537 VGND.n337 VGND.n336 0.00285443
-R1538 uo_out[0] uo_out[0].t1 984.356
+R1538 uo_out[0] uo_out[0].t0 984.356
 R1539 uo_out[0].n0 uo_out[0].t2 582.378
 R1540 uo_out[0].n1 uo_out[0].t3 566.953
-R1541 uo_out[0].n8 uo_out[0].t0 478.87
+R1541 uo_out[0].n8 uo_out[0].t1 478.87
 R1542 uo_out[0].n1 uo_out[0].n0 424.161
 R1543 uo_out[0].n3 uo_out[0].t4 294.557
 R1544 uo_out[0].n3 uo_out[0].t5 211.01
@@ -1688,65 +1688,66 @@ R1552 uo_out[0].n8 uo_out[0].n7 7.5409
 R1553 uo_out[0].n6 uo_out[0].n5 6.83545
 R1554 uo_out[0].n7 uo_out[0].n2 5.01603
 R1555 uo_out[0].n4 uo_out[0] 2.01193
-R1556 uo_out[0].n6 uo_out[0] 1.0063
+R1556 uo_out[0].n6 uo_out[0] 1.31337
 R1557 uo_out[0].n5 uo_out[0] 0.0793043
-R1558 uo_out[1].n2 uo_out[1].t1 313.104
+R1558 uo_out[1].n2 uo_out[1].t0 313.104
 R1559 uo_out[1].n0 uo_out[1].t2 294.557
-R1560 uo_out[1].t0 uo_out[1].n2 265.769
-R1561 uo_out[1] uo_out[1].t0 262.318
+R1560 uo_out[1].t1 uo_out[1].n2 265.769
+R1561 uo_out[1] uo_out[1].t1 262.318
 R1562 uo_out[1].n0 uo_out[1].t3 211.01
 R1563 uo_out[1].n1 uo_out[1].n0 152
-R1564 uo_out[1].n4 uo_out[1].n1 11.6411
-R1565 uo_out[1].n4 uo_out[1].n3 9.3005
-R1566 uo_out[1] uo_out[1].n5 9.25399
+R1564 uo_out[1].n5 uo_out[1] 12.6752
+R1565 uo_out[1].n4 uo_out[1].n1 11.6411
+R1566 uo_out[1].n4 uo_out[1].n3 9.3005
 R1567 uo_out[1].n3 uo_out[1] 7.17626
 R1568 uo_out[1].n3 uo_out[1].n2 4.84898
 R1569 uo_out[1].n5 uo_out[1].n4 4.5029
 R1570 uo_out[1].n1 uo_out[1] 1.37896
-R1571 uo_out[1].n5 uo_out[1] 0.0730806
-R1572 uo_out[3].n0 uo_out[3].t1 313.104
-R1573 uo_out[3].t0 uo_out[3].n0 265.769
-R1574 uo_out[3] uo_out[3].t0 262.318
-R1575 uo_out[3].n2 uo_out[3] 15.2115
+R1571 uo_out[1] uo_out[1].n5 0.0730806
+R1572 uo_out[3].n0 uo_out[3].t0 313.104
+R1573 uo_out[3].t1 uo_out[3].n0 265.769
+R1574 uo_out[3] uo_out[3].t1 262.318
+R1575 uo_out[3].n2 uo_out[3] 19.5328
 R1576 uo_out[3].n2 uo_out[3].n1 13.8005
 R1577 uo_out[3].n1 uo_out[3].n0 7.17626
 R1578 uo_out[3].n1 uo_out[3] 4.84898
 R1579 uo_out[3] uo_out[3].n2 0.0529194
-C0 m4_12074_25760# m3_12074_25760# 95.99921f
-C1 m4_10514_15880# m3_10514_15880# 65.3249f
-C2 m3_10514_15880# m2_10514_15880# 67.004105f
-C3 m2_10514_15880# m1_10514_15880# 0.104063p
-C4 m3_12074_25760# m2_12074_25760# 98.466896f
-C5 m2_12074_25760# m1_12074_25760# 0.152927p
-C6 uo_out[0] VGND 9.109031f
-C7 VPWR VGND 0.161621p
-C8 m4_10514_15880# VGND 11.0708f $ **FLOATING
-C9 m4_12074_25760# VGND 8.74739f $ **FLOATING
-C10 m3_10514_15880# VGND 12.571401f $ **FLOATING
-C11 m3_12074_25760# VGND 10.2012f $ **FLOATING
-C12 m2_10514_15880# VGND 11.5358f $ **FLOATING
-C13 m2_12074_25760# VGND 9.56448f $ **FLOATING
-C14 m1_10514_15880# VGND 32.9027f $ **FLOATING
-C15 m1_12074_25760# VGND 40.2807f $ **FLOATING
-C16 ring_0/skullfet_inverter_16.A VGND 4.53396f
-C17 ring_0/skullfet_inverter_17.A VGND 4.70918f
-C18 ring_0/skullfet_inverter_15.A VGND 4.82841f
-C19 ring_0/skullfet_inverter_18.A VGND 4.90629f
-C20 ring_0/skullfet_inverter_14.A VGND 4.98419f
-C21 ring_0/skullfet_inverter_19.A VGND 4.923029f
-C22 ring_0/skullfet_inverter_13.A VGND 4.78946f
-C23 ring_0/skullfet_inverter_20.A VGND 4.72064f
-C24 ring_0/skullfet_inverter_12.A VGND 5.60339f
-C25 ring_0/skullfet_inverter_20.Y VGND 5.35745f
-C26 ring_0/skullfet_inverter_11.A VGND 4.97718f
-C27 ring_0/skullfet_inverter_1.A VGND 5.16765f
-C28 ring_0/skullfet_inverter_10.A VGND 5.58737f
-C29 ring_0/skullfet_inverter_2.A VGND 5.65285f
-C30 ring_0/skullfet_inverter_9.A VGND 4.78733f
-C31 ring_0/skullfet_inverter_3.A VGND 4.92041f
-C32 ring_0/skullfet_inverter_4.A VGND 4.93544f
-C33 ring_0/skullfet_inverter_8.A VGND 4.94116f
-C34 ring_0/skullfet_inverter_7.A VGND 4.81796f
-C35 ring_0/skullfet_inverter_6.A VGND 4.53217f
+C0 m3_10514_15880# m4_10514_15880# 65.3249f
+C1 m2_12074_25760# m3_12074_25760# 98.466896f
+C2 m1_10514_15880# m2_10514_15880# 0.104063p
+C3 m2_12074_25760# m1_12074_25760# 0.152927p
+C4 m3_10514_15880# m2_10514_15880# 67.004105f
+C5 m4_12074_25760# m3_12074_25760# 95.99921f
+C6 uo_out[0] VGND 9.161079f
+C7 uo_out[3] VGND 1.95825f
+C8 VPWR VGND 0.161567p
+C9 m4_10514_15880# VGND 11.0708f $ **FLOATING
+C10 m4_12074_25760# VGND 8.74739f $ **FLOATING
+C11 m3_10514_15880# VGND 12.571401f $ **FLOATING
+C12 m3_12074_25760# VGND 10.2012f $ **FLOATING
+C13 m2_10514_15880# VGND 11.5358f $ **FLOATING
+C14 m2_12074_25760# VGND 9.56448f $ **FLOATING
+C15 m1_10514_15880# VGND 32.9027f $ **FLOATING
+C16 m1_12074_25760# VGND 40.2807f $ **FLOATING
+C17 ring_0/skullfet_inverter_16.A VGND 4.53396f
+C18 ring_0/skullfet_inverter_17.A VGND 4.70918f
+C19 ring_0/skullfet_inverter_15.A VGND 4.82841f
+C20 ring_0/skullfet_inverter_18.A VGND 4.90629f
+C21 ring_0/skullfet_inverter_14.A VGND 4.98419f
+C22 ring_0/skullfet_inverter_19.A VGND 4.923029f
+C23 ring_0/skullfet_inverter_13.A VGND 4.78946f
+C24 ring_0/skullfet_inverter_20.A VGND 4.72064f
+C25 ring_0/skullfet_inverter_12.A VGND 5.60339f
+C26 ring_0/skullfet_inverter_20.Y VGND 5.35745f
+C27 ring_0/skullfet_inverter_11.A VGND 4.97718f
+C28 ring_0/skullfet_inverter_1.A VGND 5.16765f
+C29 ring_0/skullfet_inverter_10.A VGND 5.58737f
+C30 ring_0/skullfet_inverter_2.A VGND 5.65285f
+C31 ring_0/skullfet_inverter_9.A VGND 4.78733f
+C32 ring_0/skullfet_inverter_3.A VGND 4.92041f
+C33 ring_0/skullfet_inverter_4.A VGND 4.93544f
+C34 ring_0/skullfet_inverter_8.A VGND 4.94116f
+C35 ring_0/skullfet_inverter_7.A VGND 4.81796f
+C36 ring_0/skullfet_inverter_6.A VGND 4.53217f
 .ends
 
