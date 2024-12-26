@@ -1,0 +1,119 @@
+** sch_path: /home/uri/p/tt08-oscillating-bones/xschem/testbench.sch
+**.subckt testbench
+x1 osc_out osc_div_2 osc_div_4 osc_div_8 tt_um_oscillating_bones
+V1 VPWR VGND 1.8
+R21 VGND osc_out 1Meg m=1
+R22 VGND osc_div_2 1Meg m=1
+R23 VGND osc_div_4 1Meg m=1
+R24 VGND osc_div_8 1Meg m=1
+V2 0 VGND 0
+**** begin user architecture code
+
+** opencircuitdesign pdks install
+.lib /home/uri/pdk/sky130A/libs.tech/combined/sky130.lib.spice tt
+.include /home/uri/pdk/sky130A/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+
+
+
+
+
+.tran 50p 200n
+.save all
+
+.control
+run
+
+meas tran tdiff TRIG osc_out VAL=1.7 RISE=2 TARG osc_out VAL=1.7 RISE=3
+let osc_freq_mhz = (1 / (tdiff) / 1e6)
+save osc_freq_mhz
+
+meas tran tdiff_div2 TRIG osc_div_2 VAL=1.7 RISE=2 TARG osc_div_2 VAL=1.7 RISE=3
+let osc_div_2_freq_mhz = (1 / (tdiff_div2) / 1e6)
+save osc_div_2_freq_mhz
+
+meas tran tdiff_div4 TRIG osc_div_4 VAL=1.7 RISE=2 TARG osc_div_4 VAL=1.7 RISE=3
+let osc_div_4_freq_mhz = (1 / (tdiff_div4) / 1e6)
+save osc_div_4_freq_mhz
+
+meas tran tdiff_div8 TRIG osc_div_8 VAL=1.7 RISE=2 TARG osc_div_8 VAL=1.7 RISE=3
+let osc_div_8_freq_mhz = (1 / (tdiff_div8) / 1e6)
+save osc_div_8_freq_mhz
+
+write testbench.raw
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  tt_um_oscillating_bones.sym # of pins=4
+** sym_path: /home/uri/p/tt08-oscillating-bones/xschem/tt_um_oscillating_bones.sym
+** sch_path: /home/uri/p/tt08-oscillating-bones/xschem/tt_um_oscillating_bones.sch
+.subckt tt_um_oscillating_bones uo_out[0] uo_out[1] uo_out[2] uo_out[3]
+*.opin uo_out[1]
+*.opin uo_out[0]
+*.opin uo_out[2]
+*.opin uo_out[3]
+x22 uo_out[1] uo_out[2] uo_out[3] uo_out[0] freq_divider
+x1 uo_out[0] ring
+.ends
+
+
+* expanding   symbol:  freq_divider.sym # of pins=4
+** sym_path: /home/uri/p/tt08-oscillating-bones/xschem/freq_divider.sym
+** sch_path: /home/uri/p/tt08-oscillating-bones/xschem/freq_divider.sch
+.subckt freq_divider ODIV2 ODIV4 ODIV8 IN
+*.ipin IN
+*.opin ODIV2
+*.opin ODIV4
+*.opin ODIV8
+x1 IN net3 VGND VNB VPB VPWR ODIV2 net3 sky130_fd_sc_hd__dfxbp_1
+x2 ODIV2 net1 VGND VNB VPB VPWR ODIV4 net1 sky130_fd_sc_hd__dfxbp_1
+x3 ODIV4 net2 VGND VNB VPB VPWR ODIV8 net2 sky130_fd_sc_hd__dfxbp_1
+.ends
+
+
+* expanding   symbol:  ring.sym # of pins=1
+** sym_path: /home/uri/p/tt08-oscillating-bones/xschem/ring.sym
+** sch_path: /home/uri/p/tt08-oscillating-bones/xschem/ring.sch
+.subckt ring ROSC_OUT
+*.opin ROSC_OUT
+x1 net20 net1 skullfet_inverter
+x2 net1 net3 skullfet_inverter
+x3 net3 net2 skullfet_inverter
+x4 net2 ROSC_OUT skullfet_inverter
+x5 ROSC_OUT net4 skullfet_inverter
+x7 net5 net6 skullfet_inverter
+x6 net4 net5 skullfet_inverter
+x8 net6 net7 skullfet_inverter
+x9 net7 net11 skullfet_inverter
+x10 net11 net8 skullfet_inverter
+x11 net8 net9 skullfet_inverter
+x12 net9 net10 skullfet_inverter
+x13 net10 net12 skullfet_inverter
+x14 net12 net13 skullfet_inverter
+x15 net13 net14 skullfet_inverter
+x16 net14 net15 skullfet_inverter
+x17 net15 net16 skullfet_inverter
+x18 net16 net17 skullfet_inverter
+x19 net17 net18 skullfet_inverter
+x20 net18 net19 skullfet_inverter
+x21 net19 net20 skullfet_inverter
+.ends
+
+
+* expanding   symbol:  skullfet_inverter.sym # of pins=2
+** sym_path: /home/uri/p/tt08-oscillating-bones/xschem/skullfet_inverter.sym
+** sch_path: /home/uri/p/tt08-oscillating-bones/xschem/skullfet_inverter.sch
+.subckt skullfet_inverter A Y
+*.ipin A
+*.opin Y
+XM1 Y A VPWR VPWR sky130_fd_pr__pfet_01v8_hvt L=0.4 W=4.05 nf=1 ad=6.2694 as=4.4307 pd=26.64 ps=10.9 nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM2 Y A VGND VGND sky130_fd_pr__nfet_01v8 L=0.4 W=4.05 nf=1 ad=4.2687 as=6.4314 pd=10.82 ps=26.72 nrd='0.29 / W' nrs='0.29 / W' sa=0
++ sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL VGND
+.GLOBAL VPWR
+.end
