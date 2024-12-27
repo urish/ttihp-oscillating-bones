@@ -243,6 +243,14 @@ rect 1000 22866 6152 23106
 rect 6352 22866 6384 23106
 rect 1000 22822 6384 22866
 rect 1000 1000 1300 22822
+rect 27234 0 27414 200 0
+rect 23370 0 23550 200 0
+rect 19506 0 19686 200 0
+rect 15642 0 15822 200 0
+rect 11778 0 11958 200 0
+rect 7914 0 8094 200 0
+rect 4050 0 4230 200 0
+rect 186 0 366 200 0
 use big_skull  big_skull_0
 timestamp 1713168785
 transform 1 0 9474 0 1 33040
@@ -346,12 +354,28 @@ flabel metal4 s 15518 44952 15578 45152 0 FreeSans 240 90 0 0 uo_out[6]
 port 41 nsew signal output
 flabel metal4 s 14966 44952 15026 45152 0 FreeSans 240 90 0 0 uo_out[7]
 port 42 nsew signal output
+flabel metal4 s 27234 0 27414 200 0 FreeSans 960 0 0 0 ua[0]
+port 43 nsew signal bidirectional
+flabel metal4 s 23370 0 23550 200 0 FreeSans 960 0 0 0 ua[1]
+port 44 nsew signal bidirectional
+flabel metal4 s 19506 0 19686 200 0 FreeSans 960 0 0 0 ua[2]
+port 45 nsew signal bidirectional
+flabel metal4 s 15642 0 15822 200 0 FreeSans 960 0 0 0 ua[3]
+port 46 nsew signal bidirectional
+flabel metal4 s 11778 0 11958 200 0 FreeSans 960 0 0 0 ua[4]
+port 47 nsew signal bidirectional
+flabel metal4 s 7914 0 8094 200 0 FreeSans 960 0 0 0 ua[5]
+port 48 nsew signal bidirectional
+flabel metal4 s 4050 0 4230 200 0 FreeSans 960 0 0 0 ua[6]
+port 49 nsew signal bidirectional
+flabel metal4 s 186 0 366 200 0 FreeSans 960 0 0 0 ua[7]
+port 50 nsew signal bidirectional
 flabel metal4 1000 1000 1300 44152 1 FreeSans 2 0 0 0 VAPWR
-port 43 nsew power bidirectional
+port 51 nsew power bidirectional
 flabel metal4 600 1000 900 44152 1 FreeSans 2 0 0 0 VDPWR
-port 44 nsew power bidirectional
+port 52 nsew power bidirectional
 flabel metal4 200 1000 500 44152 1 FreeSans 2 0 0 0 VGND
-port 45 nsew ground bidirectional
+port 53 nsew ground bidirectional
 << properties >>
 string FIXED_BBOX 0 0 32200 45152
 << end >>

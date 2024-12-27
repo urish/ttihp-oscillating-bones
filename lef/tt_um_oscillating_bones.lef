@@ -378,6 +378,70 @@ MACRO tt_um_oscillating_bones
         RECT 74.830 224.760 75.130 225.760 ;
     END
   END uo_out[7]
+  PIN ua[0]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 136.170 0.000 137.070 1.000 ;
+    END
+  END ua[0]
+  PIN ua[1]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 116.850 0.000 117.750 1.000 ;
+    END
+  END ua[1]
+  PIN ua[2]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 97.530 0.000 98.430 1.000 ;
+    END
+  END ua[2]
+  PIN ua[3]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 78.210 0.000 79.110 1.000 ;
+    END
+  END ua[3]
+  PIN ua[4]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 58.890 0.000 59.790 1.000 ;
+    END
+  END ua[4]
+  PIN ua[5]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 39.570 0.000 40.470 1.000 ;
+    END
+  END ua[5]
+  PIN ua[6]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 20.250 0.000 21.150 1.000 ;
+    END
+  END ua[6]
+  PIN ua[7]
+    DIRECTION INOUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met4 ;
+        RECT 0.930 0.000 1.830 1.000 ;
+    END
+  END ua[7]
   PIN VAPWR
     DIRECTION INOUT ;
     USE POWER ;
