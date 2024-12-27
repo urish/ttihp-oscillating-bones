@@ -1,3 +1,7 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
 MACRO tt_um_oscillating_bones
   CLASS BLOCK ;
   FOREIGN tt_um_oscillating_bones ;
@@ -2788,7 +2792,6 @@ MACRO tt_um_oscillating_bones
       LAYER met2 ;
         RECT 85.860 223.640 86.180 224.140 ;
         RECT 88.620 223.640 88.940 224.140 ;
-        RECT 30.600 219.330 31.050 222.905 ;
         RECT 85.870 222.770 86.130 223.640 ;
         RECT 64.330 222.510 86.130 222.770 ;
         RECT 64.330 219.110 64.590 222.510 ;
@@ -6102,7 +6105,6 @@ MACRO tt_um_oscillating_bones
         RECT 85.810 223.665 86.230 224.265 ;
         RECT 88.570 223.665 88.990 224.265 ;
         RECT 91.330 223.665 91.750 224.265 ;
-        RECT 30.550 222.380 31.100 222.880 ;
         RECT 91.720 221.360 92.300 221.370 ;
         RECT 90.300 219.400 90.800 220.000 ;
         RECT 61.410 218.030 62.100 218.730 ;
