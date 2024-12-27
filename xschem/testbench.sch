@@ -60,6 +60,7 @@ N 480 -470 500 -470 {lab=osc_div_8}
 N 480 -490 500 -490 {lab=osc_div_4}
 N 480 -510 500 -510 {lab=osc_div_2}
 N 480 -530 500 -530 {lab=osc_out}
+N 340 -300 400 -300 {lab=VGND}
 C {devices/code.sym} 90 -220 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -99,7 +100,7 @@ write testbench.raw
 .endc
 "}
 C {devices/vsource.sym} 340 -330 0 0 {name=V1 value=1.8}
-C {devices/gnd.sym} 340 -300 0 0 {name=l3 lab=VGND}
+C {devices/gnd.sym} 370 -300 0 0 {name=l3 lab=VGND}
 C {devices/vdd.sym} 340 -360 0 0 {name=l4 lab=VPWR}
 C {devices/launcher.sym} 660 -160 0 0 {name=h5
 descr="load waves" 
@@ -131,6 +132,11 @@ value=1Meg
 footprint=1206
 device=resistor
 m=1}
-C {devices/vsource.sym} 450 -330 0 0 {name=V2 value=0}
-C {devices/gnd.sym} 450 -300 0 0 {name=l2 lab=VGND}
-C {lab_pin.sym} 450 -360 0 0 {name=p5 sig_type=std_logic lab=0}
+C {devices/vsource.sym} 490 -330 0 0 {name=V2 value=0}
+C {devices/gnd.sym} 490 -300 0 0 {name=l2 lab=VGND}
+C {lab_pin.sym} 490 -360 0 0 {name=p5 sig_type=std_logic lab=0}
+C {devices/vsource.sym} 250 -330 0 0 {name=V3 value=3.3}
+C {devices/gnd.sym} 250 -300 0 0 {name=l6 lab=VGND}
+C {devices/vdd.sym} 250 -360 0 0 {name=l7 lab=VAPWR}
+C {devices/vdd.sym} 400 -360 0 0 {name=l8 lab=VDPWR}
+C {devices/vsource.sym} 400 -330 0 0 {name=V4 value=1.8}

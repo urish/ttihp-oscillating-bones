@@ -6,40 +6,91 @@ import math
 RADIUS = 6000
 STAGES = 21
 
+HFLIP_STAGES = [1, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+VFLIP_STAGES = [13, 14, 15, 16, 17, 18]
+
 lines = [
     "magic",
     "tech sky130A",
+    "magscale 1 2",
     "timestamp 1712735402",
 ]
 
-lines += [
+metal1 = [
+    f"<< metal1 >>",
+]
+
+metal2 = [
     f"<< metal2 >>",
 ]
+
+instances = []
+
+
+def rect(x1, y1, x2, y2):
+    xmin = min(x1, x2)
+    xmax = max(x1, x2)
+    ymin = min(y1, y2)
+    ymax = max(y1, y2)
+    return f"rect {scale(xmin)} {scale(ymin)} {scale(xmax)} {scale(ymax)}"
 
 
 def circle(cx, cy, r, thickness=10, steps=360):
     for i in range(steps):
         x = cx + r * math.cos(2 * math.pi * i / steps)
         y = cy + r * math.sin(2 * math.pi * i / steps)
-        lines.append(
-            f"rect {int(x-thickness/2)} {int(y-thickness/2)} {int(x+thickness/2)} {int(y+thickness/2)}"
+        metal2.append(
+            rect(
+                x - thickness / 2,
+                y - thickness / 2,
+                x + thickness / 2,
+                y + thickness / 2,
+            )
         )
+
+
+def scale(coord: int) -> int:
+    """Scale a coordinate to match the magic scale factor"""
+    return int(coord * 2)
 
 
 circle(0, 0, 4900, 200, 360)
 circle(0, 0, 7200, 200, 500)
 
+
 for i in range(STAGES):
-    x = int(RADIUS * math.cos(2 * math.pi * i / STAGES)) - 500
-    y = int(RADIUS * math.sin(2 * math.pi * i / STAGES)) - 700
-    lines += [
-        f"use skullfet_inverter  skullfet_inverter_{i}",
-        "timestamp 1712756528",
-        f"transform 1 0 {x} 0 1 {y}",
-        "box 410 120 1900 2780",
+    xsign = -1 if i in HFLIP_STAGES else 1
+    ysign = -1 if i in VFLIP_STAGES else 1
+    x = int(RADIUS * math.cos(2 * math.pi * i / STAGES)) - 500 * xsign
+    y = int(RADIUS * math.sin(2 * math.pi * i / STAGES)) - 700 * ysign
+
+    # Create metal stubs for routing
+    stub_x = x + xsign * 277
+    sig_y = y + 800 * ysign
+    sig_x_right = stub_x + 717 * xsign
+    metal2 += [
+        # Power ports
+        rect(stub_x, y, stub_x + 45 * xsign, y + 100 * ysign),
+        rect(stub_x, y + 1500 * ysign, stub_x + 45 * xsign, y + (1500 + 100) * ysign),
+    ]
+    metal1 += [
+        # Signal ports
+        rect(stub_x, sig_y, stub_x - 100 * xsign, sig_y + 50 * ysign),
+        rect(sig_x_right, sig_y, sig_x_right + 100 * xsign, sig_y + 50 * ysign),
     ]
 
+    # Create the inverter instances
+    instances += [
+        f"use skullfet_inverter_5v  skullfet_inverter_{i}",
+        "timestamp 1735290363",
+        f"transform {xsign} 0 {scale(x)} 0 {ysign} {scale(y)}",
+        "box 454 132 2110 3088",
+    ]
+
+lines += metal1
+lines += metal2
+lines += instances
 lines += ["<< end >>"]
 
 with open("../mag/ring.mag", "w") as f:
-    f.write("\n".join(lines))
+    f.write("\n".join(lines) + "\n")
