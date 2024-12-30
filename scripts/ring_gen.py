@@ -3,11 +3,20 @@
 
 import math
 
-RADIUS = 6000
+RADIUS = 5200
 STAGES = 21
 
-HFLIP_STAGES = [1, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-VFLIP_STAGES = [13, 14, 15, 16, 17, 18]
+HFLIP_STAGES = [1, 12, 13, 14, 15, 16, 17, 18, 19]
+VFLIP_STAGES = [13, 14, 15, 16, 17, 18, 19, 20]
+ADJUSTMENTS = {
+    0: [200, -300],
+    1: [300, -140],
+    9: [0, 200],
+    11: [-400, -100],
+    12: [0, -200],
+    19: [0, -400],
+    20: [0, -500],
+}
 
 lines = [
     "magic",
@@ -54,8 +63,8 @@ def scale(coord: int) -> int:
     return int(coord * 2)
 
 
-circle(0, 0, 4900, 200, 360)
-circle(0, 0, 7200, 200, 500)
+circle(0, 0, 4200, 200, 360)
+circle(0, 0, 6336, 200, 500)
 
 
 for i in range(STAGES):
@@ -63,6 +72,9 @@ for i in range(STAGES):
     ysign = -1 if i in VFLIP_STAGES else 1
     x = int(RADIUS * math.cos(2 * math.pi * i / STAGES)) - 500 * xsign
     y = int(RADIUS * math.sin(2 * math.pi * i / STAGES)) - 700 * ysign
+    if i in ADJUSTMENTS:
+        x += ADJUSTMENTS[i][0]
+        y += ADJUSTMENTS[i][1]
 
     # Create metal stubs for routing
     stub_x = x + xsign * 277
@@ -79,11 +91,13 @@ for i in range(STAGES):
         rect(sig_x_right, sig_y, sig_x_right + 100 * xsign, sig_y + 50 * ysign),
     ]
 
+    transform = f"transform {xsign} 0 {scale(x)} 0 {ysign} {scale(y)}"
+
     # Create the inverter instances
     instances += [
         f"use skullfet_inverter_5v  skullfet_inverter_{i}",
         "timestamp 1735290363",
-        f"transform {xsign} 0 {scale(x)} 0 {ysign} {scale(y)}",
+        transform,
         "box 454 132 2110 3088",
     ]
 

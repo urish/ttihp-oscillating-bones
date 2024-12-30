@@ -18,6 +18,7 @@ x1 clk ena rst_n
 + uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
 + uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
 + uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
++ ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
 + VAPWR VDPWR VGND
 + tt_um_oscillating_bones
 
