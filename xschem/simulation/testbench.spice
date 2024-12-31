@@ -1,6 +1,6 @@
 ** sch_path: /home/uri/p/tt10-oscillating-bones/xschem/testbench.sch
 **.subckt testbench
-x1 osc_out osc_div_2 osc_div_4 osc_div_8 tt_um_oscillating_bones
+x1 osc_out osc_div_2 osc_div_4 osc_div_8 osc_out_3v3 tt_um_oscillating_bones
 V1 VPWR VGND 1.8
 R21 VGND osc_out 1Meg m=1
 R22 VGND osc_div_2 1Meg m=1
@@ -9,6 +9,7 @@ R24 VGND osc_div_8 1Meg m=1
 V2 0 VGND 0
 V3 VAPWR VGND 3.3
 V4 VDPWR VGND 1.8
+R1 VGND osc_out_3v3 1Meg m=1
 **** begin user architecture code
 
 ** opencircuitdesign pdks install
@@ -48,17 +49,19 @@ write testbench.raw
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  tt_um_oscillating_bones.sym # of pins=4
+* expanding   symbol:  tt_um_oscillating_bones.sym # of pins=5
 ** sym_path: /home/uri/p/tt10-oscillating-bones/xschem/tt_um_oscillating_bones.sym
 ** sch_path: /home/uri/p/tt10-oscillating-bones/xschem/tt_um_oscillating_bones.sch
-.subckt tt_um_oscillating_bones uo_out[0] uo_out[1] uo_out[2] uo_out[3]
+.subckt tt_um_oscillating_bones uo_out[0] uo_out[1] uo_out[2] uo_out[3] ua[0]
 *.opin uo_out[1]
 *.opin uo_out[0]
 *.opin uo_out[2]
 *.opin uo_out[3]
+*.opin ua[0]
 x22 uo_out[1] uo_out[2] uo_out[3] uo_out[0] freq_divider
 x1 net1 ring
 x2 net1 uo_out[0] VDPWR skullfet_inverter_5v_pwr
+x3 uo_out[0] ua[0] VAPWR skullfet_inverter_5v_pwr
 .ends
 
 

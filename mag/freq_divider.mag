@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1725542573
+timestamp 1735637413
 << viali >>
 rect 5586 352 5620 386
 rect 7519 352 7553 386
@@ -102,31 +102,31 @@ rect 7212 114 7274 124
 rect 9146 184 9208 194
 rect 9146 122 9208 132
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_1 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 3902 0 1 48
 box -38 -48 1786 592
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_2
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 5834 0 1 48
 box -38 -48 1786 592
 use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_3
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 7766 0 1 48
 box -38 -48 1786 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 5650 0 1 48
 box -38 -48 130 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 5742 0 1 48
 box -38 -48 130 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 7674 0 1 48
 box -38 -48 130 592
 use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_3
-timestamp 1704896540
+timestamp 1735637413
 transform 1 0 7582 0 1 48
 box -38 -48 130 592
 << labels >>

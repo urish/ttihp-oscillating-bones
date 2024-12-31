@@ -26,7 +26,7 @@ x1 clk ena rst_n
 
 .control
 run
-plot "uo_out[0]" "uo_out[1]"+2 "uo_out[2]"+4 "uo_out[3]"+6
+plot "uo_out[0]" "ua[0]" "uo_out[1]"+4 "uo_out[2]"+6 "uo_out[3]"+8
 meas tran tdiff TRIG "uo_out[0]" VAL=1.7 RISE=2 TARG "uo_out[0]" VAL=1.7 RISE=3
 let freq_mhz = (1 / (tdiff) / 1e6)
 print freq_mhz

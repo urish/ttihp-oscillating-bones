@@ -47,11 +47,11 @@ N 480 -500 480 -490 {lab=osc_div_4}
 N 380 -480 380 -470 {lab=osc_div_8}
 N 380 -480 480 -480 {lab=osc_div_8}
 N 480 -480 480 -470 {lab=osc_div_8}
-N 560 -470 560 -450 {lab=VGND}
-N 560 -490 560 -470 {lab=VGND}
-N 560 -510 560 -490 {lab=VGND}
-N 560 -530 560 -510 {lab=VGND}
-N 560 -450 560 -420 {lab=VGND}
+N 580 -470 580 -450 {lab=VGND}
+N 580 -490 580 -470 {lab=VGND}
+N 580 -510 580 -490 {lab=VGND}
+N 580 -530 580 -510 {lab=VGND}
+N 580 -450 580 -420 {lab=VGND}
 N 350 -530 380 -530 {lab=osc_out}
 N 350 -510 380 -510 {lab=osc_div_2}
 N 350 -490 380 -490 {lab=osc_div_4}
@@ -61,6 +61,16 @@ N 480 -490 500 -490 {lab=osc_div_4}
 N 480 -510 500 -510 {lab=osc_div_2}
 N 480 -530 500 -530 {lab=osc_out}
 N 340 -300 400 -300 {lab=VGND}
+N 380 -460 380 -450 {lab=osc_out_3v3}
+N 380 -460 480 -460 {lab=osc_out_3v3}
+N 350 -450 380 -450 {lab=osc_out_3v3}
+N 500 -530 520 -530 {lab=osc_out}
+N 500 -510 520 -510 {lab=osc_div_2}
+N 500 -490 520 -490 {lab=osc_div_4}
+N 500 -470 520 -470 {lab=osc_div_8}
+N 500 -450 520 -450 {lab=osc_out_3v3}
+N 480 -460 500 -460 {lab=osc_out_3v3}
+N 500 -460 500 -450 {lab=osc_out_3v3}
 C {devices/code.sym} 90 -220 0 0 {name=TT_MODELS
 only_toplevel=true
 format="tcleval( @value )"
@@ -71,7 +81,7 @@ value="
 
 "
 spice_ignore=false}
-C {tt_um_oscillating_bones.sym} 200 -500 0 0 {name=x1}
+C {tt_um_oscillating_bones.sym} 200 -490 0 0 {name=x1}
 C {devices/code.sym} 240 -220 0 0 {name=STIMULI only_toplevel=false value="
 
 .tran 50p 200n
@@ -111,23 +121,23 @@ C {lab_pin.sym} 380 -530 2 0 {name=p1 sig_type=std_logic lab=osc_out}
 C {lab_pin.sym} 380 -510 2 0 {name=p2 sig_type=std_logic lab=osc_div_2}
 C {lab_pin.sym} 380 -490 2 0 {name=p3 sig_type=std_logic lab=osc_div_4}
 C {lab_pin.sym} 380 -470 2 0 {name=p4 sig_type=std_logic lab=osc_div_8}
-C {devices/gnd.sym} 560 -420 0 0 {name=l1 lab=VGND}
-C {res.sym} 530 -530 1 0 {name=R21
+C {devices/gnd.sym} 580 -420 0 0 {name=l1 lab=VGND}
+C {res.sym} 550 -530 1 0 {name=R21
 value=1Meg
 footprint=1206
 device=resistor
 m=1}
-C {res.sym} 530 -510 1 0 {name=R22
+C {res.sym} 550 -510 1 0 {name=R22
 value=1Meg
 footprint=1206
 device=resistor
 m=1}
-C {res.sym} 530 -490 1 0 {name=R23
+C {res.sym} 550 -490 1 0 {name=R23
 value=1Meg
 footprint=1206
 device=resistor
 m=1}
-C {res.sym} 530 -470 1 0 {name=R24
+C {res.sym} 550 -470 1 0 {name=R24
 value=1Meg
 footprint=1206
 device=resistor
@@ -140,3 +150,9 @@ C {devices/gnd.sym} 250 -300 0 0 {name=l6 lab=VGND}
 C {devices/vdd.sym} 250 -360 0 0 {name=l7 lab=VAPWR}
 C {devices/vdd.sym} 400 -360 0 0 {name=l8 lab=VDPWR}
 C {devices/vsource.sym} 400 -330 0 0 {name=V4 value=1.8}
+C {lab_pin.sym} 380 -450 2 0 {name=p6 sig_type=std_logic lab=osc_out_3v3}
+C {res.sym} 550 -450 1 0 {name=R1
+value=1Meg
+footprint=1206
+device=resistor
+m=1}

@@ -54,7 +54,7 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
+  ua[0]: "osc_out_3v3"
   ua[1]: ""
   ua[2]: ""
   ua[3]: ""
