@@ -1,0 +1,198 @@
+<scene version="3.0.0">
+
+    <emitter type="envmap">
+        <string name="filename" value="cyclorama_hard_light_2k.hdr" />
+
+        <float name="scale" value="1.2" />
+        <transform name="to_world">
+            <rotate x="1" angle="-90" />
+            <rotate y="1" angle="180" />
+        </transform>
+    </emitter>
+
+    <shape type="rectangle">
+        <emitter type="area">
+            <rgb name="radiance" value="1.0,1.0,0.62" />
+        </emitter>
+        <transform name="to_world">
+            <scale value="500" />
+            <lookat origin="200, 200, 400" target="200, 200, 0" up="0, 1, 0" />
+        </transform>
+    </shape>
+
+
+    <shape type="rectangle">
+        <emitter type="area">
+            <rgb name="radiance" value="0.62,0.62,1.0" />
+        </emitter>
+        <transform name="to_world">
+            <scale value="500" />
+            <lookat origin="0, 0, 400" target="200, 200, 0" up="0, 1, 0" />
+        </transform>
+    </shape>
+
+    <!-- PERSPECTIVE WITH DEPTH OF FIELD -->
+    <sensor type="thinlens">
+        <float name="near_clip" value="1e-10" />
+        <float name="far_clip" value="1e10" />
+        <float name="fov" value="100" />
+        <transform name="to_world">
+            <lookat origin="80, 40, 60" target="80, 80, 10" up="0, 1, 0" />
+        </transform>
+        <!-- Focus on the target -->
+        <float name="focus_distance" value="90" />
+        <float name="aperture_radius" value="0.85" />
+        <!-- film -->
+        <film type="hdrfilm">
+            <string name="pixel_format" value="rgba" />
+            <integer name="width" value="320" />
+            <integer name="height" value="240" />
+            <rfilter type="catmullrom" />
+        </film>
+        <!-- sampler -->
+    </sensor>
+
+    <!-- TOPLEFT -->
+    <sensor type="orthographic">
+        <transform name="to_world">
+            <scale x="50" y="100" />
+            <lookat origin="0, 0, 75" target="50, 50, 0" up="0, 0, 1" />
+        </transform>
+        <film type="hdrfilm">
+            <string name="pixel_format" value="rgba" />
+            <integer name="width" value="320" />
+            <integer name="height" value="240" />
+        </film>
+    </sensor>
+
+    <!-- TOP -->
+    <sensor type="orthographic">
+        <transform name="to_world">
+            <scale x="100" y="100" />
+            <lookat origin="50, 50, 50" target="50, 50, 0" up="0, 1, 0" />
+        </transform>
+        <film type="hdrfilm">
+            <string name="pixel_format" value="rgba" />
+            <integer name="width" value="320" />
+            <integer name="height" value="240" />
+        </film>
+    </sensor>
+
+    <integrator type="path">
+        <integer name="max_depth" value="-1" />
+        <boolean name="hide_emitters" value="true" />
+    </integrator>
+
+    <shape type="shapegroup" id="my_shape_group">
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_substrate.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_diff.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_nwell.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_poly.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_li1.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="Au" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_licon.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_met1.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_via.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_met2.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="Au" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_via2.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_met3.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_via3.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="a-C" />
+            </bsdf>
+        </shape>
+
+        <shape type="obj">
+            <string name="filename" value="../gds/tt_um_oscillating_bones.gds_met4.obj" />
+            <boolean name="face_normals" value="true" />
+            <bsdf type="roughconductor">
+                <string name="material" value="Au" />
+            </bsdf>
+        </shape>
+    </shape>
+
+    <shape type="instance">
+        <ref id="my_shape_group" />
+        <transform name="to_world">
+        </transform>
+    </shape>
+</scene>

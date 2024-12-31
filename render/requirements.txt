@@ -1,0 +1,5 @@
+drjit==1.0.1
+mitsuba==3.6.0
+triangle==20230923
+gdspy==1.6.13
+numpy==2.2.1
