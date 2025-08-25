@@ -21,7 +21,7 @@ A simple yet stylish ring oscillator that uses a chain of 21 SkullFET inverters 
 
 ## How to test
 
-Connect an oscilloscope to one of `osc_out_3v3` or `osc_div_8` (uo_out pin 3) pin and enjoy the show. The remaining output pins, `osc_out`, `osc_div_2`, and `osc_div_4`, are likely to be changing too fast for GPIO pins to handle (the GPIO pins are limited to around 33 MHz), so you will probably not be able to observe them directly.
+Connect an oscilloscope to `osc_div_8` (uo_out pin 3) and enjoy the show. If you want to push your luck, you can also connect the oscilloscope to `osc_div_4`, `osc_div_2`, or `osc_out`.
 
 ## Simulation results
 
@@ -29,6 +29,6 @@ The following graph shows the output of the oscillator and the divided outputs. 
 
 ![Simulation results](sim.png)
 
-The outputs are shifted by 2 volts to make them easier to see in the graph. "uo_out[0]" is the main output of the oscillator, "ua[0]" is the 3v3 analog output, and "uo_out[1]"/"uo_out[2]"/"uo_out[3]" are the divided outputs.
+The outputs are shifted by 2 volts to make them easier to see in the graph. "uo_out[0]" is the main output of the oscillator and "uo_out[1]"/"uo_out[2]"/"uo_out[3]" are the divided outputs.
 
 Please note that the simulation results do not account for all parasitics, only the primary ones. Consequently, the actual frequency of the oscillator is likely to be lower than the simulated value.
