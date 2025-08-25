@@ -14,6 +14,8 @@ V4 VDPWR VGND 1.8
 
 
 
+.param temp=27
+.param mc_ok=1
 
 .tran 50p 200n
 .save all
@@ -52,22 +54,24 @@ write testbench.raw
 *.opin uo_out[0]
 *.opin uo_out[2]
 *.opin uo_out[3]
-x22 uo_out[1] uo_out[2] uo_out[3] uo_out[0] freq_divider
+x22 uo_out[1] uo_out[2] uo_out[3] uo_out[0] VDPWR VGND freq_divider
 x1 uo_out[0] ring
 .ends
 
 
-* expanding   symbol:  freq_divider.sym # of pins=4
+* expanding   symbol:  freq_divider.sym # of pins=6
 ** sym_path: /home/uri/p/ttihp-oscillating-bones/xschem/freq_divider.sym
 ** sch_path: /home/uri/p/ttihp-oscillating-bones/xschem/freq_divider.sch
-.subckt freq_divider ODIV2 ODIV4 ODIV8 IN
+.subckt freq_divider ODIV2 ODIV4 ODIV8 IN VDD VSS
 *.ipin IN
 *.opin ODIV2
 *.opin ODIV4
 *.opin ODIV8
-x4 IN net3 ODIV2 net3 VDPWR VDD VSS sg13g2_dfrbp_2
-x1 ODIV2 net1 ODIV4 net1 VDPWR VDD VSS sg13g2_dfrbp_2
-x2 ODIV4 net2 ODIV8 net2 VDPWR VDD VSS sg13g2_dfrbp_2
+*.ipin VDD
+*.ipin VSS
+x4 ODIV2 net3 IN net3 VDD VDD VSS sg13g2_dfrbp_2
+x1 ODIV4 net1 ODIV2 net1 VDD VDD VSS sg13g2_dfrbp_2
+x2 ODIV8 net2 ODIV4 net2 VDD VDD VSS sg13g2_dfrbp_2
 .ends
 
 
@@ -106,8 +110,8 @@ x21 net19 net20 skullfet_inverter
 .subckt skullfet_inverter A Y
 *.ipin A
 *.opin Y
-XM1 Y A VDPWR VDPWR sg13_lv_pmos w=0.15u l=0.13u ng=1 m=1
-XM2 Y A VGND VGND sg13_lv_nmos w=0.15u l=0.13u ng=1 m=1
+XM1 Y A VDPWR VDPWR sg13_lv_pmos w=4.05u l=0.4u ng=1 m=1
+XM2 Y A VGND VGND sg13_lv_nmos w=4.05u l=0.4u ng=1 m=1
 .ends
 
 .GLOBAL VGND

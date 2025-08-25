@@ -66,6 +66,8 @@ value="
 spice_ignore=false}
 C {tt_um_oscillating_bones.sym} 200 -500 0 0 {name=x1}
 C {devices/code.sym} 240 -220 0 0 {name=STIMULI only_toplevel=false value="
+.param temp=27
+.param mc_ok=1
 
 .tran 50p 200n
 .save all

@@ -27,12 +27,12 @@ N -80 30 110 30 {lab=#net1}
 N 130 -10 140 -10 {lab=#net2}
 N 130 -10 130 30 {lab=#net2}
 N 130 30 320 30 {lab=#net2}
-N -280 10 -280 50 {lab=#net4}
-N -70 10 -70 50 {lab=#net4}
-N -280 50 -70 50 {lab=#net4}
-N -330 50 -280 50 {lab=#net4}
-N 140 10 140 50 {lab=#net4}
-N -70 50 140 50 {lab=#net4}
+N -280 10 -280 50 {lab=VDD}
+N -70 10 -70 50 {lab=VDD}
+N -280 50 -70 50 {lab=VDD}
+N -330 50 -280 50 {lab=VDD}
+N 140 10 140 50 {lab=VDD}
+N -70 50 140 50 {lab=VDD}
 C {ipin.sym} -320 -30 0 0 {name=p1 lab=IN}
 C {opin.sym} -70 -80 0 0 {name=p2 lab=ODIV2}
 C {opin.sym} 140 -80 0 0 {name=p3 lab=ODIV4}
@@ -40,4 +40,5 @@ C {opin.sym} 330 -80 0 0 {name=p4 lab=ODIV8}
 C {sg13g2_stdcells/sg13g2_dfrbp_2.sym} -190 -10 0 0 {name=x4 VDD=VDD VSS=VSS prefix=sg13g2_ }
 C {sg13g2_stdcells/sg13g2_dfrbp_2.sym} 20 -10 0 0 {name=x1 VDD=VDD VSS=VSS prefix=sg13g2_ }
 C {sg13g2_stdcells/sg13g2_dfrbp_2.sym} 230 -10 0 0 {name=x2 VDD=VDD VSS=VSS prefix=sg13g2_ }
-C {devices/vdd.sym} -330 50 0 0 {name=l4 lab=VDPWR}
+C {ipin.sym} -330 50 0 0 {name=p5 lab=VDD}
+C {ipin.sym} -330 80 0 0 {name=p6 lab=VSS}
