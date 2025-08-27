@@ -1,5 +1,5 @@
 magic
-tech sky130A
+tech ihp-sg13g2
 magscale 1 2
 timestamp 1735637413
 << viali >>
@@ -113,22 +113,6 @@ use sky130_fd_sc_hd__dfxbp_1  sky130_fd_sc_hd__dfxbp_1_3
 timestamp 1735637413
 transform 1 0 7766 0 1 48
 box -38 -48 1786 592
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_0 $PDKPATH/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1735637413
-transform 1 0 5650 0 1 48
-box -38 -48 130 592
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_1
-timestamp 1735637413
-transform 1 0 5742 0 1 48
-box -38 -48 130 592
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_2
-timestamp 1735637413
-transform 1 0 7674 0 1 48
-box -38 -48 130 592
-use sky130_fd_sc_hd__tapvpwrvgnd_1  sky130_fd_sc_hd__tapvpwrvgnd_1_3
-timestamp 1735637413
-transform 1 0 7582 0 1 48
-box -38 -48 130 592
 << labels >>
 flabel metal2 3986 243 4012 374 1 FreeSans 2 0 0 0 IN
 port 1 nsew default input

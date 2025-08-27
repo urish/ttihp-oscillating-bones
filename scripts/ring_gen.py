@@ -2,109 +2,126 @@
 # Author: Uri Shaked
 
 import math
+import gdstk
+import os.path
 
-RADIUS = 5200
+GDS_PATH = os.path.join(os.path.dirname(__file__), "../gds")
+GDS_FILE = os.path.join(GDS_PATH, "ring.gds")
+
+RADIUS = 52.00
 STAGES = 21
 
 HFLIP_STAGES = [1, 12, 13, 14, 15, 16, 17, 18, 19]
 VFLIP_STAGES = [13, 14, 15, 16, 17, 18, 19, 20]
 ADJUSTMENTS = {
-    0: [200, -300],
-    1: [300, -140],
-    9: [0, 200],
-    11: [-400, -100],
-    12: [0, -200],
-    19: [0, -400],
-    20: [0, -500],
+    0: [2.00, -3.00],
+    1: [3.00, -1.40],
+    9: [0, 2.00],
+    11: [-4.00, -1.00],
+    12: [0, -2.00],
+    19: [0, -4.00],
+    20: [0, -5.00],
 }
 
-lines = [
-    "magic",
-    "tech sky130A",
-    "magscale 1 2",
-    "timestamp 1712735402",
-]
-
-metal1 = [
-    f"<< metal1 >>",
-]
-
-metal2 = [
-    f"<< metal2 >>",
-]
-
-instances = []
-
-
-def rect(x1, y1, x2, y2):
-    xmin = min(x1, x2)
-    xmax = max(x1, x2)
-    ymin = min(y1, y2)
-    ymax = max(y1, y2)
-    return f"rect {scale(xmin)} {scale(ymin)} {scale(xmax)} {scale(ymax)}"
+LAYERS = {
+    "metal2.drawing": {"layer": 10, "datatype": 0},
+    "metal3.drawing": {"layer": 30, "datatype": 0},
+}
 
 
 def circle(cx, cy, r, thickness=10, steps=360):
+    rects = []
     for i in range(steps):
         x = cx + r * math.cos(2 * math.pi * i / steps)
         y = cy + r * math.sin(2 * math.pi * i / steps)
-        metal2.append(
-            rect(
-                x - thickness / 2,
-                y - thickness / 2,
-                x + thickness / 2,
-                y + thickness / 2,
+        rects.append(
+            gdstk.rectangle(
+                (x - thickness / 2, y - thickness / 2),
+                (x + thickness / 2, y + thickness / 2),
+                **LAYERS["metal3.drawing"]
+            )
+        )
+    return rects
+
+
+def load_skullfet_inverter():
+    gds = gdstk.read_gds(os.path.join(GDS_PATH, "skullfet_inverter.gds"))
+    return gds.top_level()[0]
+
+
+def generate_ring(skullfet_inverter):
+    cell = gdstk.Cell("ring")
+    # Ring boundaries
+    cell.add(*circle(0, 0, 42.00, 2.00, 360))
+    cell.add(*circle(0, 0, 63.36, 2.00, 500))
+
+    # Ring'o'skulls
+    for i in range(STAGES):
+        xsign = -1 if i in HFLIP_STAGES else 1
+        ysign = -1 if i in VFLIP_STAGES else 1
+        x = int(RADIUS * math.cos(2 * math.pi * i / STAGES)) - 5.00 * xsign
+        y = int(RADIUS * math.sin(2 * math.pi * i / STAGES)) - 7.00 * ysign
+        if i in ADJUSTMENTS:
+            x += ADJUSTMENTS[i][0]
+            y += ADJUSTMENTS[i][1]
+
+        # Create metal stubs for routing
+        stub_x = x + xsign * 2.77
+        sig_y = y + 8.00 * ysign
+        sig_x_right = stub_x + 7.17 * xsign
+
+        # Power ports
+        cell.add(
+            gdstk.rectangle(
+                (stub_x, y),
+                (stub_x + 0.45 * xsign, y + 1.00 * ysign),
+                **LAYERS["metal3.drawing"]
+            )
+        )
+        cell.add(
+            gdstk.rectangle(
+                (stub_x, y + 15.00 * ysign),
+                (stub_x + 0.45 * xsign, y + (15.00 + 1.00) * ysign),
+                **LAYERS["metal3.drawing"]
             )
         )
 
-
-def scale(coord: int) -> int:
-    """Scale a coordinate to match the magic scale factor"""
-    return int(coord * 2)
-
-
-circle(0, 0, 4200, 200, 360)
-circle(0, 0, 6336, 200, 500)
-
-
-for i in range(STAGES):
-    xsign = -1 if i in HFLIP_STAGES else 1
-    ysign = -1 if i in VFLIP_STAGES else 1
-    x = int(RADIUS * math.cos(2 * math.pi * i / STAGES)) - 500 * xsign
-    y = int(RADIUS * math.sin(2 * math.pi * i / STAGES)) - 700 * ysign
-    if i in ADJUSTMENTS:
-        x += ADJUSTMENTS[i][0]
-        y += ADJUSTMENTS[i][1]
-
-    # Create metal stubs for routing
-    stub_x = x + xsign * 277
-    sig_y = y + 800 * ysign
-    sig_x_right = stub_x + 717 * xsign
-    metal2 += [
-        # Power ports
-        rect(stub_x, y, stub_x + 45 * xsign, y + 100 * ysign),
-        rect(stub_x, y + 1500 * ysign, stub_x + 45 * xsign, y + (1500 + 100) * ysign),
-    ]
-    metal1 += [
         # Signal ports
-        rect(stub_x, sig_y, stub_x - 100 * xsign, sig_y + 50 * ysign),
-        rect(sig_x_right, sig_y, sig_x_right + 100 * xsign, sig_y + 50 * ysign),
-    ]
+        cell.add(
+            gdstk.rectangle(
+                (stub_x, sig_y),
+                (stub_x - 1.00 * xsign, sig_y + 0.50 * ysign),
+                **LAYERS["metal2.drawing"]
+            )
+        )
+        cell.add(
+            gdstk.rectangle(
+                (sig_x_right, sig_y),
+                (sig_x_right + 1.00 * xsign, sig_y + 0.50 * ysign),
+                **LAYERS["metal2.drawing"]
+            )
+        )
 
-    transform = f"transform {xsign} 0 {scale(x)} 0 {ysign} {scale(y)}"
+        # Add the inverter instance
+        x_reflect = xsign == -1
+        rotation = 0
+        if ysign == -1:
+            rotation = math.pi
+            x_reflect = False
+        #if xsign != ysign:
+        #   rotation = math.pi/2
+        cell.add(
+            gdstk.Reference(
+                skullfet_inverter, (x, y), x_reflection=x_reflect, rotation=rotation
+            )
+        )
 
-    # Create the inverter instances
-    instances += [
-        f"use skullfet_inverter_5v  skullfet_inverter_{i}",
-        "timestamp 1735290363",
-        transform,
-        "box 454 132 2110 3088",
-    ]
+    return cell
 
-lines += metal1
-lines += metal2
-lines += instances
-lines += ["<< end >>"]
 
-with open("../mag/ring.mag", "w") as f:
-    f.write("\n".join(lines) + "\n")
+if __name__ == "__main__":
+    lib = gdstk.Library()
+    skullfet_inverter = load_skullfet_inverter()
+    lib.add(skullfet_inverter)
+    lib.add(generate_ring(skullfet_inverter))
+    lib.write_gds(GDS_FILE)

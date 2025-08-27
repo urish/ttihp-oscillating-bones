@@ -1,16 +1,36 @@
 # SPDX-License-Identifier: Apache-2.0
 # Author: Uri Shaked
 
-PROJECT=tt_um_oscillating_bones
+MACRO := tt_um_oscillating_bones
+TARGET_GDS := gds/$(MACRO).gds
+SOURCE_GDS := gds/$(MACRO).source.gds
+TARGET_LEF := lef/$(MACRO).lef
+SPICE := spice/$(MACRO).spice
 
-all: gds/$(PROJECT).gds lef/$(PROJECT).lef
+PDK := ihp-sg13g2
+MAGIC_RC := $(PDK_ROOT)/$(PDK)/libs.tech/magic/$(PDK).magicrc
 
-gds/$(PROJECT).gds: mag/$(PROJECT).mag
-	echo "select top cell; gds write \"$@\"" | magic -rcfile $(PDK_ROOT)/sky130A/libs.tech/magic/sky130A.magicrc -noconsole -dnull $<
+all: $(TARGET_GDS) $(TARGET_LEF)
+.PHONY: all
 
-lef/$(PROJECT).lef: mag/$(PROJECT).mag
-	echo "select top cell; lef write \"$@\" -pinonly -hide" | magic -rcfile $(PDK_ROOT)/sky130A/libs.tech/magic/sky130A.magicrc -noconsole -dnull $<
+$(TARGET_GDS): $(SOURCE_GDS)
+	python scripts/make_final_gds.py $< $@
+
+$(TARGET_LEF): $(TARGET_GDS)
+	echo "gds read $<; load $(MACRO); select top cell; lef write \"$@\" -pinonly -hide" | magic -rcfile $(MAGIC_RC) -noconsole -dnull
+
+$(SPICE): $(TARGET_GDS)
+	magic -rcfile $(MAGIC_RC) -noconsole -dnull scripts/extract_for_sim.tcl $< $@ $(MACRO)
+
+spice/pdk_lib.spice:
+	echo ".lib '$(PDK_ROOT)/$(PDK)/libs.tech/ngspice/models/cornerCAP.lib cap_typ' tt" > $@
+	echo ".lib '$(PDK_ROOT)/$(PDK)/libs.tech/ngspice/models/cornerMOSlv.lib mos_tt' tt" >> $@
+	echo ".include '$(PDK_ROOT)/$(PDK)/libs.ref/sg13g2_stdcell/spice/sg13g2_stdcell.spice'" >> $@
+
+sim: $(SPICE) spice/pdk_lib.spice spice/testbench.spice
+	ngspice spice/testbench.spice
+.phony: sim
 
 clean:
-	rm -f gds/$(PROJECT).gds lef/$(PROJECT).lef
+	rm -f $(TARGET_GDS) $(SPICE)
 .PHONY: clean

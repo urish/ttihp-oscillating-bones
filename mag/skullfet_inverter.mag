@@ -1,5 +1,5 @@
 magic
-tech sky130A
+tech ihp-sg13g2
 timestamp 1712756528
 << nwell >>
 rect 305 60 825 630
@@ -106,7 +106,7 @@ rect 770 255 900 295
 << polycont >>
 rect 860 925 890 975
 rect 860 485 890 535
-<< locali >>
+<< metal1 >>
 rect 330 1375 410 1380
 rect 330 1335 345 1375
 rect 395 1335 410 1375
@@ -149,12 +149,12 @@ rect 335 135 405 165
 rect 335 100 350 135
 rect 390 100 405 135
 rect 335 95 405 100
-<< viali >>
+<< via1 >>
 rect 320 1270 345 1295
 rect 255 710 295 780
 rect 855 710 895 780
 rect 345 175 370 195
-<< metal1 >>
+<< metal2 >>
 rect 473 1330 689 1357
 rect 250 1305 290 1315
 rect 250 1270 255 1305
@@ -245,10 +245,10 @@ rect 295 160 300 165
 rect 250 150 300 160
 rect 446 142 689 169
 rect 473 115 689 142
-<< via1 >>
+<< via2 >>
 rect 255 1270 285 1305
 rect 255 160 295 195
-<< metal2 >>
+<< metal3 >>
 rect 250 1305 290 1390
 rect 473 1330 689 1357
 rect 250 1270 255 1305
@@ -331,12 +331,12 @@ rect 260 80 880 1390
 << fillblock >>
 rect 260 80 880 1390
 << labels >>
-flabel metal1 s 250 1260 290 1305 0 FreeSans 240 90 0 0 VGND
+flabel metal2 s 250 1260 290 1305 0 FreeSans 240 90 0 0 VGND
 port 1 nsew ground bidirectional abutment
-flabel metal1 s 250 165 300 205 0 FreeSans 240 90 0 0 VPWR
+flabel metal2 s 250 165 300 205 0 FreeSans 240 90 0 0 VDPWR
 port 2 nsew power bidirectional abutment
-flabel locali s 250 705 300 785 0 FreeSans 340 0 0 0 Y
+flabel metal1 s 250 705 300 785 0 FreeSans 340 0 0 0 Y
 port 3 s signal output
-flabel locali s 850 705 900 785 0 FreeSans 340 0 0 0 A
+flabel metal1 s 850 705 900 785 0 FreeSans 340 0 0 0 A
 port 4 e signal input
 << end >>
