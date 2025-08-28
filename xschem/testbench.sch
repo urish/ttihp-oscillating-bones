@@ -75,19 +75,19 @@ C {devices/code.sym} 240 -220 0 0 {name=STIMULI only_toplevel=false value="
 .control
 run
 
-meas tran tdiff TRIG "osc_out" VAL=1.7 RISE=2 TARG "osc_out" VAL=1.7 RISE=3
+meas tran tdiff TRIG "osc_out" VAL=1.1 RISE=2 TARG "osc_out" VAL=1.1 RISE=3
 let osc_freq_mhz = (1 / (tdiff) / 1e6)
 save osc_freq_mhz
 
-meas tran tdiff_div2 TRIG "osc_div_2" VAL=1.7 RISE=2 TARG "osc_div_2" VAL=1.7 RISE=3
+meas tran tdiff_div2 TRIG "osc_div_2" VAL=1.1 RISE=2 TARG "osc_div_2" VAL=1.1 RISE=3
 let osc_div_2_freq_mhz = (1 / (tdiff_div2) / 1e6)
 save osc_div_2_freq_mhz
 
-meas tran tdiff_div4 TRIG "osc_div_4" VAL=1.7 RISE=2 TARG "osc_div_4" VAL=1.7 RISE=3
+meas tran tdiff_div4 TRIG "osc_div_4" VAL=1.1 RISE=2 TARG "osc_div_4" VAL=1.1 RISE=3
 let osc_div_4_freq_mhz = (1 / (tdiff_div4) / 1e6)
 save osc_div_4_freq_mhz
 
-meas tran tdiff_div8 TRIG "osc_div_8" VAL=1.7 RISE=2 TARG "osc_div_8" VAL=1.7 RISE=3
+meas tran tdiff_div8 TRIG "osc_div_8" VAL=1.1 RISE=2 TARG "osc_div_8" VAL=1.1 RISE=3
 let osc_div_8_freq_mhz = (1 / (tdiff_div8) / 1e6)
 save osc_div_8_freq_mhz
 
@@ -129,4 +129,4 @@ C {devices/vsource.sym} 490 -330 0 0 {name=V2 value=0}
 C {devices/gnd.sym} 490 -300 0 0 {name=l2 lab=VGND}
 C {lab_pin.sym} 490 -360 0 0 {name=p5 sig_type=std_logic lab=0}
 C {devices/vdd.sym} 370 -360 0 0 {name=l8 lab=VDPWR}
-C {devices/vsource.sym} 370 -330 0 0 {name=V4 value=1.8}
+C {devices/vsource.sym} 370 -330 0 0 {name=V4 value=1.2}

@@ -58,3 +58,7 @@ C {skullfet_inverter.sym} 220 300 0 1 {name=x19}
 C {skullfet_inverter.sym} 100 300 0 1 {name=x20}
 C {skullfet_inverter.sym} -20 300 0 1 {name=x21}
 C {opin.sym} 620 -70 0 0 {name=p1 lab=ROSC_OUT}
+C {devices/code.sym} 630 230 0 0 {name=NGSPICE only_toplevel=false value="
+* Set an initial condition on net1 (0.0001 V) to break symmetry and assist DC operating point convergence in ngspice
+.ic V(net1)=0.0001
+"}
