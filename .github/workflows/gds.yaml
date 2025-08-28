@@ -33,6 +33,8 @@ jobs:
     steps:
       - name: Run Tiny Tapeout Precheck
         uses: TinyTapeout/tt-gds-action/precheck@ttihp25b
+        with:
+          pdk: ihp         
 
   viewer:
     needs: gds
