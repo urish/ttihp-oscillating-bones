@@ -7,18 +7,6 @@ MACRO tt_um_oscillating_bones
   FOREIGN tt_um_oscillating_bones ;
   ORIGIN 0.000 0.000 ;
   SIZE 202.080 BY 313.740 ;
-  PIN VGND
-    PORT
-      LAYER Metal5 ;
-        RECT 6.000 0.000 8.000 310.000 ;
-    END
-  END VGND
-  PIN VDPWR
-    PORT
-      LAYER Metal5 ;
-        RECT 10.000 0.000 12.000 310.000 ;
-    END
-  END VDPWR
   PIN ena
     PORT
       LAYER Metal5 ;
@@ -133,161 +121,201 @@ MACRO tt_um_oscillating_bones
         RECT 121.770 312.740 122.070 313.740 ;
     END
   END uio_in[7]
-  PIN uio_oe[0]
+  PIN uo_out[0]
+    ANTENNAGATEAREA 0.241800 ;
     PORT
       LAYER Metal5 ;
         RECT 117.930 312.740 118.230 313.740 ;
     END
-  END uio_oe[0]
-  PIN uio_oe[1]
+  END uo_out[0]
+  PIN uo_out[1]
+    ANTENNAGATEAREA 0.241800 ;
+    ANTENNADIFFAREA 0.712400 ;
     PORT
       LAYER Metal5 ;
         RECT 114.090 312.740 114.390 313.740 ;
     END
-  END uio_oe[1]
-  PIN uio_oe[2]
+  END uo_out[1]
+  PIN uo_out[2]
+    ANTENNAGATEAREA 0.241800 ;
+    ANTENNADIFFAREA 0.712400 ;
     PORT
       LAYER Metal5 ;
         RECT 110.250 312.740 110.550 313.740 ;
     END
-  END uio_oe[2]
-  PIN uio_oe[3]
+  END uo_out[2]
+  PIN uo_out[3]
+    ANTENNADIFFAREA 0.712400 ;
     PORT
       LAYER Metal5 ;
         RECT 106.410 312.740 106.710 313.740 ;
     END
-  END uio_oe[3]
-  PIN uio_oe[4]
+  END uo_out[3]
+  PIN uo_out[4]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 102.570 312.740 102.870 313.740 ;
     END
-  END uio_oe[4]
-  PIN uio_oe[5]
+  END uo_out[4]
+  PIN uo_out[5]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 98.730 312.740 99.030 313.740 ;
     END
-  END uio_oe[5]
-  PIN uio_oe[6]
+  END uo_out[5]
+  PIN uo_out[6]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 94.890 312.740 95.190 313.740 ;
     END
-  END uio_oe[6]
-  PIN uio_oe[7]
+  END uo_out[6]
+  PIN uo_out[7]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 91.050 312.740 91.350 313.740 ;
     END
-  END uio_oe[7]
+  END uo_out[7]
   PIN uio_out[0]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 87.210 312.740 87.510 313.740 ;
     END
   END uio_out[0]
   PIN uio_out[1]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 83.370 312.740 83.670 313.740 ;
     END
   END uio_out[1]
   PIN uio_out[2]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 79.530 312.740 79.830 313.740 ;
     END
   END uio_out[2]
   PIN uio_out[3]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 75.690 312.740 75.990 313.740 ;
     END
   END uio_out[3]
   PIN uio_out[4]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 71.850 312.740 72.150 313.740 ;
     END
   END uio_out[4]
   PIN uio_out[5]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 68.010 312.740 68.310 313.740 ;
     END
   END uio_out[5]
   PIN uio_out[6]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 64.170 312.740 64.470 313.740 ;
     END
   END uio_out[6]
   PIN uio_out[7]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 60.330 312.740 60.630 313.740 ;
     END
   END uio_out[7]
-  PIN uo_out[0]
+  PIN uio_oe[0]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 56.490 312.740 56.790 313.740 ;
     END
-  END uo_out[0]
-  PIN uo_out[1]
+  END uio_oe[0]
+  PIN uio_oe[1]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 52.650 312.740 52.950 313.740 ;
     END
-  END uo_out[1]
-  PIN uo_out[2]
+  END uio_oe[1]
+  PIN uio_oe[2]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 48.810 312.740 49.110 313.740 ;
     END
-  END uo_out[2]
-  PIN uo_out[3]
+  END uio_oe[2]
+  PIN uio_oe[3]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 44.970 312.740 45.270 313.740 ;
     END
-  END uo_out[3]
-  PIN uo_out[4]
+  END uio_oe[3]
+  PIN uio_oe[4]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 41.130 312.740 41.430 313.740 ;
     END
-  END uo_out[4]
-  PIN uo_out[5]
+  END uio_oe[4]
+  PIN uio_oe[5]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 37.290 312.740 37.590 313.740 ;
     END
-  END uo_out[5]
-  PIN uo_out[6]
+  END uio_oe[5]
+  PIN uio_oe[6]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 33.450 312.740 33.750 313.740 ;
     END
-  END uo_out[6]
-  PIN uo_out[7]
+  END uio_oe[6]
+  PIN uio_oe[7]
+    ANTENNADIFFAREA 19.007475 ;
     PORT
       LAYER Metal5 ;
         RECT 29.610 312.740 29.910 313.740 ;
     END
-  END uo_out[7]
+  END uio_oe[7]
+  PIN VGND
+    ANTENNADIFFAREA 19.007475 ;
+    PORT
+      LAYER Metal5 ;
+        RECT 6.000 0.000 8.000 310.000 ;
+    END
+  END VGND
+  PIN VDPWR
+    ANTENNADIFFAREA 22.846050 ;
+    PORT
+      LAYER Metal5 ;
+        RECT 10.000 0.000 12.000 310.000 ;
+    END
+  END VDPWR
   OBS
       LAYER GatPoly ;
-        RECT 43.435 87.875 190.665 306.080 ;
+        RECT 28.200 59.385 185.850 309.725 ;
       LAYER Metal1 ;
-        RECT 43.435 87.875 190.665 306.150 ;
+        RECT 28.200 59.385 185.850 309.795 ;
       LAYER Metal2 ;
-        RECT 42.705 88.105 187.945 304.880 ;
+        RECT 27.750 59.585 186.350 312.715 ;
       LAYER Metal3 ;
-        RECT 36.575 81.315 165.295 210.035 ;
+        RECT 16.625 51.470 196.625 312.715 ;
       LAYER Metal4 ;
-        RECT 78.495 115.445 124.905 181.745 ;
+        RECT 68.975 131.875 118.590 312.715 ;
       LAYER Metal5 ;
         RECT 6.550 312.530 29.400 312.875 ;
         RECT 30.120 312.530 33.240 312.875 ;
@@ -313,13 +341,12 @@ MACRO tt_um_oscillating_bones
         RECT 106.920 312.530 110.040 312.875 ;
         RECT 110.760 312.530 113.880 312.875 ;
         RECT 114.600 312.530 117.720 312.875 ;
-        RECT 118.440 312.530 121.560 312.875 ;
-        RECT 122.280 312.530 124.905 312.875 ;
-        RECT 6.550 310.210 124.905 312.530 ;
-        RECT 8.210 115.445 9.790 310.210 ;
-        RECT 12.210 115.445 124.905 310.210 ;
+        RECT 118.440 312.530 118.590 312.875 ;
+        RECT 6.550 310.210 118.590 312.530 ;
+        RECT 8.210 131.875 9.790 310.210 ;
+        RECT 12.210 131.875 118.590 310.210 ;
       LAYER TopMetal1 ;
-        RECT 78.495 115.445 124.905 181.745 ;
+        RECT 68.975 131.875 115.385 198.175 ;
   END
 END tt_um_oscillating_bones
 END LIBRARY
