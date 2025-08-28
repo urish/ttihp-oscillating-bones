@@ -29,8 +29,12 @@ spice/pdk_lib.spice:
 
 sim: $(SPICE) spice/pdk_lib.spice spice/testbench.spice
 	ngspice spice/testbench.spice
-.phony: sim
+.phony: sim drc
+
+drc: $(TARGET_GDS)
+	klayout -b -r $(PWD)/drc/sg13g2_mr.lydrc -rd 'in_gds=$<' -rd density=0
+.phony: drc
 
 clean:
 	rm -f $(TARGET_GDS) $(SPICE)
-.PHONY: clean
+.phony: clean
