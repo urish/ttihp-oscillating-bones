@@ -4,30 +4,29 @@
 
 * Power supply
 V1 VGND 0 0
-V2 VDPWR VGND 1.8
-V3 VAPWR VGND 3.3
+V2 VDPWR VGND 1.2
 V4 clk 0 0
-V5 ena VGND 1.8
-V6 rst_n VGND 1.8
+V5 ena VGND 1.2
+V6 rst_n VGND 1.2
 
 .include "tt_um_oscillating_bones.spice"
 
-x1 clk ena rst_n
+x1 
++ VGND VDPWR
++ ena clk rst_n
 + VGND VGND VGND VGND VGND VGND VGND VGND
 + VGND VGND VGND VGND VGND VGND VGND VGND
 + uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7]
 + uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7]
 + uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7]
-+ ua[0] ua[1] ua[2] ua[3] ua[4] ua[5] ua[6] ua[7]
-+ VAPWR VDPWR VGND
 + tt_um_oscillating_bones
 
 .tran 50p 80n
 
 .control
 run
-plot "uo_out[0]" "ua[0]" "uo_out[1]"+4 "uo_out[2]"+6 "uo_out[3]"+8
-meas tran tdiff TRIG "uo_out[0]" VAL=1.7 RISE=2 TARG "uo_out[0]" VAL=1.7 RISE=3
+plot "uo_out[0]" "uo_out[1]"+2 "uo_out[2]"+4 "uo_out[3]"+6
+meas tran tdiff TRIG "uo_out[0]" VAL=1.1 RISE=2 TARG "uo_out[0]" VAL=1.1 RISE=3
 let freq_mhz = (1 / (tdiff) / 1e6)
 print freq_mhz
 .endc

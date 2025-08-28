@@ -1,0 +1,283 @@
+* NGSPICE file created from tt_um_oscillating_bones.ext - technology: ihp-sg13g2
+
+.subckt tt_um_oscillating_bones VGND VDPWR ena clk rst_n ui_in[0] ui_in[1] ui_in[2]
++ ui_in[3] ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3]
++ uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3]
++ uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3]
++ uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0] uo_out[1] uo_out[2] uo_out[3]
++ uo_out[4] uo_out[5] uo_out[6] uo_out[7]
+X0 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_9.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X1 ring_0/skullfet_inverter_4.VDPWR ring_0/skullfet_inverter_4.A ring_0/skullfet_inverter_4.Y ring_0/skullfet_inverter_4.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X2 a_31493_60822# a_30692_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.2083p ps=1.5u w=1u l=0.13u
+X3 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_33956_60621# a_34184_60761# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2014p pd=1.53u as=79.8f ps=0.8u w=0.42u l=0.13u
+X4 ring_0/skullfet_inverter_0.VGND a_36836_60621# freq_divider_0.sg13g2_dfrbp_2_0.D ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1331p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X5 a_35934_60935# a_35577_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=54.6f pd=0.68u as=0.1563p ps=1.22u w=0.42u l=0.13u
+X6 ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_20.VDPWR ring_0/skullfet_inverter_20.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X7 freq_divider_0.sg13g2_dfrbp_2_0.Q a_37637_60822# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X8 a_29659_60557# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=38.85f pd=0.605u as=0.1701p ps=1.65u w=0.42u l=0.13u
+X9 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_14.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X10 ring_0/skullfet_inverter_0.VGND freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_32505_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1626p pd=1.415u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X11 a_37101_60859# a_37064_60761# a_37025_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.25605p pd=1.935u as=52.5f ps=0.67u w=0.42u l=0.13u
+X12 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_29407_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1563p pd=1.22u as=0.147p ps=1.54u w=0.42u l=0.13u
+X13 freq_divider_0.sg13g2_dfrbp_2_0.CLK a_34757_60822# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X14 a_35803_60557# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=38.85f pd=0.605u as=0.1701p ps=1.65u w=0.42u l=0.13u
+X15 a_37064_60761# a_36836_60621# a_37255_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1428p pd=1.52u as=37.8f ps=0.6u w=0.42u l=0.13u
+X16 ring_0/skullfet_inverter_0.VGND a_37064_60761# a_36742_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X17 a_36836_60621# a_35986_60801# a_35577_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.19115p pd=1.565u as=0.34p ps=2.68u w=1u l=0.13u
+X18 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_12.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X19 a_36836_60621# a_35986_60801# a_36742_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.12665p pd=1.145u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X20 freq_divider_0.sg13g2_dfrbp_2_2.D a_30692_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X21 a_29842_60801# freq_divider_0.IN a_30310_60840# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.43102p ps=2.145u w=1.12u l=0.13u
+X22 a_32505_60544# freq_divider_0.sg13g2_dfrbp_2_1.D a_32411_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X23 a_32697_60862# a_32671_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.36237p ps=2.605u w=1u l=0.13u
+X24 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_33956_60621# freq_divider_0.sg13g2_dfrbp_2_1.D freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2083p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X25 ring_0/skullfet_inverter_1.Y ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X26 ring_0/skullfet_inverter_7.Y ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X27 ring_0/skullfet_inverter_18.Y ring_0/skullfet_inverter_18.A ring_0/skullfet_inverter_18.VDPWR ring_0/skullfet_inverter_18.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X28 a_34757_60822# a_33956_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2176p pd=1.96u as=0.1331p ps=1.12u w=0.64u l=0.13u
+X29 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_17.A ring_0/skullfet_inverter_17.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X30 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_16.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X31 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_36836_60621# a_37064_60761# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2014p pd=1.53u as=79.8f ps=0.8u w=0.42u l=0.13u
+X32 a_35986_60801# freq_divider_0.sg13g2_dfrbp_2_0.CLK a_36374_60565# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.43315p ps=2.205u w=0.74u l=0.13u
+X33 a_34757_60822# a_33956_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.2083p ps=1.5u w=1u l=0.13u
+X34 ring_0/skullfet_inverter_8.Y ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X35 ring_0/skullfet_inverter_0.VGND a_37637_60822# freq_divider_0.sg13g2_dfrbp_2_0.Q ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X36 a_32671_60767# a_33106_60801# a_32411_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=81f pd=0.81u as=0.1296p ps=1.52u w=0.42u l=0.13u
+X37 ring_0/skullfet_inverter_19.VDPWR ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_19.Y ring_0/skullfet_inverter_19.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X38 ring_0/skullfet_inverter_0.VGND a_30920_60761# a_30598_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X39 a_30230_60565# a_29842_60801# a_29944_60888# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.43315p pd=2.205u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X40 a_30920_60761# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_30957_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.25605p ps=1.935u w=0.42u l=0.13u
+X41 a_36454_60840# a_35986_60801# a_36088_60888# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.43102p pd=2.145u as=0.3864p ps=2.93u w=1.12u l=0.13u
+X42 a_34145_60859# a_33208_60888# a_33956_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=52.5f pd=0.67u as=0.19115p ps=1.565u w=0.42u l=0.13u
+X43 a_32986_60557# a_32697_60862# a_32923_60557# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1596p pd=1.6u as=38.85f ps=0.605u w=0.42u l=0.13u
+X44 ring_0/skullfet_inverter_9.Y ring_0/skullfet_inverter_9.A ring_0/skullfet_inverter_9.VDPWR ring_0/skullfet_inverter_9.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X45 a_37637_60822# a_36836_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2176p pd=1.96u as=0.1331p ps=1.12u w=0.64u l=0.13u
+X46 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_37637_60822# freq_divider_0.sg13g2_dfrbp_2_0.Q freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X47 a_30310_60840# a_29842_60801# a_29944_60888# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.43102p pd=2.145u as=0.3864p ps=2.93u w=1.12u l=0.13u
+X48 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_32671_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1563p pd=1.22u as=0.147p ps=1.54u w=0.42u l=0.13u
+X49 freq_divider_0.sg13g2_dfrbp_2_0.D a_36836_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2014p ps=1.53u w=1.12u l=0.13u
+X50 a_35577_60862# a_36088_60888# a_36836_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.3473p pd=2.71u as=0.12665p ps=1.145u w=0.74u l=0.13u
+X51 freq_divider_0.sg13g2_dfrbp_2_1.CLK a_31493_60822# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X52 a_33494_60565# a_33106_60801# a_33208_60888# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.43315p pd=2.205u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X53 ring_0/skullfet_inverter_10.Y ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_10.VDPWR ring_0/skullfet_inverter_10.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X54 a_29433_60862# a_29944_60888# a_30692_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.3473p pd=2.71u as=0.12665p ps=1.145u w=0.74u l=0.13u
+X55 freq_divider_0.sg13g2_dfrbp_2_2.D a_30692_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2014p ps=1.53u w=1.12u l=0.13u
+X56 a_37255_60544# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=37.8f pd=0.6u as=79.8f ps=0.8u w=0.42u l=0.13u
+X57 a_29147_60544# freq_divider_0.sg13g2_dfrbp_2_2.D freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X58 a_30692_60621# a_29842_60801# a_30598_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.12665p pd=1.145u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X59 a_32671_60767# a_33106_60801# a_33054_60935# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=54.6f ps=0.68u w=0.42u l=0.13u
+X60 a_32697_60862# a_32671_60767# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1626p ps=1.415u w=0.74u l=0.13u
+X61 a_33054_60935# a_32697_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=54.6f pd=0.68u as=0.1563p ps=1.22u w=0.42u l=0.13u
+X62 ring_0/skullfet_inverter_0.VGND a_31493_60822# freq_divider_0.sg13g2_dfrbp_2_1.CLK ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X63 ring_0/skullfet_inverter_5.Y ring_0/skullfet_inverter_5.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X64 ring_0/skullfet_inverter_6.VDPWR ring_0/skullfet_inverter_6.A ring_0/skullfet_inverter_6.Y ring_0/skullfet_inverter_6.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X65 ring_0/skullfet_inverter_0.VGND a_30692_60621# freq_divider_0.sg13g2_dfrbp_2_2.D ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1331p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X66 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_11.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X67 freq_divider_0.sg13g2_dfrbp_2_0.CLK a_34757_60822# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X68 ring_0/skullfet_inverter_12.Y ring_0/skullfet_inverter_12.A ring_0/skullfet_inverter_12.VDPWR ring_0/skullfet_inverter_12.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X69 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_13.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X70 a_35291_60544# freq_divider_0.sg13g2_dfrbp_2_0.D freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X71 ring_0/skullfet_inverter_0.VGND freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_29241_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1626p pd=1.415u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X72 ring_0/skullfet_inverter_6.Y ring_0/skullfet_inverter_6.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X73 a_31111_60544# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=37.8f pd=0.6u as=79.8f ps=0.8u w=0.42u l=0.13u
+X74 ring_0/skullfet_inverter_2.Y ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X75 a_35986_60801# freq_divider_0.sg13g2_dfrbp_2_0.CLK a_36454_60840# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.43102p ps=2.145u w=1.12u l=0.13u
+X76 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_35291_60544# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.36237p pd=2.605u as=79.8f ps=0.8u w=0.42u l=0.13u
+X77 a_29407_60767# a_29842_60801# a_29147_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=81f pd=0.81u as=0.1296p ps=1.52u w=0.42u l=0.13u
+X78 ring_0/skullfet_inverter_17.Y ring_0/skullfet_inverter_17.A ring_0/skullfet_inverter_17.VDPWR ring_0/skullfet_inverter_17.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X79 ring_0/skullfet_inverter_16.Y ring_0/skullfet_inverter_16.A ring_0/skullfet_inverter_16.VDPWR ring_0/skullfet_inverter_16.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X80 ring_0/skullfet_inverter_4.Y ring_0/skullfet_inverter_4.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X81 a_35551_60767# a_35986_60801# a_35291_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=81f pd=0.81u as=0.1296p ps=1.52u w=0.42u l=0.13u
+X82 a_34221_60859# a_34184_60761# a_34145_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.25605p pd=1.935u as=52.5f ps=0.67u w=0.42u l=0.13u
+X83 freq_divider_0.sg13g2_dfrbp_2_1.D a_33956_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X84 a_30957_60859# a_30920_60761# a_30881_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.25605p pd=1.935u as=52.5f ps=0.67u w=0.42u l=0.13u
+X85 a_32986_60557# a_33208_60888# a_32671_60767# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2163p pd=1.87u as=81f ps=0.81u w=0.42u l=0.13u
+X86 ring_0/skullfet_inverter_0.VGND freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_35385_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1626p pd=1.415u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X87 a_32923_60557# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=38.85f pd=0.605u as=0.1701p ps=1.65u w=0.42u l=0.13u
+X88 freq_divider_0.sg13g2_dfrbp_2_0.Q a_37637_60822# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X89 a_37025_60859# a_36088_60888# a_36836_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=52.5f pd=0.67u as=0.19115p ps=1.565u w=0.42u l=0.13u
+X90 ring_0/skullfet_inverter_0.VGND a_34184_60761# a_33862_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X91 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_30692_60621# a_30920_60761# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2014p pd=1.53u as=79.8f ps=0.8u w=0.42u l=0.13u
+X92 a_33956_60621# a_33106_60801# a_32697_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.19115p pd=1.565u as=0.34p ps=2.68u w=1u l=0.13u
+X93 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_10.A ring_0/skullfet_inverter_10.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X94 a_29241_60544# freq_divider_0.sg13g2_dfrbp_2_2.D a_29147_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X95 a_33956_60621# a_33106_60801# a_33862_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.12665p pd=1.145u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X96 a_29842_60801# freq_divider_0.IN a_30230_60565# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.43315p ps=2.205u w=0.74u l=0.13u
+X97 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_32012_60625# a_32012_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.4657p pd=2.54u as=0.2442p ps=2.06u w=0.66u l=0.13u
+X98 a_35385_60544# freq_divider_0.sg13g2_dfrbp_2_0.D a_35291_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X99 freq_divider_0.sg13g2_dfrbp_2_1.CLK a_31493_60822# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X100 ring_0/skullfet_inverter_1.VDPWR ring_0/skullfet_inverter_1.A ring_0/skullfet_inverter_1.Y ring_0/skullfet_inverter_1.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X101 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_32211_60796# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3927p pd=2.99u as=0.4657p ps=2.54u w=1.155u l=0.13u
+X102 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_31493_60822# freq_divider_0.sg13g2_dfrbp_2_1.CLK freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X103 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_36836_60621# freq_divider_0.sg13g2_dfrbp_2_0.D freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2083p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X104 a_35577_60862# a_35551_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.36237p ps=2.605u w=1u l=0.13u
+X105 a_29407_60767# a_29842_60801# a_29790_60935# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=54.6f ps=0.68u w=0.42u l=0.13u
+X106 ring_0/skullfet_inverter_3.Y ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X107 a_29790_60935# a_29433_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=54.6f pd=0.68u as=0.1563p ps=1.22u w=0.42u l=0.13u
+X108 ring_0/skullfet_inverter_3.VDPWR ring_0/skullfet_inverter_3.A ring_0/skullfet_inverter_3.Y ring_0/skullfet_inverter_3.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X109 ring_0/skullfet_inverter_0.VDPWR ring_0/skullfet_inverter_0.A ring_0/skullfet_inverter_0.Y ring_0/skullfet_inverter_0.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X110 a_35551_60767# a_35986_60801# a_35934_60935# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=54.6f ps=0.68u w=0.42u l=0.13u
+X111 a_29722_60557# a_29433_60862# a_29659_60557# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1596p pd=1.6u as=38.85f ps=0.605u w=0.42u l=0.13u
+X112 ring_0/skullfet_inverter_8.VDPWR ring_0/skullfet_inverter_8.A ring_0/skullfet_inverter_8.Y ring_0/skullfet_inverter_8.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X113 a_33106_60801# freq_divider_0.sg13g2_dfrbp_2_1.CLK a_33494_60565# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.43315p ps=2.205u w=0.74u l=0.13u
+X114 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_30692_60621# freq_divider_0.sg13g2_dfrbp_2_2.D freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2083p pd=1.5u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X115 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_20.A ring_0/skullfet_inverter_20.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X116 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_29147_60544# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.36237p pd=2.605u as=79.8f ps=0.8u w=0.42u l=0.13u
+X117 a_34184_60761# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_34221_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.25605p ps=1.935u w=0.42u l=0.13u
+X118 a_37637_60822# a_36836_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.2083p ps=1.5u w=1u l=0.13u
+X119 a_32411_60544# a_33208_60888# a_32671_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X120 freq_divider_0.sg13g2_dfrbp_2_0.D a_36836_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X121 freq_divider_0.sg13g2_dfrbp_2_0.VDD a_34757_60822# freq_divider_0.sg13g2_dfrbp_2_0.CLK freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X122 a_32697_60862# a_33208_60888# a_33956_60621# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.3473p pd=2.71u as=0.12665p ps=1.145u w=0.74u l=0.13u
+X123 a_30692_60621# a_29842_60801# a_29433_60862# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.19115p pd=1.565u as=0.34p ps=2.68u w=1u l=0.13u
+X124 a_31493_60822# a_30692_60621# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2176p pd=1.96u as=0.1331p ps=1.12u w=0.64u l=0.13u
+X125 a_35866_60557# a_36088_60888# a_35551_60767# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2163p pd=1.87u as=81f ps=0.81u w=0.42u l=0.13u
+X126 ring_0/skullfet_inverter_0.VGND a_34757_60822# freq_divider_0.sg13g2_dfrbp_2_0.CLK ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X127 a_30920_60761# a_30692_60621# a_31111_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1428p pd=1.52u as=37.8f ps=0.6u w=0.42u l=0.13u
+X128 a_32211_60796# a_32012_60859# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.27427p pd=2.28u as=0.20432p ps=1.585u w=0.795u l=0.13u
+X129 a_33574_60840# a_33106_60801# a_33208_60888# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.43102p pd=2.145u as=0.3864p ps=2.93u w=1.12u l=0.13u
+X130 ring_0/skullfet_inverter_19.Y ring_0/skullfet_inverter_19.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X131 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_18.A ring_0/skullfet_inverter_18.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X132 ring_0/skullfet_inverter_13.Y ring_0/skullfet_inverter_13.A ring_0/skullfet_inverter_13.VDPWR ring_0/skullfet_inverter_13.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X133 ring_0/skullfet_inverter_0.VGND a_32012_60625# a_32012_60625# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.20432p pd=1.585u as=0.111p ps=1.34u w=0.3u l=0.13u
+X134 ring_0/skullfet_inverter_15.Y ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_15.VDPWR ring_0/skullfet_inverter_15.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X135 ring_0/skullfet_inverter_11.Y ring_0/skullfet_inverter_11.A ring_0/skullfet_inverter_11.VDPWR ring_0/skullfet_inverter_11.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X136 a_29722_60557# a_29944_60888# a_29407_60767# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2163p pd=1.87u as=81f ps=0.81u w=0.42u l=0.13u
+X137 a_35866_60557# a_35577_60862# a_35803_60557# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1596p pd=1.6u as=38.85f ps=0.605u w=0.42u l=0.13u
+X138 freq_divider_0.sg13g2_dfrbp_2_1.D a_33956_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2014p ps=1.53u w=1.12u l=0.13u
+X139 ring_0/skullfet_inverter_5.VDPWR ring_0/skullfet_inverter_5.A ring_0/skullfet_inverter_5.Y ring_0/skullfet_inverter_5.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X140 ring_0/skullfet_inverter_14.Y ring_0/skullfet_inverter_14.A ring_0/skullfet_inverter_14.VDPWR ring_0/skullfet_inverter_14.VDPWR sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X141 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_35551_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1563p pd=1.22u as=0.147p ps=1.54u w=0.42u l=0.13u
+X142 ring_0/skullfet_inverter_0.VGND a_33956_60621# freq_divider_0.sg13g2_dfrbp_2_1.D ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1331p pd=1.12u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X143 a_29433_60862# a_29407_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.34p pd=2.68u as=0.36237p ps=2.605u w=1u l=0.13u
+X144 a_36374_60565# a_35986_60801# a_36088_60888# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.43315p pd=2.205u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X145 a_29433_60862# a_29407_60767# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1626p ps=1.415u w=0.74u l=0.13u
+X146 a_37064_60761# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_37101_60859# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.25605p ps=1.935u w=0.42u l=0.13u
+X147 ring_0/skullfet_inverter_0.Y ring_0/skullfet_inverter_0.A ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=6.4314p pd=26.72u as=4.2687p ps=10.82u w=4.05u l=0.4u
+X148 a_34375_60544# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=37.8f pd=0.6u as=79.8f ps=0.8u w=0.42u l=0.13u
+X149 a_35291_60544# a_36088_60888# a_35551_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X150 ring_0/skullfet_inverter_2.VDPWR ring_0/skullfet_inverter_2.A ring_0/skullfet_inverter_2.Y ring_0/skullfet_inverter_2.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X151 a_35577_60862# a_35551_60767# ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1626p ps=1.415u w=0.74u l=0.13u
+X152 a_34184_60761# a_33956_60621# a_34375_60544# ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=0.1428p pd=1.52u as=37.8f ps=0.6u w=0.42u l=0.13u
+X153 a_32411_60544# freq_divider_0.sg13g2_dfrbp_2_1.D freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X154 ring_0/skullfet_inverter_7.VDPWR ring_0/skullfet_inverter_7.A ring_0/skullfet_inverter_7.Y ring_0/skullfet_inverter_7.VDPWR sg13_lv_pmos ad=4.4307p pd=10.9u as=6.2694p ps=26.64u w=4.05u l=0.4u
+X155 a_29147_60544# a_29944_60888# a_29407_60767# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X156 a_33106_60801# freq_divider_0.sg13g2_dfrbp_2_1.CLK a_33574_60840# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.3808p pd=2.92u as=0.43102p ps=2.145u w=1.12u l=0.13u
+X157 a_30881_60859# a_29944_60888# a_30692_60621# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=52.5f pd=0.67u as=0.19115p ps=1.565u w=0.42u l=0.13u
+X158 ring_0/skullfet_inverter_0.VGND ring_0/skullfet_inverter_15.A ring_0/skullfet_inverter_15.Y ring_0/skullfet_inverter_0.VGND sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X159 freq_divider_0.sg13g2_dfrbp_2_0.VDD freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_32411_60544# freq_divider_0.sg13g2_dfrbp_2_0.VDD sg13_lv_pmos ad=0.36237p pd=2.605u as=79.8f ps=0.8u w=0.42u l=0.13u
+R0 uo_out[7].n0 uio_oe[0] 1.15802
+R1 uo_out[7].n2 uio_oe[0] 0.32522
+R2 uo_out[7].n3 uio_oe[1] 0.32522
+R3 uo_out[7].n4 uio_oe[2] 0.32522
+R4 uo_out[7].n5 uio_oe[3] 0.32522
+R5 uo_out[7].n6 uio_oe[4] 0.32522
+R6 uo_out[7].n7 uio_oe[5] 0.32522
+R7 uo_out[7].n8 uio_oe[6] 0.32522
+R8 uo_out[7].n9 uio_oe[7] 0.32522
+R9 uo_out[7].n10 uio_out[0] 0.32522
+R10 uo_out[7].n11 uio_out[1] 0.32522
+R11 uo_out[7].n12 uio_out[2] 0.32522
+R12 uo_out[7].n13 uio_out[3] 0.32522
+R13 uo_out[7].n14 uio_out[4] 0.32522
+R14 uo_out[7].n15 uio_out[5] 0.32522
+R15 uo_out[7].n16 uio_out[6] 0.32522
+R16 uo_out[7].n17 uio_out[7] 0.32522
+R17 uo_out[7].n18 uo_out[0] 0.32522
+R18 uo_out[7].n19 uo_out[1] 0.32522
+R19 uo_out[7].n20 uo_out[2] 0.32522
+R20 uo_out[7].n21 uo_out[3] 0.32522
+R21 uo_out[7].n22 uo_out[4] 0.32522
+R22 uo_out[7].n23 uo_out[5] 0.32522
+R23 uo_out[7].n24 uo_out[6] 0.32522
+R24 uo_out[7].n0 uio_oe[0] 0.108395
+R25 uo_out[7].n2 uio_oe[1] 0.107567
+R26 uo_out[7].n3 uio_oe[2] 0.107567
+R27 uo_out[7].n4 uio_oe[3] 0.107567
+R28 uo_out[7].n5 uio_oe[4] 0.107567
+R29 uo_out[7].n6 uio_oe[5] 0.107567
+R30 uo_out[7].n7 uio_oe[6] 0.107567
+R31 uo_out[7].n8 uio_oe[7] 0.107567
+R32 uo_out[7].n9 uio_out[0] 0.107567
+R33 uo_out[7].n10 uio_out[1] 0.107567
+R34 uo_out[7].n11 uio_out[2] 0.107567
+R35 uo_out[7].n12 uio_out[3] 0.107567
+R36 uo_out[7].n13 uio_out[4] 0.107567
+R37 uo_out[7].n14 uio_out[5] 0.107567
+R38 uo_out[7].n15 uio_out[6] 0.107567
+R39 uo_out[7].n16 uio_out[7] 0.107567
+R40 uo_out[7].n17 uo_out[0] 0.107567
+R41 uo_out[7].n18 uo_out[1] 0.107567
+R42 uo_out[7].n19 uo_out[2] 0.107567
+R43 uo_out[7].n20 uo_out[3] 0.107567
+R44 uo_out[7].n21 uo_out[4] 0.107567
+R45 uo_out[7].n22 uo_out[5] 0.107567
+R46 uo_out[7].n23 uo_out[6] 0.107567
+R47 uo_out[7].n24 uo_out[7] 0.107567
+R48 uo_out[7].n1 uio_oe[0] 0.0407712
+R49 uo_out[7].n2 uio_oe[1] 0.0401
+R50 uo_out[7].n3 uio_oe[2] 0.0401
+R51 uo_out[7].n4 uio_oe[3] 0.0401
+R52 uo_out[7].n5 uio_oe[4] 0.0401
+R53 uo_out[7].n6 uio_oe[5] 0.0401
+R54 uo_out[7].n7 uio_oe[6] 0.0401
+R55 uo_out[7].n8 uio_oe[7] 0.0401
+R56 uo_out[7].n9 uio_out[0] 0.0401
+R57 uo_out[7].n10 uio_out[1] 0.0401
+R58 uo_out[7].n11 uio_out[2] 0.0401
+R59 uo_out[7].n12 uio_out[3] 0.0401
+R60 uo_out[7].n13 uio_out[4] 0.0401
+R61 uo_out[7].n14 uio_out[5] 0.0401
+R62 uo_out[7].n15 uio_out[6] 0.0401
+R63 uo_out[7].n16 uio_out[7] 0.0401
+R64 uo_out[7].n17 uo_out[0] 0.0401
+R65 uo_out[7].n18 uo_out[1] 0.0401
+R66 uo_out[7].n19 uo_out[2] 0.0401
+R67 uo_out[7].n20 uo_out[3] 0.0401
+R68 uo_out[7].n21 uo_out[4] 0.0401
+R69 uo_out[7].n22 uo_out[5] 0.0401
+R70 uo_out[7].n23 uo_out[6] 0.0401
+R71 uo_out[7] uo_out[7].n24 0.0401
+R72 uio_oe[1] uo_out[7].n2 0.0137
+R73 uio_oe[2] uo_out[7].n3 0.0137
+R74 uio_oe[3] uo_out[7].n4 0.0137
+R75 uio_oe[4] uo_out[7].n5 0.0137
+R76 uio_oe[5] uo_out[7].n6 0.0137
+R77 uio_oe[6] uo_out[7].n7 0.0137
+R78 uio_oe[7] uo_out[7].n8 0.0137
+R79 uio_out[0] uo_out[7].n9 0.0137
+R80 uio_out[1] uo_out[7].n10 0.0137
+R81 uio_out[2] uo_out[7].n11 0.0137
+R82 uio_out[3] uo_out[7].n12 0.0137
+R83 uio_out[4] uo_out[7].n13 0.0137
+R84 uio_out[5] uo_out[7].n14 0.0137
+R85 uio_out[6] uo_out[7].n15 0.0137
+R86 uio_out[7] uo_out[7].n16 0.0137
+R87 uo_out[0] uo_out[7].n17 0.0137
+R88 uo_out[1] uo_out[7].n18 0.0137
+R89 uo_out[2] uo_out[7].n19 0.0137
+R90 uo_out[3] uo_out[7].n20 0.0137
+R91 uo_out[4] uo_out[7].n21 0.0137
+R92 uo_out[5] uo_out[7].n22 0.0137
+R93 uo_out[6] uo_out[7].n23 0.0137
+R94 uo_out[7].n24 uo_out[7] 0.0137
+R95 uio_oe[0] uo_out[7].n1 0.01326
+R96 uo_out[7].n1 uo_out[7].n0 0.00116074
+C0 m2_17025_31929# m3_17025_31929# 55.4884f
+C1 m3_15699_23531# m2_15699_23531# 37.7584f
+C2 m6_15699_23531# m5_15699_23531# 23.9879f
+C3 m3_15699_23531# m4_15699_23531# 37.7584f
+C4 m1_15699_23531# m2_15699_23531# 37.7584f
+C5 m4_17025_31929# m3_17025_31929# 55.4884f
+C6 m4_15699_23531# m5_15699_23531# 37.7584f
+C7 m4_17025_31929# m5_17025_31929# 55.4884f
+C8 m2_17025_31929# m1_17025_31929# 55.4884f
+C9 m6_17025_31929# m5_17025_31929# 35.2517f
+C10 VDPWR ring_0/skullfet_inverter_0.VGND 22.7323f
+C11 VGND ring_0/skullfet_inverter_0.VGND 22.7404f
+C12 m3_11587_28935# ring_0/skullfet_inverter_0.VGND 25.5009f $ **FLOATING
+C13 m3_7315_28935# ring_0/skullfet_inverter_0.VGND 41.1305f $ **FLOATING
+C14 m1_15699_23531# ring_0/skullfet_inverter_0.VGND 30.3755f $ **FLOATING
+C15 m1_17025_31929# ring_0/skullfet_inverter_0.VGND 37.977f $ **FLOATING
+.ends
+
