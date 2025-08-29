@@ -16,7 +16,7 @@ ext2sim
 extresist tolerance 1
 extresist
 ext2spice lvs
-ext2spice cthresh 10
+ext2spice cthresh 1
 ext2spice extresist on
-ext2spice -o $output_file
+ext2spice -o $output_file -F
 quit -noprompt

@@ -22,6 +22,7 @@ x1
 + tt_um_oscillating_bones
 
 .tran 50p 80n
+.option rshunt = 1.0e12
 
 .control
 run
