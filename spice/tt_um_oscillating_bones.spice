@@ -6,190 +6,190 @@
 + uo_out[5] uo_out[6] uo_out[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4]
 + uio_out[5] uio_out[6] uio_out[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4]
 + uio_oe[5] uio_oe[6] uio_oe[7] VGND VDPWR
-X0 uo_out[1].t1 a_22205_61585# VGND.t22 VGND.t21 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X1 VDPWR.t45 a_16367_61578# freq_divider_0.sg13g2_dfrbp_2_0.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X2 VGND.t15 a_17996_61559# a_17075_61640# VGND.t14 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X3 VGND.t63 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_21132_61704# VGND.t62 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
-X4 a_16707_61717# a_16367_61578# VDPWR.t45 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
-X5 a_17910_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t8 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
-X6 a_20876_61559# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t41 VDPWR.t0 sg13_lv_pmos ad=0.147p pd=1.54u as=0.1563p ps=1.22u w=0.42u l=0.13u
-X7 ring_0/inverter_ring_0/skullfet_inverter_19.A ring_0/inverter_ring_0/skullfet_inverter_0.Y VDPWR.t7 VDPWR.t6 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X8 VGND.t85 a_22511_61578# a_22205_61585# VGND.t89 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
-X9 VGND.t65 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_18252_61704# VGND.t64 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
-X10 ring_0/inverter_ring_0/skullfet_inverter_6.A ring_0/inverter_ring_0/skullfet_inverter_7.A VDPWR.t76 VDPWR.t75 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X11 VGND.t35 ring_0/inverter_ring_0/skullfet_inverter_13.A ring_0/inverter_ring_0/skullfet_inverter_12.A VGND.t34 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X12 VDPWR.t36 a_20876_61559# a_19955_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
-X13 a_23109_61717# a_22851_61717# VGND.t37 VGND.t36 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X14 a_24054_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t18 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
-X15 VGND.t75 ring_0/inverter_ring_0/skullfet_inverter_17.A ring_0/inverter_ring_0/skullfet_inverter_16.A VGND.t74 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X16 VGND.t41 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_16801_61717# VGND.t40 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
-X17 a_20876_61559# a_19947_61366# a_20747_61559# VGND.t77 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
-X18 ring_0/inverter_ring_0/skullfet_inverter_12.A ring_0/inverter_ring_0/skullfet_inverter_13.A VDPWR.t21 VDPWR.t20 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X19 VDPWR.t59 a_22511_61578# freq_divider_0.sg13g2_dfrbp_2_2.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X20 a_23211_61366# a_23350_61250# VDPWR.t1 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
-X21 a_23211_61366# a_23350_61250# VGND.t3 VGND.t2 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
-X22 VGND.t39 ring_0/inverter_ring_0/skullfet_inverter_9.A ring_0/inverter_ring_0/skullfet_inverter_8.A VGND.t38 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X23 ring_0/inverter_ring_0/skullfet_inverter_11.A ring_0/inverter_ring_0/skullfet_inverter_12.A VDPWR.t67 VDPWR.t66 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X24 VDPWR.t89 freq_divider_0.sg13g2_dfrbp_2_2.D a_24054_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X25 a_22851_61717# a_22511_61578# VDPWR.t59 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
-X26 a_23161_61402# a_22851_61717# VDPWR.t1 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
-X27 VDPWR.t43 a_16367_61578# a_16061_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
-X28 a_17996_61559# a_17067_61366# a_17867_61559# VGND.t108 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
-X29 freq_divider_0.sg13g2_dfrbp_2_1.D a_19247_61578# VDPWR.t82 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
-X30 VDPWR.t1 a_21777_61520# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3927p ps=2.99u w=1.155u l=0.13u
-X31 a_22945_61717# a_22511_61578# a_22851_61717# VGND.t88 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
-X32 VGND.t60 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_24396_61704# VGND.t59 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
-X33 VDPWR.t57 a_22511_61578# a_22205_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
-X34 ring_0/inverter_ring_0/skullfet_inverter_3.A ring_0/inverter_ring_0/skullfet_inverter_4.A VDPWR.t3 VDPWR.t2 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X35 a_24396_61704# a_23219_61640# a_24011_61559# VGND.t33 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
-X36 a_21856_61617# a_21980_61316# VDPWR.t1 VDPWR.t0 sg13_lv_pmos ad=0.2442p pd=2.06u as=1.55707p ps=9.54u w=0.66u l=0.13u
-X37 uo_out[2].t1 a_18941_61585# VGND.t106 VGND.t105 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X38 ring_0/inverter_ring_0/skullfet_inverter_17.A ring_0/inverter_ring_0/skullfet_inverter_18.A VDPWR.t17 VDPWR.t16 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X39 VGND.t93 ring_0/inverter_ring_0/skullfet_inverter_14.A ring_0/inverter_ring_0/skullfet_inverter_13.A VGND.t92 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X40 uo_out[2].t0 a_18941_61585# VDPWR.t74 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X41 VGND.t79 ring_0/inverter_ring_0/skullfet_inverter_2.A ring_0/inverter_ring_0/skullfet_inverter_1.A VGND.t78 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X0 uo_out[1].t0 a_22205_61585# VGND.t51 VGND.t50 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X1 VDPWR.t88 a_16367_61578# freq_divider_0.sg13g2_dfrbp_2_0.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X2 VGND.t43 a_17996_61559# a_17075_61640# VGND.t42 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X3 VGND.t112 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_21132_61704# VGND.t111 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
+X4 a_16707_61717# a_16367_61578# VDPWR.t88 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
+X5 a_17910_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t32 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
+X6 a_20876_61559# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t14 VDPWR.t0 sg13_lv_pmos ad=0.147p pd=1.54u as=0.1563p ps=1.22u w=0.42u l=0.13u
+X7 ring_0/inverter_ring_0/skullfet_inverter_19.A ring_0/inverter_ring_0/skullfet_inverter_0.Y VDPWR.t22 VDPWR.t21 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X8 VGND.t67 a_22511_61578# a_22205_61585# VGND.t71 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
+X9 VGND.t114 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_18252_61704# VGND.t113 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
+X10 ring_0/inverter_ring_0/skullfet_inverter_6.A ring_0/inverter_ring_0/skullfet_inverter_7.A VDPWR.t4 VDPWR.t3 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X11 VGND.t11 ring_0/inverter_ring_0/skullfet_inverter_13.A ring_0/inverter_ring_0/skullfet_inverter_12.A VGND.t10 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X12 VDPWR.t45 a_20876_61559# a_19955_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
+X13 a_23109_61717# a_22851_61717# VGND.t36 VGND.t35 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X14 a_24054_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t15 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
+X15 VGND.t15 ring_0/inverter_ring_0/skullfet_inverter_17.A ring_0/inverter_ring_0/skullfet_inverter_16.A VGND.t14 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X16 VGND.t47 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_16801_61717# VGND.t46 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
+X17 a_20876_61559# a_19947_61366# a_20747_61559# VGND.t102 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
+X18 ring_0/inverter_ring_0/skullfet_inverter_12.A ring_0/inverter_ring_0/skullfet_inverter_13.A VDPWR.t8 VDPWR.t7 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X19 VDPWR.t48 a_22511_61578# freq_divider_0.sg13g2_dfrbp_2_2.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X20 a_23211_61366# a_23350_61250# VDPWR.t28 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
+X21 a_23211_61366# a_23350_61250# VGND.t79 VGND.t78 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
+X22 VGND.t116 ring_0/inverter_ring_0/skullfet_inverter_9.A ring_0/inverter_ring_0/skullfet_inverter_8.A VGND.t115 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X23 ring_0/inverter_ring_0/skullfet_inverter_11.A ring_0/inverter_ring_0/skullfet_inverter_12.A VDPWR.t41 VDPWR.t40 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X24 VDPWR.t27 freq_divider_0.sg13g2_dfrbp_2_2.D a_24054_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X25 a_22851_61717# a_22511_61578# VDPWR.t48 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
+X26 a_23161_61402# a_22851_61717# VDPWR.t28 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
+X27 VDPWR.t86 a_16367_61578# a_16061_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
+X28 a_17996_61559# a_17067_61366# a_17867_61559# VGND.t29 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
+X29 freq_divider_0.sg13g2_dfrbp_2_1.D a_19247_61578# VDPWR.t62 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
+X30 VDPWR.t28 a_21777_61520# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3927p ps=2.99u w=1.155u l=0.13u
+X31 a_22945_61717# a_22511_61578# a_22851_61717# VGND.t70 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X32 VGND.t109 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_24396_61704# VGND.t108 sg13_lv_nmos ad=0.1701p pd=1.65u as=38.85f ps=0.605u w=0.42u l=0.13u
+X33 VDPWR.t46 a_22511_61578# a_22205_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
+X34 ring_0/inverter_ring_0/skullfet_inverter_3.A ring_0/inverter_ring_0/skullfet_inverter_4.A VDPWR.t57 VDPWR.t56 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X35 a_24396_61704# a_23219_61640# a_24011_61559# VGND.t23 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
+X36 a_21856_61617# a_21980_61316# VDPWR.t28 VDPWR.t0 sg13_lv_pmos ad=0.2442p pd=2.06u as=1.55707p ps=9.54u w=0.66u l=0.13u
+X37 uo_out[2].t0 a_18941_61585# VGND.t63 VGND.t62 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X38 ring_0/inverter_ring_0/skullfet_inverter_17.A ring_0/inverter_ring_0/skullfet_inverter_18.A VDPWR.t6 VDPWR.t5 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X39 VGND.t75 ring_0/inverter_ring_0/skullfet_inverter_14.A ring_0/inverter_ring_0/skullfet_inverter_13.A VGND.t74 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X40 uo_out[2].t1 a_18941_61585# VDPWR.t44 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X41 VGND.t53 ring_0/inverter_ring_0/skullfet_inverter_2.A ring_0/inverter_ring_0/skullfet_inverter_1.A VGND.t52 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
 X42 a_19247_61578# a_19947_61366# a_19897_61402# VDPWR.t0 sg13_lv_pmos ad=0.19115p pd=1.565u as=52.5f ps=0.67u w=0.42u l=0.13u
-X43 ring_0/inverter_ring_0/skullfet_inverter_4.A ring_0/inverter_ring_0/skullfet_inverter_5.A VDPWR.t56 VDPWR.t55 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X44 VGND.t45 ring_0/inverter_ring_0/skullfet_inverter_11.A ring_0/inverter_ring_0/skullfet_inverter_10.A VGND.t44 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X45 VDPWR.t73 a_18941_61585# uo_out[2].t0 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
-X46 VGND.t24 ring_0/inverter_ring_0/skullfet_inverter_0.A ring_0/inverter_ring_0/skullfet_inverter_0.Y VGND.t23 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X43 ring_0/inverter_ring_0/skullfet_inverter_4.A ring_0/inverter_ring_0/skullfet_inverter_5.A VDPWR.t20 VDPWR.t19 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X44 VGND.t83 ring_0/inverter_ring_0/skullfet_inverter_11.A ring_0/inverter_ring_0/skullfet_inverter_10.A VGND.t82 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X45 VDPWR.t43 a_18941_61585# uo_out[2].t1 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X46 VGND.t45 ring_0/inverter_ring_0/skullfet_inverter_0.A ring_0/inverter_ring_0/skullfet_inverter_0.Y VGND.t44 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
 X47 a_20876_61559# a_19947_61366# a_20790_61326# VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
 X48 a_18106_61326# a_17206_61250# a_17996_61559# VDPWR.t0 sg13_lv_pmos ad=54.6f pd=0.68u as=79.8f ps=0.8u w=0.42u l=0.13u
-X49 VGND.t91 ring_0/inverter_ring_0/skullfet_inverter_3.A ring_0/inverter_ring_0/skullfet_inverter_2.A VGND.t90 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X50 VGND.t122 ring_0/inverter_ring_0/skullfet_inverter_16.A uo_out[0].t1 VGND.t121 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X51 ring_0/inverter_ring_0/skullfet_inverter_18.A ring_0/inverter_ring_0/skullfet_inverter_19.A VDPWR.t54 VDPWR.t53 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X52 a_19947_61366# a_20086_61250# VDPWR.t1 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
-X53 ring_0/inverter_ring_0/skullfet_inverter_9.A ring_0/inverter_ring_0/skullfet_inverter_10.A VDPWR.t79 VDPWR.t78 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X54 VGND.t87 a_22511_61578# freq_divider_0.sg13g2_dfrbp_2_2.D VGND.t86 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X55 VGND.t100 uo_out[0].t2 ring_0/inverter_ring_0/skullfet_inverter_14.A VGND.t99 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X56 VGND.t20 a_22205_61585# uo_out[1].t1 VGND.t19 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X57 a_19681_61717# a_19247_61578# a_19587_61717# VGND.t120 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X49 VGND.t22 ring_0/inverter_ring_0/skullfet_inverter_3.A ring_0/inverter_ring_0/skullfet_inverter_2.A VGND.t21 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X50 VGND.t17 ring_0/inverter_ring_0/skullfet_inverter_16.A uo_out[0].t0 VGND.t16 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X51 ring_0/inverter_ring_0/skullfet_inverter_18.A ring_0/inverter_ring_0/skullfet_inverter_19.A VDPWR.t51 VDPWR.t50 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X52 a_19947_61366# a_20086_61250# VDPWR.t28 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
+X53 ring_0/inverter_ring_0/skullfet_inverter_9.A ring_0/inverter_ring_0/skullfet_inverter_10.A VDPWR.t31 VDPWR.t30 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X54 VGND.t69 a_22511_61578# freq_divider_0.sg13g2_dfrbp_2_2.D VGND.t68 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X55 VGND.t96 uo_out[0].t2 ring_0/inverter_ring_0/skullfet_inverter_14.A VGND.t95 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X56 VGND.t49 a_22205_61585# uo_out[1].t0 VGND.t48 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X57 a_19681_61717# a_19247_61578# a_19587_61717# VGND.t93 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
 X58 a_17996_61559# a_17067_61366# a_17910_61326# VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
 X59 a_19955_61640# a_20086_61250# a_19247_61578# VDPWR.t0 sg13_lv_pmos ad=0.34p pd=2.68u as=0.19115p ps=1.565u w=1u l=0.13u
 X60 a_20986_61326# a_20086_61250# a_20876_61559# VDPWR.t0 sg13_lv_pmos ad=54.6f pd=0.68u as=79.8f ps=0.8u w=0.42u l=0.13u
-X61 VDPWR.t15 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_16707_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
+X61 VDPWR.t35 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_16707_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
 X62 a_24140_61559# a_23211_61366# a_24054_61326# VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.1428p ps=1.52u w=0.42u l=0.13u
-X63 a_17067_61366# a_17206_61250# VDPWR.t15 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
-X64 VDPWR.t1 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_22851_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
-X65 a_17067_61366# a_17206_61250# VGND.t28 VGND.t27 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
-X66 VDPWR.t31 freq_divider_0.sg13g2_dfrbp_2_0.D a_17910_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X67 freq_divider_0.sg13g2_dfrbp_2_1.D a_19247_61578# VGND.t116 VGND.t119 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
-X68 a_21132_61704# a_19955_61640# a_20747_61559# VGND.t114 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
-X69 a_17910_61326# a_17206_61250# a_17996_61559# VGND.t26 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
-X70 a_19845_61717# a_20086_61250# a_19247_61578# VGND.t48 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
-X71 a_16965_61717# a_16707_61717# VGND.t41 VGND.t40 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X72 a_19897_61402# a_19587_61717# VDPWR.t15 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
-X73 a_20790_61326# a_20086_61250# a_20876_61559# VGND.t47 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
-X74 a_18252_61704# a_17075_61640# a_17867_61559# VGND.t18 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
-X75 VGND.t118 a_19247_61578# freq_divider_0.sg13g2_dfrbp_2_1.D VGND.t117 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X76 VGND.t104 a_18941_61585# uo_out[2].t1 VGND.t103 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X77 a_24140_61559# a_23211_61366# a_24011_61559# VGND.t5 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
-X78 a_16965_61717# a_17206_61250# a_16367_61578# VGND.t25 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
-X79 VGND.t116 a_19247_61578# a_18941_61585# VGND.t115 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
+X63 a_17067_61366# a_17206_61250# VDPWR.t35 VDPWR.t0 sg13_lv_pmos ad=0.3864p pd=2.93u as=1.55707p ps=9.54u w=1.12u l=0.13u
+X64 VDPWR.t28 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_22851_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
+X65 a_17067_61366# a_17206_61250# VGND.t59 VGND.t58 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
+X66 VDPWR.t71 freq_divider_0.sg13g2_dfrbp_2_0.D a_17910_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X67 freq_divider_0.sg13g2_dfrbp_2_1.D a_19247_61578# VGND.t89 VGND.t92 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
+X68 a_21132_61704# a_19955_61640# a_20747_61559# VGND.t18 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
+X69 a_17910_61326# a_17206_61250# a_17996_61559# VGND.t57 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
+X70 a_19845_61717# a_20086_61250# a_19247_61578# VGND.t39 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
+X71 a_16965_61717# a_16707_61717# VGND.t47 VGND.t46 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X72 a_19897_61402# a_19587_61717# VDPWR.t35 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
+X73 a_20790_61326# a_20086_61250# a_20876_61559# VGND.t38 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
+X74 a_18252_61704# a_17075_61640# a_17867_61559# VGND.t12 sg13_lv_nmos ad=38.85f pd=0.605u as=0.1596p ps=1.6u w=0.42u l=0.13u
+X75 VGND.t91 a_19247_61578# freq_divider_0.sg13g2_dfrbp_2_1.D VGND.t90 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X76 VGND.t61 a_18941_61585# uo_out[2].t0 VGND.t60 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X77 a_24140_61559# a_23211_61366# a_24011_61559# VGND.t1 sg13_lv_nmos ad=81f pd=0.81u as=0.2163p ps=1.87u w=0.42u l=0.13u
+X78 a_16965_61717# a_17206_61250# a_16367_61578# VGND.t56 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
+X79 VGND.t89 a_19247_61578# a_18941_61585# VGND.t88 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
 X80 a_17996_61559# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t9 VDPWR.t0 sg13_lv_pmos ad=0.147p pd=1.54u as=0.1563p ps=1.22u w=0.42u l=0.13u
-X81 VDPWR.t41 a_19955_61640# a_20986_61326# VDPWR.t0 sg13_lv_pmos ad=0.1563p pd=1.22u as=54.6f ps=0.68u w=0.42u l=0.13u
-X82 a_20790_61326# freq_divider_0.sg13g2_dfrbp_2_1.D a_21529_61717# VGND.t98 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
-X83 VDPWR.t8 a_17996_61559# a_17075_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
-X84 VGND.t13 ring_0/inverter_ring_0/skullfet_inverter_0.Y ring_0/inverter_ring_0/skullfet_inverter_19.A VGND.t12 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X85 a_24140_61559# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t19 VDPWR.t0 sg13_lv_pmos ad=0.147p pd=1.54u as=0.1563p ps=1.22u w=0.42u l=0.13u
-X86 ring_0/inverter_ring_0/skullfet_inverter_5.A ring_0/inverter_ring_0/skullfet_inverter_6.A VDPWR.t48 VDPWR.t47 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X87 VDPWR.t83 a_19247_61578# freq_divider_0.sg13g2_dfrbp_2_1.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
-X88 VGND.t51 ring_0/inverter_ring_0/skullfet_inverter_8.A ring_0/inverter_ring_0/skullfet_inverter_7.A VGND.t50 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X89 VDPWR.t1 uo_out[1].t2 a_20086_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X90 VDPWR.t18 a_24140_61559# a_23219_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
+X81 VDPWR.t14 a_19955_61640# a_20986_61326# VDPWR.t0 sg13_lv_pmos ad=0.1563p pd=1.22u as=54.6f ps=0.68u w=0.42u l=0.13u
+X82 a_20790_61326# freq_divider_0.sg13g2_dfrbp_2_1.D a_21529_61717# VGND.t117 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X83 VDPWR.t32 a_17996_61559# a_17075_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
+X84 VGND.t27 ring_0/inverter_ring_0/skullfet_inverter_0.Y ring_0/inverter_ring_0/skullfet_inverter_19.A VGND.t26 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X85 a_24140_61559# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t18 VDPWR.t0 sg13_lv_pmos ad=0.147p pd=1.54u as=0.1563p ps=1.22u w=0.42u l=0.13u
+X86 ring_0/inverter_ring_0/skullfet_inverter_5.A ring_0/inverter_ring_0/skullfet_inverter_6.A VDPWR.t2 VDPWR.t1 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X87 VDPWR.t63 a_19247_61578# freq_divider_0.sg13g2_dfrbp_2_1.D VDPWR.t0 sg13_lv_pmos ad=0.2014p pd=1.53u as=0.2128p ps=1.5u w=1.12u l=0.13u
+X88 VGND.t31 ring_0/inverter_ring_0/skullfet_inverter_8.A ring_0/inverter_ring_0/skullfet_inverter_7.A VGND.t30 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X89 VDPWR.t28 uo_out[1].t2 a_20086_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X90 VDPWR.t15 a_24140_61559# a_23219_61640# VDPWR.t0 sg13_lv_pmos ad=0.36237p pd=2.605u as=0.34p ps=2.68u w=1u l=0.13u
 X91 a_23219_61640# a_23350_61250# a_22511_61578# VDPWR.t0 sg13_lv_pmos ad=0.34p pd=2.68u as=0.19115p ps=1.565u w=1u l=0.13u
 X92 VDPWR.t9 a_17075_61640# a_18106_61326# VDPWR.t0 sg13_lv_pmos ad=0.1563p pd=1.22u as=54.6f ps=0.68u w=0.42u l=0.13u
-X93 a_19587_61717# a_19247_61578# VDPWR.t83 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
-X94 VGND.t43 ring_0/inverter_ring_0/skullfet_inverter_1.A ring_0/inverter_ring_0/skullfet_inverter_0.A VGND.t42 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X95 ring_0/inverter_ring_0/skullfet_inverter_10.A ring_0/inverter_ring_0/skullfet_inverter_11.A VDPWR.t29 VDPWR.t28 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X96 VDPWR.t11 a_22205_61585# uo_out[1].t0 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
-X97 VDPWR.t15 uo_out[2].t2 a_17206_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X98 VGND.t96 ring_0/inverter_ring_0/skullfet_inverter_12.A ring_0/inverter_ring_0/skullfet_inverter_11.A VGND.t95 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X99 a_23109_61717# a_23350_61250# a_22511_61578# VGND.t1 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
-X100 ring_0/inverter_ring_0/skullfet_inverter_0.A ring_0/inverter_ring_0/skullfet_inverter_1.A VDPWR.t27 VDPWR.t26 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X101 ring_0/inverter_ring_0/skullfet_inverter_16.A ring_0/inverter_ring_0/skullfet_inverter_17.A VDPWR.t50 VDPWR.t49 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X102 a_21980_61316# a_21980_61316# VGND.t17 VGND.t111 sg13_lv_nmos ad=0.111p pd=1.34u as=2.07232p ps=13.14u w=0.3u l=0.13u
-X103 VGND.t58 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_19681_61717# VGND.t57 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
-X104 ring_0/inverter_ring_0/skullfet_inverter_2.A ring_0/inverter_ring_0/skullfet_inverter_3.A VDPWR.t62 VDPWR.t61 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X105 uo_out[0].t0 ring_0/inverter_ring_0/skullfet_inverter_16.A VDPWR.t87 VDPWR.t86 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X106 a_21529_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t56 VGND.t55 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
-X107 VGND.t56 a_20876_61559# a_19955_61640# VGND.t123 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X108 uo_out[3].t1 a_16061_61585# VGND.t11 VGND.t10 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X109 VGND.t17 uo_out[1].t2 a_20086_61250# VGND.t46 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X110 VGND.t17 a_21856_61617# a_21777_61520# VGND.t16 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.27427p ps=2.28u w=0.795u l=0.13u
+X93 a_19587_61717# a_19247_61578# VDPWR.t63 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.2014p ps=1.53u w=0.42u l=0.13u
+X94 VGND.t33 ring_0/inverter_ring_0/skullfet_inverter_1.A ring_0/inverter_ring_0/skullfet_inverter_0.A VGND.t32 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X95 ring_0/inverter_ring_0/skullfet_inverter_10.A ring_0/inverter_ring_0/skullfet_inverter_11.A VDPWR.t59 VDPWR.t58 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X96 VDPWR.t37 a_22205_61585# uo_out[1].t1 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X97 VDPWR.t35 uo_out[2].t2 a_17206_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X98 VGND.t55 ring_0/inverter_ring_0/skullfet_inverter_12.A ring_0/inverter_ring_0/skullfet_inverter_11.A VGND.t54 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X99 a_23109_61717# a_23350_61250# a_22511_61578# VGND.t77 sg13_lv_nmos ad=0.1428p pd=1.52u as=0.12665p ps=1.145u w=0.42u l=0.13u
+X100 ring_0/inverter_ring_0/skullfet_inverter_0.A ring_0/inverter_ring_0/skullfet_inverter_1.A VDPWR.t26 VDPWR.t25 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X101 ring_0/inverter_ring_0/skullfet_inverter_16.A ring_0/inverter_ring_0/skullfet_inverter_17.A VDPWR.t11 VDPWR.t10 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X102 a_21980_61316# a_21980_61316# VGND.t3 VGND.t118 sg13_lv_nmos ad=0.111p pd=1.34u as=2.07232p ps=13.14u w=0.3u l=0.13u
+X103 VGND.t99 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_19681_61717# VGND.t98 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
+X104 ring_0/inverter_ring_0/skullfet_inverter_2.A ring_0/inverter_ring_0/skullfet_inverter_3.A VDPWR.t17 VDPWR.t16 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X105 uo_out[0].t1 ring_0/inverter_ring_0/skullfet_inverter_16.A VDPWR.t13 VDPWR.t12 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X106 a_21529_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t65 VGND.t106 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
+X107 VGND.t65 a_20876_61559# a_19955_61640# VGND.t64 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X108 uo_out[3].t0 a_16061_61585# VGND.t87 VGND.t86 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X109 VGND.t3 uo_out[1].t2 a_20086_61250# VGND.t13 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X110 VGND.t3 a_21856_61617# a_21777_61520# VGND.t2 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.27427p ps=2.28u w=0.795u l=0.13u
 X111 a_16367_61578# a_17067_61366# a_17017_61402# VDPWR.t0 sg13_lv_pmos ad=0.19115p pd=1.565u as=52.5f ps=0.67u w=0.42u l=0.13u
-X112 ring_0/inverter_ring_0/skullfet_inverter_14.A uo_out[0].t2 VDPWR.t71 VDPWR.t70 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X113 VGND.t7 ring_0/inverter_ring_0/skullfet_inverter_4.A ring_0/inverter_ring_0/skullfet_inverter_3.A VGND.t6 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X114 VDPWR.t19 a_23219_61640# a_24250_61326# VDPWR.t0 sg13_lv_pmos ad=0.1563p pd=1.22u as=54.6f ps=0.68u w=0.42u l=0.13u
+X112 ring_0/inverter_ring_0/skullfet_inverter_14.A uo_out[0].t2 VDPWR.t68 VDPWR.t67 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X113 VGND.t81 ring_0/inverter_ring_0/skullfet_inverter_4.A ring_0/inverter_ring_0/skullfet_inverter_3.A VGND.t80 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X114 VDPWR.t18 a_23219_61640# a_24250_61326# VDPWR.t0 sg13_lv_pmos ad=0.1563p pd=1.22u as=54.6f ps=0.68u w=0.42u l=0.13u
 X115 a_24250_61326# a_23350_61250# a_24140_61559# VDPWR.t0 sg13_lv_pmos ad=54.6f pd=0.68u as=79.8f ps=0.8u w=0.42u l=0.13u
-X116 a_20790_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t36 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
-X117 a_24054_61326# freq_divider_0.sg13g2_dfrbp_2_2.D a_24793_61717# VGND.t124 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
-X118 a_22511_61578# a_23211_61366# a_23219_61640# VGND.t4 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
-X119 a_18649_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t15 VGND.t54 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
-X120 freq_divider_0.sg13g2_dfrbp_2_0.D a_16367_61578# VDPWR.t43 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
-X121 VGND.t28 uo_out[2].t2 a_17206_61250# VGND.t27 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X122 VDPWR.t82 a_19247_61578# a_18941_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
-X123 VGND.t110 ring_0/inverter_ring_0/skullfet_inverter_7.A ring_0/inverter_ring_0/skullfet_inverter_6.A VGND.t109 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X124 a_24793_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t32 VGND.t53 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
+X116 a_20790_61326# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VDPWR.t45 VDPWR.t0 sg13_lv_pmos ad=79.8f pd=0.8u as=0.36237p ps=2.605u w=0.42u l=0.13u
+X117 a_24054_61326# freq_divider_0.sg13g2_dfrbp_2_2.D a_24793_61717# VGND.t34 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X118 a_22511_61578# a_23211_61366# a_23219_61640# VGND.t0 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
+X119 a_18649_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t43 VGND.t105 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
+X120 freq_divider_0.sg13g2_dfrbp_2_0.D a_16367_61578# VDPWR.t86 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
+X121 VGND.t59 uo_out[2].t2 a_17206_61250# VGND.t58 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X122 VDPWR.t62 a_19247_61578# a_18941_61585# VDPWR.t0 sg13_lv_pmos ad=0.2083p pd=1.5u as=0.34p ps=2.68u w=1u l=0.13u
+X123 VGND.t7 ring_0/inverter_ring_0/skullfet_inverter_7.A ring_0/inverter_ring_0/skullfet_inverter_6.A VGND.t6 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X124 a_24793_61717# freq_divider_0.sg13g2_dfrbp_2_0.RESET_B VGND.t20 VGND.t104 sg13_lv_nmos ad=60.89999f pd=0.71u as=0.1626p ps=1.415u w=0.42u l=0.13u
 X125 a_17075_61640# a_17206_61250# a_16367_61578# VDPWR.t0 sg13_lv_pmos ad=0.34p pd=2.68u as=0.19115p ps=1.565u w=1u l=0.13u
-X126 uo_out[3].t0 a_16061_61585# VDPWR.t5 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X127 a_24054_61326# a_23350_61250# a_24140_61559# VGND.t0 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
-X128 VDPWR.t4 a_16061_61585# uo_out[3].t0 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
+X126 uo_out[3].t1 a_16061_61585# VDPWR.t61 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X127 a_24054_61326# a_23350_61250# a_24140_61559# VGND.t76 sg13_lv_nmos ad=0.1296p pd=1.52u as=81f ps=0.81u w=0.42u l=0.13u
+X128 VDPWR.t60 a_16061_61585# uo_out[3].t1 VDPWR.t0 sg13_lv_pmos ad=0.3808p pd=2.92u as=0.2156p ps=1.505u w=1.12u l=0.13u
 X129 a_22511_61578# a_23211_61366# a_23161_61402# VDPWR.t0 sg13_lv_pmos ad=0.19115p pd=1.565u as=52.5f ps=0.67u w=0.42u l=0.13u
-X130 ring_0/inverter_ring_0/skullfet_inverter_8.A ring_0/inverter_ring_0/skullfet_inverter_9.A VDPWR.t24 VDPWR.t23 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X131 uo_out[1].t0 a_22205_61585# VDPWR.t10 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X132 ring_0/inverter_ring_0/skullfet_inverter_7.A ring_0/inverter_ring_0/skullfet_inverter_8.A VDPWR.t33 VDPWR.t32 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X133 VGND.t113 ring_0/inverter_ring_0/skullfet_inverter_10.A ring_0/inverter_ring_0/skullfet_inverter_9.A VGND.t112 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X134 VGND.t32 a_24140_61559# a_23219_61640# VGND.t31 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X135 VGND.t3 uo_out[0].t3 a_23350_61250# VGND.t2 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
-X136 freq_divider_0.sg13g2_dfrbp_2_2.D a_22511_61578# VDPWR.t57 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
-X137 a_16801_61717# a_16367_61578# a_16707_61717# VGND.t71 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
-X138 a_19247_61578# a_19947_61366# a_19955_61640# VGND.t76 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
-X139 ring_0/inverter_ring_0/skullfet_inverter_1.A ring_0/inverter_ring_0/skullfet_inverter_2.A VDPWR.t52 VDPWR.t51 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X140 ring_0/inverter_ring_0/skullfet_inverter_13.A ring_0/inverter_ring_0/skullfet_inverter_14.A VDPWR.t64 VDPWR.t63 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X141 VDPWR.t15 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_19587_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
-X142 ring_0/inverter_ring_0/skullfet_inverter_0.Y ring_0/inverter_ring_0/skullfet_inverter_0.A VDPWR.t14 VDPWR.t13 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
-X143 freq_divider_0.sg13g2_dfrbp_2_0.D a_16367_61578# VGND.t67 VGND.t70 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
-X144 a_17910_61326# freq_divider_0.sg13g2_dfrbp_2_0.D a_18649_61717# VGND.t49 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
-X145 a_16367_61578# a_17067_61366# a_17075_61640# VGND.t107 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
-X146 VGND.t37 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_22945_61717# VGND.t36 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
-X147 a_17017_61402# a_16707_61717# VDPWR.t15 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
-X148 VGND.t30 ring_0/inverter_ring_0/skullfet_inverter_18.A ring_0/inverter_ring_0/skullfet_inverter_17.A VGND.t29 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X149 VGND.t69 a_16367_61578# freq_divider_0.sg13g2_dfrbp_2_0.D VGND.t68 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X150 VGND.t73 ring_0/inverter_ring_0/skullfet_inverter_6.A ring_0/inverter_ring_0/skullfet_inverter_5.A VGND.t72 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X151 VGND.t9 a_16061_61585# uo_out[3].t1 VGND.t8 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
-X152 a_19845_61717# a_19587_61717# VGND.t58 VGND.t57 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X153 VGND.t83 ring_0/inverter_ring_0/skullfet_inverter_5.A ring_0/inverter_ring_0/skullfet_inverter_4.A VGND.t82 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X154 VGND.t67 a_16367_61578# a_16061_61585# VGND.t66 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
-X155 VDPWR.t1 uo_out[0].t3 a_23350_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
-X156 a_19947_61366# a_20086_61250# VGND.t17 VGND.t46 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
-X157 VGND.t81 ring_0/inverter_ring_0/skullfet_inverter_19.A ring_0/inverter_ring_0/skullfet_inverter_18.A VGND.t80 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
-X158 VDPWR.t69 freq_divider_0.sg13g2_dfrbp_2_1.D a_20790_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
-X159 freq_divider_0.sg13g2_dfrbp_2_2.D a_22511_61578# VGND.t85 VGND.t84 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
+X130 ring_0/inverter_ring_0/skullfet_inverter_8.A ring_0/inverter_ring_0/skullfet_inverter_9.A VDPWR.t83 VDPWR.t82 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X131 uo_out[1].t1 a_22205_61585# VDPWR.t36 VDPWR.t0 sg13_lv_pmos ad=0.2156p pd=1.505u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X132 ring_0/inverter_ring_0/skullfet_inverter_7.A ring_0/inverter_ring_0/skullfet_inverter_8.A VDPWR.t24 VDPWR.t23 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X133 VGND.t41 ring_0/inverter_ring_0/skullfet_inverter_10.A ring_0/inverter_ring_0/skullfet_inverter_9.A VGND.t40 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X134 VGND.t20 a_24140_61559# a_23219_61640# VGND.t19 sg13_lv_nmos ad=0.1626p pd=1.415u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X135 VGND.t79 uo_out[0].t3 a_23350_61250# VGND.t78 sg13_lv_nmos ad=2.07232p pd=13.14u as=0.2516p ps=2.16u w=0.74u l=0.13u
+X136 freq_divider_0.sg13g2_dfrbp_2_2.D a_22511_61578# VDPWR.t46 VDPWR.t0 sg13_lv_pmos ad=0.2128p pd=1.5u as=0.2083p ps=1.5u w=1.12u l=0.13u
+X137 a_16801_61717# a_16367_61578# a_16707_61717# VGND.t124 sg13_lv_nmos ad=37.8f pd=0.6u as=0.1428p ps=1.52u w=0.42u l=0.13u
+X138 a_19247_61578# a_19947_61366# a_19955_61640# VGND.t101 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
+X139 ring_0/inverter_ring_0/skullfet_inverter_1.A ring_0/inverter_ring_0/skullfet_inverter_2.A VDPWR.t39 VDPWR.t38 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X140 ring_0/inverter_ring_0/skullfet_inverter_13.A ring_0/inverter_ring_0/skullfet_inverter_14.A VDPWR.t53 VDPWR.t52 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X141 VDPWR.t35 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_19587_61717# VDPWR.t0 sg13_lv_pmos ad=1.4373p pd=8.805u as=79.8f ps=0.8u w=0.42u l=0.13u
+X142 ring_0/inverter_ring_0/skullfet_inverter_0.Y ring_0/inverter_ring_0/skullfet_inverter_0.A VDPWR.t34 VDPWR.t33 sg13_lv_pmos ad=6.2694p pd=26.64u as=4.4307p ps=10.9u w=4.05u l=0.4u
+X143 freq_divider_0.sg13g2_dfrbp_2_0.D a_16367_61578# VGND.t120 VGND.t123 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
+X144 a_17910_61326# freq_divider_0.sg13g2_dfrbp_2_0.D a_18649_61717# VGND.t100 sg13_lv_nmos ad=0.1428p pd=1.52u as=60.89999f ps=0.71u w=0.42u l=0.13u
+X145 a_16367_61578# a_17067_61366# a_17075_61640# VGND.t28 sg13_lv_nmos ad=0.12665p pd=1.145u as=0.3473p ps=2.71u w=0.74u l=0.13u
+X146 VGND.t36 freq_divider_0.sg13g2_dfrbp_2_0.RESET_B a_22945_61717# VGND.t35 sg13_lv_nmos ad=79.8f pd=0.8u as=37.8f ps=0.6u w=0.42u l=0.13u
+X147 a_17017_61402# a_16707_61717# VDPWR.t35 VDPWR.t0 sg13_lv_pmos ad=52.5f pd=0.67u as=1.55707p ps=9.54u w=0.42u l=0.13u
+X148 VGND.t9 ring_0/inverter_ring_0/skullfet_inverter_18.A ring_0/inverter_ring_0/skullfet_inverter_17.A VGND.t8 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X149 VGND.t122 a_16367_61578# freq_divider_0.sg13g2_dfrbp_2_0.D VGND.t121 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X150 VGND.t5 ring_0/inverter_ring_0/skullfet_inverter_6.A ring_0/inverter_ring_0/skullfet_inverter_5.A VGND.t4 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X151 VGND.t85 a_16061_61585# uo_out[3].t0 VGND.t84 sg13_lv_nmos ad=0.2516p pd=2.16u as=0.1406p ps=1.12u w=0.74u l=0.13u
+X152 a_19845_61717# a_19587_61717# VGND.t99 VGND.t98 sg13_lv_nmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X153 VGND.t25 ring_0/inverter_ring_0/skullfet_inverter_5.A ring_0/inverter_ring_0/skullfet_inverter_4.A VGND.t24 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X154 VGND.t120 a_16367_61578# a_16061_61585# VGND.t119 sg13_lv_nmos ad=0.1331p pd=1.12u as=0.2176p ps=1.96u w=0.64u l=0.13u
+X155 VDPWR.t28 uo_out[0].t3 a_23350_61250# VDPWR.t0 sg13_lv_pmos ad=1.55707p pd=9.54u as=0.3808p ps=2.92u w=1.12u l=0.13u
+X156 a_19947_61366# a_20086_61250# VGND.t3 VGND.t13 sg13_lv_nmos ad=0.2516p pd=2.16u as=2.07232p ps=13.14u w=0.74u l=0.13u
+X157 VGND.t73 ring_0/inverter_ring_0/skullfet_inverter_19.A ring_0/inverter_ring_0/skullfet_inverter_18.A VGND.t72 sg13_lv_nmos ad=4.2687p pd=10.82u as=6.4314p ps=26.72u w=4.05u l=0.4u
+X158 VDPWR.t84 freq_divider_0.sg13g2_dfrbp_2_1.D a_20790_61326# VDPWR.t0 sg13_lv_pmos ad=0.1428p pd=1.52u as=79.8f ps=0.8u w=0.42u l=0.13u
+X159 freq_divider_0.sg13g2_dfrbp_2_2.D a_22511_61578# VGND.t67 VGND.t66 sg13_lv_nmos ad=0.1406p pd=1.12u as=0.1331p ps=1.12u w=0.74u l=0.13u
 R0 VGND.n199 VGND.n59 36337.9
 R1 VGND.n207 VGND.n111 26006.8
 R2 VGND.n343 VGND.n111 20289.4
-R3 VGND.t6 VGND.n157 19416.2
+R3 VGND.t80 VGND.n157 19416.2
 R4 VGND.n466 VGND.n465 17662.9
 R5 VGND.n191 VGND.n70 15262.5
 R6 VGND.n199 VGND.n111 12285.4
 R7 VGND.n61 VGND.n59 12285.4
 R8 VGND.n465 VGND.n464 12279.6
-R9 VGND.n197 VGND.t72 12039.2
-R10 VGND.t109 VGND.n63 10402.1
+R9 VGND.n197 VGND.t4 12039.2
+R10 VGND.t6 VGND.n63 10402.1
 R11 VGND.n278 VGND.n271 10052.7
-R12 VGND.n467 VGND.n466 10011.4
+R12 VGND.n467 VGND.n466 9967.62
 R13 VGND.n156 VGND.n155 9840.79
 R14 VGND.n198 VGND.n61 9066.9
 R15 VGND.n262 VGND.n197 7844.55
 R16 VGND.n207 VGND.n201 7498.6
 R17 VGND.n196 VGND.n195 7474.99
 R18 VGND.n155 VGND.n152 7291.79
-R19 VGND.n191 VGND.t82 7169.54
+R19 VGND.n191 VGND.t24 7169.54
 R20 VGND.n470 VGND.n65 6899.39
 R21 VGND.n474 VGND.n60 6851.13
 R22 VGND.n69 VGND.n65 6429.23
-R23 VGND.n262 VGND.t90 6051.63
+R23 VGND.n262 VGND.t21 6051.63
 R24 VGND.n200 VGND.n199 6014.02
 R25 VGND.n464 VGND.n463 5872.62
 R26 VGND.n201 VGND.n200 5699.78
@@ -205,167 +205,167 @@ R35 VGND.n464 VGND.n71 3154.9
 R36 VGND.n197 VGND.n196 3153.12
 R37 VGND.n279 VGND.n278 2376.2
 R38 VGND.n262 VGND.n154 2220.92
-R39 VGND.n468 VGND.n467 2091.57
+R39 VGND.n468 VGND.n467 2084.31
 R40 VGND.n472 VGND.n63 1946.24
 R41 VGND.n200 VGND.n198 1880.71
 R42 VGND.n157 VGND.n70 1835.32
 R43 VGND.n74 VGND.n71 1763.01
 R44 VGND.n262 VGND.n198 1734.38
 R45 VGND.n197 VGND.n63 1470.05
-R46 VGND.n280 VGND.t23 1368.89
-R47 VGND.t80 VGND.n273 1347.06
-R48 VGND.n273 VGND.t12 1194.61
-R49 VGND.t82 VGND.n190 1123.79
+R46 VGND.n280 VGND.t44 1368.89
+R47 VGND.t72 VGND.n273 1347.06
+R48 VGND.n273 VGND.t26 1194.61
+R49 VGND.t24 VGND.n190 1123.79
 R50 VGND.n465 VGND.n70 1061.65
 R51 VGND.n280 VGND.n268 977.779
-R52 VGND.n60 VGND.t34 964.287
+R52 VGND.n60 VGND.t10 964.287
 R53 VGND.n262 VGND.n156 905.553
-R54 VGND.t34 VGND.n59 876.317
+R54 VGND.t10 VGND.n59 876.317
 R55 VGND.n474 VGND.n61 837.723
 R56 VGND.n272 VGND.n152 814.62
 R57 VGND.n234 VGND.n231 744.615
 R58 VGND.n484 VGND.n5 744.615
 R59 VGND.n53 VGND.n52 744.615
-R60 VGND.n206 VGND.t99 675.663
-R61 VGND.n195 VGND.t90 656.004
-R62 VGND.n463 VGND.t72 656.004
-R63 VGND.n196 VGND.t6 615.229
+R60 VGND.n206 VGND.t95 675.663
+R61 VGND.n195 VGND.t21 656.004
+R62 VGND.n463 VGND.t4 656.004
+R63 VGND.n196 VGND.t80 615.229
 R64 VGND.n156 VGND.n151 608.424
 R65 VGND.n344 VGND.n59 575.212
 R66 VGND.n196 VGND.n192 498.868
-R67 VGND.n234 VGND.t36 480
-R68 VGND.n484 VGND.t57 480
-R69 VGND.n52 VGND.t40 480
-R70 VGND.n469 VGND.t38 455.887
-R71 VGND.n74 VGND.t109 427.755
+R67 VGND.n234 VGND.t35 480
+R68 VGND.n484 VGND.t98 480
+R69 VGND.n52 VGND.t46 480
+R70 VGND.n469 VGND.t115 455.887
+R71 VGND.n74 VGND.t6 427.755
 R72 VGND.n262 VGND.n261 402.269
 R73 VGND.n475 VGND.n474 395.865
 R74 VGND.n262 VGND.n201 392.892
-R75 VGND.t92 VGND.n343 372.399
+R75 VGND.t74 VGND.n343 372.399
 R76 VGND.n279 VGND.n268 344.149
-R77 VGND.t12 VGND.n271 335.173
-R78 VGND.n68 VGND.t38 330.428
-R79 VGND.n288 VGND.t74 318.406
+R77 VGND.t26 VGND.n271 335.173
+R78 VGND.n68 VGND.t115 330.428
+R79 VGND.n288 VGND.t14 318.406
 R80 VGND.n343 VGND.n342 307.757
 R81 VGND.n157 VGND.n154 278.079
-R82 VGND.n230 VGND.t86 260.005
-R83 VGND.n16 VGND.t117 260.005
-R84 VGND.t68 VGND.n54 260.005
-R85 VGND.t84 VGND.n228 234.738
-R86 VGND.t119 VGND.n14 234.738
-R87 VGND.n56 VGND.t70 234.738
-R88 VGND.n241 VGND.t89 232.869
-R89 VGND.n25 VGND.t115 232.869
-R90 VGND.t66 VGND.n43 232.869
-R91 VGND.t78 VGND.n151 231.615
-R92 VGND.t16 VGND.n225 228.233
-R93 VGND.n272 VGND.t42 227.947
+R82 VGND.n230 VGND.t68 260.005
+R83 VGND.n16 VGND.t90 260.005
+R84 VGND.t121 VGND.n54 260.005
+R85 VGND.t66 VGND.n228 234.738
+R86 VGND.t92 VGND.n14 234.738
+R87 VGND.n56 VGND.t123 234.738
+R88 VGND.n241 VGND.t71 232.869
+R89 VGND.n25 VGND.t88 232.869
+R90 VGND.t119 VGND.n43 232.869
+R91 VGND.t52 VGND.n151 231.615
+R92 VGND.t2 VGND.n225 228.233
+R93 VGND.n272 VGND.t32 227.947
 R94 VGND.n198 VGND.n63 226.054
-R95 VGND.n248 VGND.t123 200.339
-R96 VGND.n31 VGND.t14 200.339
-R97 VGND.n212 VGND.t31 200.339
-R98 VGND.n246 VGND.t98 195.942
-R99 VGND.n12 VGND.t49 194.969
+R95 VGND.n248 VGND.t64 200.339
+R96 VGND.n31 VGND.t42 200.339
+R97 VGND.n212 VGND.t19 200.339
+R98 VGND.n246 VGND.t117 195.942
+R99 VGND.n12 VGND.t100 194.969
 R100 VGND.n473 VGND.n472 194.851
-R101 VGND.n245 VGND.t19 185.124
-R102 VGND.n29 VGND.t103 185.124
-R103 VGND.t8 VGND.n41 185.124
-R104 VGND.t21 VGND.n226 184.825
-R105 VGND.t105 VGND.n12 184.825
-R106 VGND.n260 VGND.t124 180.052
-R107 VGND.n226 VGND.t111 172.145
-R108 VGND.n476 VGND.t10 169.907
-R109 VGND.n278 VGND.t29 164.255
-R110 VGND.t114 VGND.t62 159.763
-R111 VGND.t18 VGND.t64 159.763
-R112 VGND.t33 VGND.t59 159.763
-R113 VGND.t77 VGND.n221 156.929
-R114 VGND.t108 VGND.n9 156.929
-R115 VGND.t5 VGND.n209 156.929
-R116 VGND.n252 VGND.t47 154.614
-R117 VGND.n35 VGND.t26 154.614
-R118 VGND.n215 VGND.t0 154.614
+R101 VGND.n245 VGND.t48 185.124
+R102 VGND.n29 VGND.t60 185.124
+R103 VGND.t84 VGND.n41 185.124
+R104 VGND.t50 VGND.n226 184.825
+R105 VGND.t62 VGND.n12 184.825
+R106 VGND.n260 VGND.t34 180.052
+R107 VGND.n226 VGND.t118 172.145
+R108 VGND.n476 VGND.t86 169.907
+R109 VGND.n278 VGND.t8 164.255
+R110 VGND.t18 VGND.t111 159.763
+R111 VGND.t12 VGND.t113 159.763
+R112 VGND.t23 VGND.t108 159.763
+R113 VGND.t102 VGND.n221 156.929
+R114 VGND.t29 VGND.n9 156.929
+R115 VGND.t1 VGND.n209 156.929
+R116 VGND.n252 VGND.t38 154.614
+R117 VGND.n35 VGND.t57 154.614
+R118 VGND.n215 VGND.t76 154.614
 R119 VGND.n71 VGND.n65 151.276
-R120 VGND.t55 VGND.n223 149.62
-R121 VGND.t54 VGND.n11 149.62
-R122 VGND.t53 VGND.n211 149.62
-R123 VGND.t36 VGND.t4 138.463
-R124 VGND.t57 VGND.t76 138.463
-R125 VGND.t40 VGND.t107 138.463
-R126 VGND.n261 VGND.t121 132.323
-R127 VGND.n472 VGND.t50 128.216
+R120 VGND.t106 VGND.n223 149.62
+R121 VGND.t105 VGND.n11 149.62
+R122 VGND.t104 VGND.n211 149.62
+R123 VGND.t35 VGND.t0 138.463
+R124 VGND.t98 VGND.t101 138.463
+R125 VGND.t46 VGND.t28 138.463
+R126 VGND.n261 VGND.t16 132.323
+R127 VGND.n472 VGND.t30 128.216
 R128 VGND.n475 VGND.n59 122.921
-R129 VGND.t23 VGND.n279 113.026
-R130 VGND.n231 VGND.t88 110.237
-R131 VGND.t120 VGND.n5 110.237
-R132 VGND.t71 VGND.n53 110.237
+R129 VGND.t44 VGND.n279 113.026
+R130 VGND.n231 VGND.t70 110.237
+R131 VGND.t93 VGND.n5 110.237
+R132 VGND.t124 VGND.n53 110.237
 R133 VGND.n221 VGND.n5 106.212
 R134 VGND.n53 VGND.n9 106.212
 R135 VGND.n231 VGND.n209 106.212
-R136 VGND.t47 VGND.n251 100.478
-R137 VGND.t26 VGND.n34 100.478
-R138 VGND.t0 VGND.n214 100.478
-R139 VGND.n252 VGND.t77 99.7516
-R140 VGND.n35 VGND.t108 99.7516
-R141 VGND.n215 VGND.t5 99.7516
+R136 VGND.t38 VGND.n251 100.478
+R137 VGND.t57 VGND.n34 100.478
+R138 VGND.t76 VGND.n214 100.478
+R139 VGND.n252 VGND.t102 99.7516
+R140 VGND.n35 VGND.t29 99.7516
+R141 VGND.n215 VGND.t1 99.7516
 R142 VGND.n467 VGND.n68 95.8456
-R143 VGND.t50 VGND.n471 95.5275
-R144 VGND.n248 VGND.t55 93.8297
-R145 VGND.n31 VGND.t54 93.8297
-R146 VGND.n212 VGND.t53 93.8297
-R147 VGND.t111 VGND.n225 86.222
+R143 VGND.t30 VGND.n471 95.5275
+R144 VGND.n248 VGND.t106 93.8297
+R145 VGND.n31 VGND.t105 93.8297
+R146 VGND.n212 VGND.t104 93.8297
+R147 VGND.t118 VGND.n225 86.222
 R148 VGND.n288 VGND.n151 84.6642
 R149 VGND.n471 VGND.n470 83.8532
-R150 VGND.n251 VGND.t114 75.5501
-R151 VGND.n34 VGND.t18 75.5501
-R152 VGND.n214 VGND.t33 75.5501
-R153 VGND.t2 VGND.t1 73.8467
-R154 VGND.t46 VGND.t48 73.8467
-R155 VGND.t27 VGND.t25 73.8467
-R156 VGND.n245 VGND.t21 73.5423
-R157 VGND.n29 VGND.t105 73.5423
-R158 VGND.t10 VGND.n41 73.5423
-R159 VGND.t19 VGND.n241 73.244
-R160 VGND.t103 VGND.n25 73.244
-R161 VGND.n43 VGND.t8 73.244
-R162 VGND.n287 VGND.t42 72.396
-R163 VGND.n342 VGND.t99 65.0575
-R164 VGND.n344 VGND.t92 63.8663
-R165 VGND.n474 VGND.t95 63.5677
-R166 VGND.t98 VGND.n223 63.3986
-R167 VGND.t49 VGND.n11 63.3986
-R168 VGND.n211 VGND.t124 63.3986
-R169 VGND.t31 VGND.n210 59.0031
-R170 VGND.t123 VGND.n222 59.0031
-R171 VGND.t14 VGND.n10 59.0031
-R172 VGND.n472 VGND.t44 55.0827
-R173 VGND.n263 VGND.t78 51.425
-R174 VGND.n203 VGND.t74 51.1311
-R175 VGND.t88 VGND.n230 48.4827
-R176 VGND.n16 VGND.t120 48.4827
-R177 VGND.n54 VGND.t71 48.4827
-R178 VGND.t95 VGND.n473 47.9255
-R179 VGND.n469 VGND.t112 47.7166
+R150 VGND.n251 VGND.t18 75.5501
+R151 VGND.n34 VGND.t12 75.5501
+R152 VGND.n214 VGND.t23 75.5501
+R153 VGND.t78 VGND.t77 73.8467
+R154 VGND.t13 VGND.t39 73.8467
+R155 VGND.t58 VGND.t56 73.8467
+R156 VGND.n245 VGND.t50 73.5423
+R157 VGND.n29 VGND.t62 73.5423
+R158 VGND.t86 VGND.n41 73.5423
+R159 VGND.t48 VGND.n241 73.244
+R160 VGND.t60 VGND.n25 73.244
+R161 VGND.n43 VGND.t84 73.244
+R162 VGND.n287 VGND.t32 72.396
+R163 VGND.n342 VGND.t95 65.0575
+R164 VGND.n344 VGND.t74 63.8663
+R165 VGND.n474 VGND.t54 63.5677
+R166 VGND.t117 VGND.n223 63.3986
+R167 VGND.t100 VGND.n11 63.3986
+R168 VGND.n211 VGND.t34 63.3986
+R169 VGND.t19 VGND.n210 59.0031
+R170 VGND.t64 VGND.n222 59.0031
+R171 VGND.t42 VGND.n10 59.0031
+R172 VGND.n472 VGND.t82 55.0827
+R173 VGND.n263 VGND.t52 51.425
+R174 VGND.n203 VGND.t14 51.1311
+R175 VGND.t70 VGND.n230 48.4827
+R176 VGND.n16 VGND.t93 48.4827
+R177 VGND.n54 VGND.t124 48.4827
+R178 VGND.t54 VGND.n473 47.9255
+R179 VGND.n469 VGND.t40 47.7166
 R180 VGND.n469 VGND.n66 44.7738
-R181 VGND.n289 VGND.t29 44.7032
-R182 VGND.t121 VGND.n207 42.4247
-R183 VGND.n66 VGND.t44 41.6077
-R184 VGND.n277 VGND.t80 38.7252
-R185 VGND.t62 VGND.n222 38.7147
-R186 VGND.t64 VGND.n10 38.7147
-R187 VGND.t59 VGND.n210 38.7147
+R181 VGND.n289 VGND.t8 44.7032
+R182 VGND.t16 VGND.n207 42.4247
+R183 VGND.n66 VGND.t82 41.6077
+R184 VGND.n277 VGND.t72 38.7252
+R185 VGND.t111 VGND.n222 38.7147
+R186 VGND.t113 VGND.n10 38.7147
+R187 VGND.t108 VGND.n210 38.7147
 R188 VGND.n278 VGND.n272 36.6123
-R189 VGND.t112 VGND.n468 36.1063
-R190 VGND.n246 VGND.t16 31.1079
-R191 VGND.t89 VGND.n228 28.3754
-R192 VGND.t115 VGND.n14 28.3754
-R193 VGND.n56 VGND.t66 28.3754
-R194 VGND.n229 VGND.t84 27.8464
-R195 VGND.n15 VGND.t119 27.8464
-R196 VGND.t70 VGND.n55 27.8464
-R197 VGND.t4 VGND.t2 24.6159
-R198 VGND.t76 VGND.t46 24.6159
-R199 VGND.t107 VGND.t27 24.6159
+R189 VGND.t40 VGND.n468 36.1063
+R190 VGND.n246 VGND.t2 31.1079
+R191 VGND.t71 VGND.n228 28.3754
+R192 VGND.t88 VGND.n14 28.3754
+R193 VGND.n56 VGND.t119 28.3754
+R194 VGND.n229 VGND.t66 27.8464
+R195 VGND.n15 VGND.t92 27.8464
+R196 VGND.t123 VGND.n55 27.8464
+R197 VGND.t0 VGND.t78 24.6159
+R198 VGND.t101 VGND.t13 24.6159
+R199 VGND.t28 VGND.t58 24.6159
 R200 VGND.n288 VGND.n287 22.6588
 R201 VGND.n207 VGND.n206 22.6333
 R202 VGND.n470 VGND.n469 18.8055
@@ -390,69 +390,69 @@ R220 VGND.n346 VGND.n345 18.1658
 R221 VGND.n372 VGND.n371 18.1658
 R222 VGND.n194 VGND.n193 18.1658
 R223 VGND.n282 VGND.n281 18.1658
-R224 VGND.t17 VGND.n252 18.0261
-R225 VGND.t28 VGND.n35 18.0261
-R226 VGND.t3 VGND.n215 18.0261
-R227 VGND.t86 VGND.n229 17.5282
-R228 VGND.t117 VGND.n15 17.5282
-R229 VGND.n55 VGND.t68 17.5282
-R230 VGND.n213 VGND.t32 17.2928
-R231 VGND.n36 VGND.t65 17.2395
-R232 VGND.n253 VGND.t63 17.2395
-R233 VGND.n216 VGND.t60 17.2395
-R234 VGND.n47 VGND.t69 17.2297
-R235 VGND.n21 VGND.t118 17.2297
-R236 VGND.n237 VGND.t87 17.2297
-R237 VGND.n40 VGND.t41 17.2268
-R238 VGND.n32 VGND.t15 17.2268
-R239 VGND.n19 VGND.t58 17.2268
-R240 VGND.n249 VGND.t56 17.2268
-R241 VGND.n220 VGND.t37 17.2268
-R242 VGND.n402 VGND.t67 17.212
-R243 VGND.n23 VGND.t116 17.212
-R244 VGND.n239 VGND.t85 17.212
-R245 VGND.n57 VGND.t11 17.2025
-R246 VGND.n27 VGND.t106 17.2025
-R247 VGND.n243 VGND.t22 17.2025
-R248 VGND.n286 VGND.t43 17.0362
-R249 VGND.n264 VGND.t79 17.0362
-R250 VGND.n390 VGND.t45 17.0362
-R251 VGND.n64 VGND.t51 17.0362
-R252 VGND.n75 VGND.t110 17.0362
-R253 VGND.n462 VGND.t73 17.0362
-R254 VGND.n190 VGND.t83 17.0362
-R255 VGND.n158 VGND.t7 17.0362
-R256 VGND.n445 VGND.t39 17.0362
-R257 VGND.n67 VGND.t113 17.0362
-R258 VGND.n62 VGND.t96 17.0362
-R259 VGND.n205 VGND.t122 17.0362
-R260 VGND.n202 VGND.t75 17.0362
-R261 VGND.n290 VGND.t30 17.0362
-R262 VGND.n276 VGND.t81 17.0362
-R263 VGND.n270 VGND.t13 17.0362
-R264 VGND.n341 VGND.t100 17.0362
-R265 VGND.n345 VGND.t93 17.0362
-R266 VGND.n371 VGND.t35 17.0362
-R267 VGND.n194 VGND.t91 17.0362
-R268 VGND.n281 VGND.t24 17.0362
-R269 VGND.n260 VGND.t3 17.0005
-R270 VGND.t3 VGND.n211 17.0005
-R271 VGND.t3 VGND.n212 17.0005
-R272 VGND.n255 VGND.t17 17.0005
-R273 VGND.t17 VGND.n228 17.0005
-R274 VGND.t17 VGND.n245 17.0005
-R275 VGND.t17 VGND.n227 17.0005
-R276 VGND.t17 VGND.n225 17.0005
-R277 VGND.t17 VGND.n223 17.0005
-R278 VGND.t17 VGND.n248 17.0005
+R224 VGND.t3 VGND.n252 18.0261
+R225 VGND.t59 VGND.n35 18.0261
+R226 VGND.t79 VGND.n215 18.0261
+R227 VGND.t68 VGND.n229 17.5282
+R228 VGND.t90 VGND.n15 17.5282
+R229 VGND.n55 VGND.t121 17.5282
+R230 VGND.n213 VGND.t20 17.2928
+R231 VGND.n36 VGND.t114 17.2395
+R232 VGND.n253 VGND.t112 17.2395
+R233 VGND.n216 VGND.t109 17.2395
+R234 VGND.n47 VGND.t122 17.2297
+R235 VGND.n21 VGND.t91 17.2297
+R236 VGND.n237 VGND.t69 17.2297
+R237 VGND.n40 VGND.t47 17.2268
+R238 VGND.n32 VGND.t43 17.2268
+R239 VGND.n19 VGND.t99 17.2268
+R240 VGND.n249 VGND.t65 17.2268
+R241 VGND.n220 VGND.t36 17.2268
+R242 VGND.n402 VGND.t120 17.212
+R243 VGND.n23 VGND.t89 17.212
+R244 VGND.n239 VGND.t67 17.212
+R245 VGND.n57 VGND.t87 17.2025
+R246 VGND.n27 VGND.t63 17.2025
+R247 VGND.n243 VGND.t51 17.2025
+R248 VGND.n286 VGND.t33 17.0362
+R249 VGND.n264 VGND.t53 17.0362
+R250 VGND.n390 VGND.t83 17.0362
+R251 VGND.n64 VGND.t31 17.0362
+R252 VGND.n75 VGND.t7 17.0362
+R253 VGND.n462 VGND.t5 17.0362
+R254 VGND.n190 VGND.t25 17.0362
+R255 VGND.n158 VGND.t81 17.0362
+R256 VGND.n445 VGND.t116 17.0362
+R257 VGND.n67 VGND.t41 17.0362
+R258 VGND.n62 VGND.t55 17.0362
+R259 VGND.n205 VGND.t17 17.0362
+R260 VGND.n202 VGND.t15 17.0362
+R261 VGND.n290 VGND.t9 17.0362
+R262 VGND.n276 VGND.t73 17.0362
+R263 VGND.n270 VGND.t27 17.0362
+R264 VGND.n341 VGND.t96 17.0362
+R265 VGND.n345 VGND.t75 17.0362
+R266 VGND.n371 VGND.t11 17.0362
+R267 VGND.n194 VGND.t22 17.0362
+R268 VGND.n281 VGND.t45 17.0362
+R269 VGND.n260 VGND.t79 17.0005
+R270 VGND.t79 VGND.n211 17.0005
+R271 VGND.t79 VGND.n212 17.0005
+R272 VGND.n255 VGND.t3 17.0005
+R273 VGND.t3 VGND.n228 17.0005
+R274 VGND.t3 VGND.n245 17.0005
+R275 VGND.t3 VGND.n227 17.0005
+R276 VGND.t3 VGND.n225 17.0005
+R277 VGND.t3 VGND.n223 17.0005
+R278 VGND.t3 VGND.n248 17.0005
 R279 VGND.n486 VGND.n1 17.0005
 R280 VGND.n487 VGND.n486 17.0005
-R281 VGND.t28 VGND.n18 17.0005
-R282 VGND.t28 VGND.n14 17.0005
-R283 VGND.t28 VGND.n29 17.0005
-R284 VGND.t28 VGND.n13 17.0005
-R285 VGND.t28 VGND.n11 17.0005
-R286 VGND.t28 VGND.n31 17.0005
+R281 VGND.t59 VGND.n18 17.0005
+R282 VGND.t59 VGND.n14 17.0005
+R283 VGND.t59 VGND.n29 17.0005
+R284 VGND.t59 VGND.n13 17.0005
+R285 VGND.t59 VGND.n11 17.0005
+R286 VGND.t59 VGND.n31 17.0005
 R287 VGND.n478 VGND.n477 17.0005
 R288 VGND.n477 VGND.n56 17.0005
 R289 VGND.n477 VGND.n41 17.0005
@@ -500,35 +500,35 @@ R330 VGND.n439 VGND.n435 9.0005
 R331 VGND.n441 VGND.n440 9.0005
 R332 VGND.n440 VGND.n419 9.0005
 R333 VGND.n440 VGND.n439 9.0005
-R334 VGND.n440 uio_oe[7] 8.8478
-R335 VGND.n44 VGND.t9 8.74885
-R336 VGND.n26 VGND.t104 8.74885
-R337 VGND.n242 VGND.t20 8.74885
-R338 VGND.n234 VGND.n232 8.501
-R339 VGND.n234 VGND.n233 8.501
-R340 VGND.n485 VGND.n484 8.501
-R341 VGND.n484 VGND.n6 8.501
-R342 VGND.n52 VGND.n50 8.501
-R343 VGND.n52 VGND.n51 8.501
-R344 VGND.n258 VGND.n217 8.47111
-R345 VGND.n257 VGND.n218 8.47111
-R346 VGND.n256 VGND.n219 8.47111
-R347 VGND.t17 VGND.n238 8.47111
-R348 VGND.t17 VGND.n240 8.47111
-R349 VGND.t17 VGND.n244 8.47111
-R350 VGND.t17 VGND.n250 8.47111
-R351 VGND.n4 VGND.n2 8.47111
-R352 VGND.n17 VGND.n7 8.47111
-R353 VGND.t28 VGND.n22 8.47111
-R354 VGND.t28 VGND.n24 8.47111
-R355 VGND.t28 VGND.n28 8.47111
-R356 VGND.t28 VGND.n33 8.47111
-R357 VGND.n481 VGND.n37 8.47111
-R358 VGND.n480 VGND.n38 8.47111
-R359 VGND.n479 VGND.n39 8.47111
-R360 VGND.n477 VGND.n46 8.47111
-R361 VGND.n477 VGND.n45 8.47111
-R362 VGND.n477 VGND.n42 8.47111
+R334 VGND.n44 VGND.t85 8.74885
+R335 VGND.n26 VGND.t61 8.74885
+R336 VGND.n242 VGND.t49 8.74885
+R337 VGND.n234 VGND.n232 8.501
+R338 VGND.n234 VGND.n233 8.501
+R339 VGND.n485 VGND.n484 8.501
+R340 VGND.n484 VGND.n6 8.501
+R341 VGND.n52 VGND.n50 8.501
+R342 VGND.n52 VGND.n51 8.501
+R343 VGND.n258 VGND.n217 8.47111
+R344 VGND.n257 VGND.n218 8.47111
+R345 VGND.n256 VGND.n219 8.47111
+R346 VGND.t3 VGND.n238 8.47111
+R347 VGND.t3 VGND.n240 8.47111
+R348 VGND.t3 VGND.n244 8.47111
+R349 VGND.t3 VGND.n250 8.47111
+R350 VGND.n4 VGND.n2 8.47111
+R351 VGND.n17 VGND.n7 8.47111
+R352 VGND.t59 VGND.n22 8.47111
+R353 VGND.t59 VGND.n24 8.47111
+R354 VGND.t59 VGND.n28 8.47111
+R355 VGND.t59 VGND.n33 8.47111
+R356 VGND.n481 VGND.n37 8.47111
+R357 VGND.n480 VGND.n38 8.47111
+R358 VGND.n479 VGND.n39 8.47111
+R359 VGND.n477 VGND.n46 8.47111
+R360 VGND.n477 VGND.n45 8.47111
+R361 VGND.n477 VGND.n42 8.47111
+R362 VGND.n440 uio_oe[7] 8.23898
 R363 VGND.n266 VGND.n153 8.0799
 R364 VGND.n458 VGND.n457 7.52168
 R365 VGND.n458 VGND.n76 7.47272
@@ -545,26 +545,26 @@ R375 VGND.n52 VGND.n49 5.66778
 R376 VGND.n234 VGND.n208 5.66767
 R377 VGND.n484 VGND.n3 5.66767
 R378 VGND.n52 VGND.n8 5.66767
-R379 VGND.t17 VGND.n236 5.61485
-R380 VGND.t17 VGND.n247 5.61485
-R381 VGND.t28 VGND.n20 5.61485
-R382 VGND.t28 VGND.n30 5.61485
+R379 VGND.t3 VGND.n236 5.61485
+R380 VGND.t3 VGND.n247 5.61485
+R381 VGND.t59 VGND.n20 5.61485
+R382 VGND.t59 VGND.n30 5.61485
 R383 VGND.n477 VGND.n48 5.61485
 R384 VGND.n284 VGND.n266 5.49409
-R385 VGND.n427 VGND 5.4103
+R385 VGND.n427 VGND 4.9185
 R386 VGND.n285 VGND.n284 4.52382
-R387 VGND.n431 VGND.n430 4.49573
-R388 VGND.n430 VGND.n422 4.49573
-R389 VGND.n437 VGND.n394 4.49573
-R390 VGND.n420 VGND.n394 4.49573
-R391 VGND.n429 VGND.n423 4.49573
-R392 VGND.n441 VGND.n397 4.49573
+R387 VGND.n429 VGND.n423 4.49621
+R388 VGND.n431 VGND.n430 4.49621
+R389 VGND.n430 VGND.n422 4.49621
+R390 VGND.n441 VGND.n397 4.49621
+R391 VGND.n437 VGND.n394 4.49621
+R392 VGND.n420 VGND.n394 4.49621
 R393 VGND.n427 VGND.n426 4.4949
 R394 VGND.n435 VGND.n396 4.4949
 R395 VGND.n283 VGND.n282 4.09378
 R396 VGND.n269 VGND.n267 3.42765
-R397 VGND.t3 VGND.n213 3.38768
-R398 VGND.t17 VGND.n224 3.34182
+R397 VGND.t79 VGND.n213 3.38768
+R398 VGND.t3 VGND.n224 3.34182
 R399 VGND.n275 VGND.n274 3.27628
 R400 VGND.n292 VGND.n291 2.85446
 R401 VGND.n320 VGND.n125 2.31911
@@ -574,34 +574,34 @@ R404 VGND.n443 VGND.n394 2.2505
 R405 VGND.n442 VGND.n441 2.2505
 R406 VGND.n430 VGND.n86 2.2505
 R407 VGND.n424 VGND.n423 2.2505
-R408 VGND.t3 VGND.n259 1.97699
-R409 VGND.t17 VGND.n254 1.97699
-R410 VGND.t28 VGND.n482 1.97699
+R408 VGND.t79 VGND.n259 1.97699
+R409 VGND.t3 VGND.n254 1.97699
+R410 VGND.t59 VGND.n482 1.97699
 R411 VGND.n447 VGND.n446 1.81263
 R412 VGND.n306 VGND.n140 1.72671
 R413 VGND.n340 VGND.n339 1.47805
 R414 VGND.n339 VGND.n338 1.4745
-R415 VGND.n435 VGND.n434 1.40696
-R416 VGND.n393 VGND 1.31963
-R417 VGND.t17 VGND.n251 1.21402
-R418 VGND.t28 VGND.n34 1.21402
-R419 VGND.t3 VGND.n214 1.21402
+R415 VGND.n393 VGND 1.31963
+R416 VGND.n435 VGND.n434 1.2791
+R417 VGND.t3 VGND.n251 1.21402
+R418 VGND.t59 VGND.n34 1.21402
+R419 VGND.t79 VGND.n214 1.21402
 R420 VGND.n274 VGND.n267 1.18201
 R421 VGND.n442 VGND.n395 1.1463
 R422 VGND.n425 VGND.n424 1.1463
 R423 VGND.n392 VGND.n391 1.13055
-R424 VGND.t3 VGND.n209 1.04263
-R425 VGND.t17 VGND.n241 1.04263
-R426 VGND.t17 VGND.n226 1.04263
-R427 VGND.t17 VGND.n221 1.04263
-R428 VGND.t28 VGND.n25 1.04263
-R429 VGND.t28 VGND.n12 1.04263
-R430 VGND.t28 VGND.n9 1.04263
+R424 VGND.t79 VGND.n209 1.04263
+R425 VGND.t3 VGND.n241 1.04263
+R426 VGND.t3 VGND.n226 1.04263
+R427 VGND.t3 VGND.n221 1.04263
+R428 VGND.t59 VGND.n25 1.04263
+R429 VGND.t59 VGND.n12 1.04263
+R430 VGND.t59 VGND.n9 1.04263
 R431 VGND.n477 VGND.n43 1.04263
-R432 VGND.t17 VGND.n230 1.02715
-R433 VGND.t17 VGND.n229 1.02715
-R434 VGND.t28 VGND.n16 1.02715
-R435 VGND.t28 VGND.n15 1.02715
+R432 VGND.t3 VGND.n230 1.02715
+R433 VGND.t3 VGND.n229 1.02715
+R434 VGND.t59 VGND.n16 1.02715
+R435 VGND.t59 VGND.n15 1.02715
 R436 VGND.n477 VGND.n54 1.02715
 R437 VGND.n477 VGND.n55 1.02715
 R438 VGND.n322 VGND.n125 0.936079
@@ -881,10 +881,10 @@ R711 VGND.n145 VGND.n144 0.067836
 R712 VGND.n307 VGND.n306 0.0669444
 R713 VGND.n95 VGND.n94 0.06562
 R714 VGND.n144 VGND.n143 0.06562
-R715 VGND.t3 VGND.n210 0.0650946
-R716 VGND.t17 VGND.n246 0.0650946
-R717 VGND.t17 VGND.n222 0.0650946
-R718 VGND.t28 VGND.n10 0.0650946
+R715 VGND.t79 VGND.n210 0.0650946
+R716 VGND.t3 VGND.n246 0.0650946
+R717 VGND.t3 VGND.n222 0.0650946
+R718 VGND.t59 VGND.n10 0.0650946
 R719 VGND.n96 VGND.n95 0.0634565
 R720 VGND.n143 VGND.n142 0.0634565
 R721 VGND.n451 VGND.n450 0.0614573
@@ -1053,18 +1053,18 @@ R883 VGND.n419 VGND.n395 0.0130858
 R884 VGND.n425 VGND.n421 0.0130858
 R885 VGND.n82 VGND.n81 0.0121797
 R886 VGND.n116 VGND.n115 0.012041
-R887 VGND.n440 VGND.n420 0.0115476
-R888 VGND.n437 VGND.n435 0.0115476
-R889 VGND.n434 VGND.n422 0.0115476
-R890 VGND.n431 VGND.n427 0.0115476
-R891 VGND.n428 VGND.n422 0.0115476
-R892 VGND.n432 VGND.n431 0.0115476
-R893 VGND.n436 VGND.n420 0.0115476
-R894 VGND.n438 VGND.n437 0.0115476
-R895 VGND.n438 VGND.n397 0.0115476
-R896 VGND.n432 VGND.n429 0.0115476
-R897 VGND.n429 VGND.n428 0.0115476
-R898 VGND.n436 VGND.n397 0.0115476
+R887 VGND.n440 VGND.n420 0.0105898
+R888 VGND.n438 VGND.n397 0.0105898
+R889 VGND.n437 VGND.n435 0.0105898
+R890 VGND.n434 VGND.n422 0.0105898
+R891 VGND.n432 VGND.n429 0.0105898
+R892 VGND.n431 VGND.n427 0.0105898
+R893 VGND.n429 VGND.n428 0.0105898
+R894 VGND.n428 VGND.n422 0.0105898
+R895 VGND.n432 VGND.n431 0.0105898
+R896 VGND.n436 VGND.n397 0.0105898
+R897 VGND.n436 VGND.n420 0.0105898
+R898 VGND.n438 VGND.n437 0.0105898
 R899 VGND.n115 VGND.n114 0.0105654
 R900 VGND.n403 VGND.n402 0.0105
 R901 VGND.n457 VGND.n78 0.00934499
@@ -1081,8 +1081,8 @@ R911 VGND.n450 VGND.n85 0.00434654
 R912 VGND.n235 VGND.n219 0.00166667
 R913 VGND.n483 VGND.n7 0.00166667
 R914 VGND.n49 VGND.n39 0.00166667
-R915 VGND.t17 VGND.n235 0.00133332
-R916 VGND.n483 VGND.t28 0.00133332
+R915 VGND.t3 VGND.n235 0.00133332
+R916 VGND.n483 VGND.t59 0.00133332
 R917 VGND.n477 VGND.n49 0.00133332
 R918 VGND.n217 VGND.n208 0.001
 R919 VGND.n232 VGND.n217 0.001
@@ -1093,46 +1093,46 @@ R923 VGND.n6 VGND.n4 0.001
 R924 VGND.n37 VGND.n8 0.001
 R925 VGND.n50 VGND.n37 0.001
 R926 VGND.n51 VGND.n38 0.001
-R927 VGND.t3 VGND.n208 0.001
+R927 VGND.t79 VGND.n208 0.001
 R928 VGND.n232 VGND.n218 0.001
 R929 VGND.n233 VGND.n219 0.001
-R930 VGND.t17 VGND.n3 0.001
+R930 VGND.t3 VGND.n3 0.001
 R931 VGND.n485 VGND.n4 0.001
 R932 VGND.n7 VGND.n6 0.001
-R933 VGND.t28 VGND.n8 0.001
+R933 VGND.t59 VGND.n8 0.001
 R934 VGND.n50 VGND.n38 0.001
 R935 VGND.n51 VGND.n39 0.001
 R936 uo_out[1].n3 uo_out[1].t2 15.0005
 R937 uo_out[1] uo_out[1].n3 13.4668
 R938 uo_out[1].n2 uo_out[1].n1 9.01747
 R939 uo_out[1].n2 uo_out[1] 8.9065
-R940 uo_out[1].n0 uo_out[1].t1 8.53421
-R941 uo_out[1].n0 uo_out[1].t0 6.13626
+R940 uo_out[1].n0 uo_out[1].t0 8.53421
+R941 uo_out[1].n0 uo_out[1].t1 6.13626
 R942 uo_out[1].n1 uo_out[1].n0 0.100612
 R943 uo_out[1].n1 uo_out[1] 0.0585899
 R944 uo_out[1].n3 uo_out[1] 0.04098
 R945 uo_out[1] uo_out[1].n2 0.00678571
-R946 VDPWR.n7 VDPWR.t32 34.1026
-R947 VDPWR.n5 VDPWR.t75 34.1026
-R948 VDPWR.n80 VDPWR.t26 34.1026
-R949 VDPWR.n79 VDPWR.t13 34.1026
-R950 VDPWR.n77 VDPWR.t53 34.1026
-R951 VDPWR.n76 VDPWR.t16 34.1026
-R952 VDPWR.n35 VDPWR.t70 34.1026
-R953 VDPWR.n33 VDPWR.t63 34.1026
-R954 VDPWR.n31 VDPWR.t20 34.1026
-R955 VDPWR.n24 VDPWR.t66 34.1026
-R956 VDPWR.n150 VDPWR.t28 34.1026
-R957 VDPWR.n163 VDPWR.t78 34.1026
-R958 VDPWR.n161 VDPWR.t23 34.1026
-R959 VDPWR.n54 VDPWR.t86 34.1026
-R960 VDPWR.n75 VDPWR.t49 34.1026
-R961 VDPWR.n78 VDPWR.t6 34.1026
-R962 VDPWR.n81 VDPWR.t51 34.1026
-R963 VDPWR.n82 VDPWR.t61 34.1026
-R964 VDPWR.n83 VDPWR.t2 34.1026
-R965 VDPWR.n84 VDPWR.t55 34.1026
-R966 VDPWR.n0 VDPWR.t47 34.1026
+R946 VDPWR.n7 VDPWR.t23 34.1026
+R947 VDPWR.n5 VDPWR.t3 34.1026
+R948 VDPWR.n80 VDPWR.t25 34.1026
+R949 VDPWR.n79 VDPWR.t33 34.1026
+R950 VDPWR.n77 VDPWR.t50 34.1026
+R951 VDPWR.n76 VDPWR.t5 34.1026
+R952 VDPWR.n35 VDPWR.t67 34.1026
+R953 VDPWR.n33 VDPWR.t52 34.1026
+R954 VDPWR.n31 VDPWR.t7 34.1026
+R955 VDPWR.n24 VDPWR.t40 34.1026
+R956 VDPWR.n150 VDPWR.t58 34.1026
+R957 VDPWR.n163 VDPWR.t30 34.1026
+R958 VDPWR.n161 VDPWR.t82 34.1026
+R959 VDPWR.n54 VDPWR.t12 34.1026
+R960 VDPWR.n75 VDPWR.t10 34.1026
+R961 VDPWR.n78 VDPWR.t21 34.1026
+R962 VDPWR.n81 VDPWR.t38 34.1026
+R963 VDPWR.n82 VDPWR.t16 34.1026
+R964 VDPWR.n83 VDPWR.t56 34.1026
+R965 VDPWR.n84 VDPWR.t19 34.1026
+R966 VDPWR.n0 VDPWR.t1 34.1026
 R967 VDPWR.n230 VDPWR.n173 19.7403
 R968 VDPWR VDPWR.n7 18.2059
 R969 VDPWR VDPWR.n5 18.2059
@@ -1156,46 +1156,46 @@ R986 VDPWR VDPWR.n83 18.2059
 R987 VDPWR VDPWR.n84 18.2059
 R988 VDPWR VDPWR.n0 18.2059
 R989 VDPWR.n230 VDPWR.n229 18.0005
-R990 VDPWR.n220 VDPWR.t89 17.378
-R991 VDPWR.n207 VDPWR.t69 17.378
-R992 VDPWR.n190 VDPWR.t31 17.378
-R993 VDPWR.n221 VDPWR.t19 17.3693
-R994 VDPWR.n205 VDPWR.t41 17.3693
+R990 VDPWR.n220 VDPWR.t27 17.378
+R991 VDPWR.n207 VDPWR.t84 17.378
+R992 VDPWR.n190 VDPWR.t71 17.378
+R993 VDPWR.n221 VDPWR.t18 17.3693
+R994 VDPWR.n205 VDPWR.t14 17.3693
 R995 VDPWR.n189 VDPWR.t9 17.3693
-R996 VDPWR.n7 VDPWR.t33 17.0233
-R997 VDPWR.n5 VDPWR.t76 17.0233
-R998 VDPWR.n80 VDPWR.t27 17.0233
-R999 VDPWR.n79 VDPWR.t14 17.0233
-R1000 VDPWR.n77 VDPWR.t54 17.0233
-R1001 VDPWR.n76 VDPWR.t17 17.0233
-R1002 VDPWR.n35 VDPWR.t71 17.0233
-R1003 VDPWR.n33 VDPWR.t64 17.0233
-R1004 VDPWR.n31 VDPWR.t21 17.0233
-R1005 VDPWR.n24 VDPWR.t67 17.0233
-R1006 VDPWR.n150 VDPWR.t29 17.0233
-R1007 VDPWR.n163 VDPWR.t79 17.0233
-R1008 VDPWR.n161 VDPWR.t24 17.0233
-R1009 VDPWR.n54 VDPWR.t87 17.0233
-R1010 VDPWR.n75 VDPWR.t50 17.0233
-R1011 VDPWR.n78 VDPWR.t7 17.0233
-R1012 VDPWR.n81 VDPWR.t52 17.0233
-R1013 VDPWR.n82 VDPWR.t62 17.0233
-R1014 VDPWR.n83 VDPWR.t3 17.0233
-R1015 VDPWR.n84 VDPWR.t56 17.0233
-R1016 VDPWR.n0 VDPWR.t48 17.0233
-R1017 VDPWR.n220 VDPWR.t18 17.0005
-R1018 VDPWR.t15 VDPWR.n188 17.0005
-R1019 VDPWR.n227 VDPWR.t15 17.0005
-R1020 VDPWR.n207 VDPWR.t36 17.0005
-R1021 VDPWR.t1 VDPWR.n209 17.0005
-R1022 VDPWR.t1 VDPWR.n211 17.0005
-R1023 VDPWR.t1 VDPWR.n200 17.0005
-R1024 VDPWR.n190 VDPWR.t8 17.0005
-R1025 VDPWR.t15 VDPWR.n174 17.0005
-R1026 VDPWR.t15 VDPWR.n181 17.0005
-R1027 VDPWR.t15 VDPWR.n194 17.0005
-R1028 VDPWR.n223 VDPWR.t1 17.0005
-R1029 VDPWR.n231 VDPWR.n230 12.4694
+R996 VDPWR.n7 VDPWR.t24 17.0233
+R997 VDPWR.n5 VDPWR.t4 17.0233
+R998 VDPWR.n80 VDPWR.t26 17.0233
+R999 VDPWR.n79 VDPWR.t34 17.0233
+R1000 VDPWR.n77 VDPWR.t51 17.0233
+R1001 VDPWR.n76 VDPWR.t6 17.0233
+R1002 VDPWR.n35 VDPWR.t68 17.0233
+R1003 VDPWR.n33 VDPWR.t53 17.0233
+R1004 VDPWR.n31 VDPWR.t8 17.0233
+R1005 VDPWR.n24 VDPWR.t41 17.0233
+R1006 VDPWR.n150 VDPWR.t59 17.0233
+R1007 VDPWR.n163 VDPWR.t31 17.0233
+R1008 VDPWR.n161 VDPWR.t83 17.0233
+R1009 VDPWR.n54 VDPWR.t13 17.0233
+R1010 VDPWR.n75 VDPWR.t11 17.0233
+R1011 VDPWR.n78 VDPWR.t22 17.0233
+R1012 VDPWR.n81 VDPWR.t39 17.0233
+R1013 VDPWR.n82 VDPWR.t17 17.0233
+R1014 VDPWR.n83 VDPWR.t57 17.0233
+R1015 VDPWR.n84 VDPWR.t20 17.0233
+R1016 VDPWR.n0 VDPWR.t2 17.0233
+R1017 VDPWR.n220 VDPWR.t15 17.0005
+R1018 VDPWR.t35 VDPWR.n188 17.0005
+R1019 VDPWR.n227 VDPWR.t35 17.0005
+R1020 VDPWR.n207 VDPWR.t45 17.0005
+R1021 VDPWR.t28 VDPWR.n209 17.0005
+R1022 VDPWR.t28 VDPWR.n211 17.0005
+R1023 VDPWR.t28 VDPWR.n200 17.0005
+R1024 VDPWR.n190 VDPWR.t32 17.0005
+R1025 VDPWR.t35 VDPWR.n174 17.0005
+R1026 VDPWR.t35 VDPWR.n181 17.0005
+R1027 VDPWR.t35 VDPWR.n194 17.0005
+R1028 VDPWR.n223 VDPWR.t28 17.0005
+R1029 VDPWR.n231 VDPWR.n230 11.8896
 R1030 VDPWR.n171 VDPWR.n170 9.2117
 R1031 VDPWR.n167 VDPWR.n153 9.18823
 R1032 VDPWR.n171 VDPWR.n18 9.18823
@@ -1209,35 +1209,35 @@ R1039 VDPWR.n170 VDPWR.n169 9.0005
 R1040 VDPWR.n157 VDPWR.n156 9.0005
 R1041 VDPWR.n154 VDPWR.n11 9.0005
 R1042 VDPWR.n235 VDPWR.n13 9.0005
-R1043 VDPWR.n218 VDPWR.t59 8.80285
-R1044 VDPWR.n196 VDPWR.t83 8.80285
-R1045 VDPWR.n184 VDPWR.t45 8.80285
+R1043 VDPWR.n218 VDPWR.t48 8.80285
+R1044 VDPWR.n196 VDPWR.t63 8.80285
+R1045 VDPWR.n184 VDPWR.t88 8.80285
 R1046 VDPWR.t0 VDPWR.n201 8.501
-R1047 VDPWR.t1 VDPWR.n215 8.47111
-R1048 VDPWR.t1 VDPWR.n217 8.47111
-R1049 VDPWR.t15 VDPWR.n185 8.47111
-R1050 VDPWR.t15 VDPWR.n178 8.47111
-R1051 VDPWR.t15 VDPWR.n176 8.47111
+R1047 VDPWR.t28 VDPWR.n215 8.47111
+R1048 VDPWR.t28 VDPWR.n217 8.47111
+R1049 VDPWR.t35 VDPWR.n185 8.47111
+R1050 VDPWR.t35 VDPWR.n178 8.47111
+R1051 VDPWR.t35 VDPWR.n176 8.47111
 R1052 VDPWR.n225 VDPWR.n197 8.47111
 R1053 VDPWR.n224 VDPWR.n198 8.47111
-R1054 VDPWR.n183 VDPWR.t43 6.07323
-R1055 VDPWR.n216 VDPWR.t57 6.073
-R1056 VDPWR.n177 VDPWR.t82 6.073
+R1054 VDPWR.n183 VDPWR.t86 6.07323
+R1055 VDPWR.n216 VDPWR.t46 6.073
+R1056 VDPWR.n177 VDPWR.t62 6.073
 R1057 VDPWR.n88 VDPWR.n87 6.01045
-R1058 VDPWR.n187 VDPWR.t5 5.98925
-R1059 VDPWR.n175 VDPWR.t4 5.98882
-R1060 VDPWR.n214 VDPWR.t11 5.98825
-R1061 VDPWR.n212 VDPWR.t10 5.98825
-R1062 VDPWR.n179 VDPWR.t73 5.98825
-R1063 VDPWR.n193 VDPWR.t74 5.98825
+R1058 VDPWR.n187 VDPWR.t61 5.98925
+R1059 VDPWR.n175 VDPWR.t60 5.98882
+R1060 VDPWR.n214 VDPWR.t37 5.98825
+R1061 VDPWR.n212 VDPWR.t36 5.98825
+R1062 VDPWR.n179 VDPWR.t43 5.98825
+R1063 VDPWR.n193 VDPWR.t44 5.98825
 R1064 VDPWR.n6 VDPWR 5.96901
 R1065 VDPWR.n151 VDPWR.n149 5.84778
-R1066 VDPWR.t15 VDPWR.n186 5.61485
-R1067 VDPWR.t1 VDPWR.n213 5.61485
-R1068 VDPWR.t15 VDPWR.n180 5.61485
-R1069 VDPWR.t15 VDPWR.n226 5.61485
-R1070 VDPWR.n232 VDPWR 5.2541
-R1071 VDPWR.n93 VDPWR.n92 5.21746
+R1066 VDPWR.t35 VDPWR.n186 5.61485
+R1067 VDPWR.t28 VDPWR.n213 5.61485
+R1068 VDPWR.t35 VDPWR.n180 5.61485
+R1069 VDPWR.t35 VDPWR.n226 5.61485
+R1070 VDPWR.n93 VDPWR.n92 5.21746
+R1071 VDPWR.n232 VDPWR 4.7765
 R1072 VDPWR VDPWR.n250 4.73
 R1073 VDPWR.n239 VDPWR 4.6152
 R1074 VDPWR.n153 VDPWR.n152 4.53071
@@ -1249,19 +1249,19 @@ R1079 VDPWR.n88 VDPWR 3.88095
 R1080 VDPWR.n87 VDPWR 3.84419
 R1081 VDPWR.n162 VDPWR 3.66357
 R1082 VDPWR.n89 VDPWR 3.41222
-R1083 VDPWR.t1 VDPWR.n210 3.33162
-R1084 VDPWR.t15 VDPWR.n192 3.30723
-R1085 VDPWR.t1 VDPWR.n206 3.30706
+R1083 VDPWR.t28 VDPWR.n210 3.33162
+R1084 VDPWR.t35 VDPWR.n192 3.30723
+R1085 VDPWR.t28 VDPWR.n206 3.30706
 R1086 VDPWR.n164 VDPWR 3.28289
 R1087 VDPWR.n156 VDPWR.n155 3.0005
 R1088 VDPWR.n11 VDPWR.n9 3.0005
 R1089 VDPWR.n236 VDPWR.n235 3.0005
 R1090 VDPWR.n151 VDPWR 2.98934
-R1091 VDPWR.t1 VDPWR.n222 2.72512
+R1091 VDPWR.t28 VDPWR.n222 2.72512
 R1092 VDPWR.n239 VDPWR.n238 2.5318
 R1093 VDPWR.n25 VDPWR 2.53128
 R1094 VDPWR.n136 VDPWR.n34 2.46388
-R1095 VDPWR.t1 VDPWR.n204 2.29759
+R1095 VDPWR.t28 VDPWR.n204 2.29759
 R1096 VDPWR.n153 VDPWR.n20 2.27162
 R1097 VDPWR.n159 VDPWR.n12 2.26628
 R1098 VDPWR.n172 VDPWR.n171 2.2505
@@ -1272,12 +1272,12 @@ R1102 VDPWR.n235 VDPWR.n234 2.2505
 R1103 VDPWR.n90 VDPWR 2.15229
 R1104 VDPWR.n203 VDPWR 2.0605
 R1105 VDPWR.n32 VDPWR 1.94477
-R1106 VDPWR.n232 VDPWR.n231 1.89976
-R1107 VDPWR.n91 VDPWR 1.74056
+R1106 VDPWR.n91 VDPWR 1.74056
+R1107 VDPWR.n232 VDPWR.n231 1.7271
 R1108 VDPWR.n93 VDPWR 1.53994
 R1109 VDPWR.n199 VDPWR 1.53643
-R1110 VDPWR.n233 VDPWR.n232 1.47736
-R1111 VDPWR.n231 VDPWR.n172 1.46416
+R1110 VDPWR.n233 VDPWR.n232 1.47296
+R1111 VDPWR.n231 VDPWR.n172 1.45976
 R1112 VDPWR.n92 VDPWR 1.39911
 R1113 VDPWR.n95 VDPWR 1.19117
 R1114 VDPWR.n137 VDPWR 1.1824
@@ -1290,8 +1290,8 @@ R1120 VDPWR.n184 VDPWR.n182 0.854038
 R1121 VDPWR.n219 VDPWR.n218 0.851125
 R1122 VDPWR.n221 VDPWR.n219 0.805789
 R1123 VDPWR.n189 VDPWR.n182 0.803932
-R1124 VDPWR.t15 VDPWR.n182 0.802654
-R1125 VDPWR.t1 VDPWR.n219 0.800901
+R1124 VDPWR.t35 VDPWR.n182 0.802654
+R1125 VDPWR.t28 VDPWR.n219 0.800901
 R1126 VDPWR.n138 VDPWR.n137 0.767737
 R1127 VDPWR.n85 VDPWR.n1 0.762233
 R1128 VDPWR.n228 VDPWR 0.543
@@ -1565,24 +1565,24 @@ R1395 VDPWR.n159 VDPWR.n10 0.00463323
 R1396 VDPWR.n228 VDPWR.n227 0.003
 R1397 VDPWR.n197 VDPWR.n195 0.00197617
 R1398 VDPWR.n246 VDPWR.n245 0.00108355
-R1399 VDPWR.t15 VDPWR.n195 0.00102381
+R1399 VDPWR.t35 VDPWR.n195 0.00102381
 R1400 VDPWR.n202 VDPWR.n198 0.001
 R1401 VDPWR.n201 VDPWR.n198 0.001
-R1402 VDPWR.t1 VDPWR.n202 0.001
+R1402 VDPWR.t28 VDPWR.n202 0.001
 R1403 VDPWR.n201 VDPWR.n197 0.001
 R1404 uo_out[2].n3 uo_out[2].t2 15.0005
 R1405 uo_out[2] uo_out[2].n3 12.8496
 R1406 uo_out[2].n2 uo_out[2] 12.5614
 R1407 uo_out[2].n2 uo_out[2].n1 9.01936
-R1408 uo_out[2].n0 uo_out[2].t1 8.53421
-R1409 uo_out[2].n0 uo_out[2].t0 6.13626
+R1408 uo_out[2].n0 uo_out[2].t0 8.53421
+R1409 uo_out[2].n0 uo_out[2].t1 6.13626
 R1410 uo_out[2].n1 uo_out[2].n0 0.0993764
 R1411 uo_out[2].n1 uo_out[2] 0.0598258
 R1412 uo_out[2] uo_out[2].n2 0.0388429
 R1413 uo_out[2].n3 uo_out[2] 0.02525
 R1414 uo_out[0].n4 uo_out[0].n3 33.1637
-R1415 uo_out[0].n5 uo_out[0].t1 18.0455
-R1416 uo_out[0] uo_out[0].t0 18.0125
+R1415 uo_out[0].n5 uo_out[0].t0 18.0455
+R1416 uo_out[0] uo_out[0].t1 18.0125
 R1417 uo_out[0].n1 uo_out[0].t3 15.0005
 R1418 uo_out[0].n2 uo_out[0].n1 9.03505
 R1419 uo_out[0].n3 uo_out[0].n2 6.7505
@@ -1596,37 +1596,37 @@ R1426 uo_out[0].n2 uo_out[0] 0.0401
 R1427 uo_out[0].n1 uo_out[0] 0.02525
 R1428 uo_out[3].n2 uo_out[3] 15.6957
 R1429 uo_out[3].n2 uo_out[3].n1 9.0225
-R1430 uo_out[3].n0 uo_out[3].t1 8.53421
-R1431 uo_out[3].n0 uo_out[3].t0 6.13626
+R1430 uo_out[3].n0 uo_out[3].t0 8.53421
+R1431 uo_out[3].n0 uo_out[3].t1 6.13626
 R1432 uo_out[3].n1 uo_out[3].n0 0.11668
 R1433 uo_out[3].n1 uo_out[3] 0.0425225
 R1434 uo_out[3] uo_out[3].n2 0.0357
-C0 m2_16227_32121# m1_16227_32121# 0.12485p
-C1 VDPWR ring_0/inverter_ring_0/skullfet_inverter_3.A 1.88662f
-C2 m4_16227_32121# m5_16227_32121# 0.12485p
-C3 uo_out[1] freq_divider_0.sg13g2_dfrbp_2_0.RESET_B 1.04992f
-C4 ring_0/inverter_ring_0/skullfet_inverter_10.A VDPWR 1.11744f
-C5 VDPWR ring_0/inverter_ring_0/skullfet_inverter_2.A 1.00886f
-C6 m4_16227_32121# m3_16227_32121# 0.12485p
-C7 VDPWR freq_divider_0.sg13g2_dfrbp_2_0.RESET_B 4.32335f
-C8 VDPWR ring_0/inverter_ring_0/skullfet_inverter_4.A 1.27503f
-C9 m3_14237_19524# m4_14237_19524# 84.9652f
-C10 m1_14237_19524# m2_14237_19524# 84.9652f
-C11 uo_out[3] uo_out[2] 2.87142f
-C12 VDPWR ring_0/inverter_ring_0/skullfet_inverter_5.A 1.36774f
-C13 m5_14237_19524# m6_14237_19524# 53.9784f
-C14 freq_divider_0.sg13g2_dfrbp_2_1.D uo_out[1] 1.01764f
-C15 m3_14237_19524# m2_14237_19524# 84.9652f
-C16 VDPWR ring_0/inverter_ring_0/skullfet_inverter_1.A 1.00421f
-C17 m6_16227_32121# m5_16227_32121# 79.3164f
-C18 m2_16227_32121# m3_16227_32121# 0.12485p
-C19 VDPWR ring_0/inverter_ring_0/skullfet_inverter_6.A 1.32654f
-C20 m5_14237_19524# m4_14237_19524# 84.9652f
+C0 m5_14237_19524# m6_14237_19524# 53.9784f
+C1 VDPWR freq_divider_0.sg13g2_dfrbp_2_0.RESET_B 4.32335f
+C2 freq_divider_0.sg13g2_dfrbp_2_1.D uo_out[1] 1.01764f
+C3 m4_16227_32121# m3_16227_32121# 0.12485p
+C4 uo_out[3] uo_out[2] 2.87142f
+C5 VDPWR ring_0/inverter_ring_0/skullfet_inverter_3.A 1.88662f
+C6 uo_out[1] freq_divider_0.sg13g2_dfrbp_2_0.RESET_B 1.04992f
+C7 VDPWR ring_0/inverter_ring_0/skullfet_inverter_6.A 1.32654f
+C8 m4_14237_19524# m3_14237_19524# 84.9652f
+C9 m4_16227_32121# m5_16227_32121# 0.12485p
+C10 m3_14237_19524# m2_14237_19524# 84.9652f
+C11 VDPWR ring_0/inverter_ring_0/skullfet_inverter_4.A 1.27503f
+C12 m5_16227_32121# m6_16227_32121# 79.3164f
+C13 m3_16227_32121# m2_16227_32121# 0.12485p
+C14 VDPWR ring_0/inverter_ring_0/skullfet_inverter_2.A 1.00886f
+C15 m1_16227_32121# m2_16227_32121# 0.12485p
+C16 ring_0/inverter_ring_0/skullfet_inverter_10.A VDPWR 1.11744f
+C17 VDPWR ring_0/inverter_ring_0/skullfet_inverter_5.A 1.36774f
+C18 m4_14237_19524# m5_14237_19524# 84.9652f
+C19 m1_14237_19524# m2_14237_19524# 84.9652f
+C20 VDPWR ring_0/inverter_ring_0/skullfet_inverter_1.A 1.00421f
 C21 uo_out[0] VGND 11.2775f
 C22 uo_out[1] VGND 1.13959f
 C23 uo_out[2] VGND 3.08469f
 C24 uo_out[3] VGND 5.84458f
-C25 VDPWR VGND 0.10252p
+C25 VDPWR VGND 0.10375p
 C26 ring_0/inverter_ring_0/skullfet_inverter_4.A VGND 7.56786f
 C27 ring_0/inverter_ring_0/skullfet_inverter_3.A VGND 8.20672f
 C28 ring_0/inverter_ring_0/skullfet_inverter_5.A VGND 8.40225f
