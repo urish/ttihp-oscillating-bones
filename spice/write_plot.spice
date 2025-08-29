@@ -1,0 +1,7 @@
+* Save the plot to a file
+.control
+set hcopydevtype = svg
+set svg_intopts = ( 640 480 14 0 1 2 0 )
+hardcopy docs/layout_sim.svg "uo_out[0]" "uo_out[1]"+2 "uo_out[2]"+4 "uo_out[3]"+6
++ title 'Oscillating bones output'
+.endc

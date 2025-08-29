@@ -31,6 +31,12 @@ sim: $(SPICE) spice/pdk_lib.spice spice/testbench.spice
 	ngspice spice/testbench.spice
 .phony: sim drc
 
+docs/layout_sim.svg:
+	ngspice -b spice/testbench.spice spice/write_plot.spice
+
+docs/layout_sim.png: docs/layout_sim.svg
+	rsvg-convert -f png -o $@ $<
+
 drc: $(TARGET_GDS)
 	klayout -b -r $(PWD)/drc/sg13g2_mr.lydrc -rd 'in_gds=$<' -rd density=0
 .phony: drc
