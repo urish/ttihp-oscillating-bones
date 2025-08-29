@@ -38,6 +38,36 @@ class SkullFETRing(pya.PCellDeclarationHelper):
       inst = pya.DCellInstArray(target, dtrans)
       self.cell.insert(inst)
 
+
+class PowerRing(pya.PCellDeclarationHelper):
+  def __init__(self):
+    super(PowerRing, self).__init__()
+    self.param("l", self.TypeLayer, "Layer")
+    self.param("thickness", self.TypeDouble, "Thickness", default = 10)
+    self.param("r", self.TypeDouble, "Radius", default = 100)
+    self.param("steps", self.TypeInt, "Steps", default = 360)
+    self.param("rd", self.TypeDouble, "Double radius", readonly = True)
+  
+  def display_text_impl(self):
+    return "PowerRing(R=" + ('%.3f' % self.r) + ")"
+  
+  def coerce_parameters_impl(self):
+    self.rd = 2*self.r
+  
+  def produce_impl(self):
+    steps = self.steps
+    r = self.r
+    thickness = self.thickness
+    for i in range(steps):
+      x = r * math.cos(2 * math.pi * i / steps)
+      y = r * math.sin(2 * math.pi * i / steps)
+      # align to 0.005um grid
+      x = round(x*200)/200
+      y = round(y*200)/200
+      rect = pya.DBox(pya.DPoint(x-thickness/2, y-thickness/2), pya.DPoint(x+thickness/2, y+thickness/2))
+      self.cell.shapes(self.l_layer).insert(rect)
+  
+
 class SkullFETLib(pya.Library):
 
   def __init__(self):
@@ -47,6 +77,7 @@ class SkullFETLib(pya.Library):
     
     # Create the PCell declarations
     self.layout().register_pcell("SkullFETRing", SkullFETRing())
+    self.layout().register_pcell("PowerRing", PowerRing())
     # That would be the place to put in more PCells ...
     
     # Register us with the name "MyLib".
